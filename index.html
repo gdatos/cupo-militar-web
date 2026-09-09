@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cupo Militar — Permanencia, ascensos y cupo a otros cuerpos | Tropa y Marinería</title>
+<meta name="description" content="Prepara tu permanencia, tu ascenso a Cabo, Cabo Primero o Cabo Mayor, o el cupo para pasar a Guardia Civil, Policía Nacional o Vigilancia Aduanera. Temario, tests y convocatorias actualizadas para Tropa y Marinería.">
+<link rel="canonical" href="https://www.cupomilitar.es/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cupo Militar">
+<meta property="og:title" content="Cupo Militar — Permanencia, ascensos y cupo a otros cuerpos">
+<meta property="og:description" content="Prepara tu permanencia, tu ascenso a Cabo/Cabo 1º/Cabo Mayor, o el cupo para pasar a Guardia Civil, Policía Nacional o Vigilancia Aduanera.">
+<meta property="og:url" content="https://www.cupomilitar.es/">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Cupo Militar",
+  "url": "https://www.cupomilitar.es/",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Guardián de Datos SL"
+  },
+  "description": "Preparación para militares de Tropa y Marinería: permanencia, ascensos internos (Cabo, Cabo Primero, Cabo Mayor) y cupo reservado hacia Guardia Civil, Policía Nacional y Vigilancia Aduanera."
+}
+</script>
+<style>
+  :root{
+    --ink:#20242b;
+    --paper:#eef0f2;
+    --paper-2:#e1e4e8;
+    --brass:#a9793f;
+    --brass-light:#c9a06a;
+    --line:#c7cbd0;
+    --alert:#7a2e3d;
+    --ok:#4a6350;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Georgia,serif;
+    line-height:1.5;
+  }
+  .mono{font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;}
+  a{color:inherit;}
+
+  .navbar{
+    max-width:920px;margin:0 auto;padding:1.1rem 1.5rem 0;
+    display:flex;justify-content:space-between;align-items:center;
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.82rem;
+  }
+  .navbar .brand{color:var(--ink);text-decoration:none;font-weight:600;letter-spacing:0.02em;}
+  .navbar .links a{margin-left:1.3rem;color:#44534f;text-decoration:none;}
+  .navbar .links a:hover{color:var(--brass);}
+  .navbar .links a.cta{
+    color:var(--paper);background:var(--ink);
+    padding:0.4rem 0.8rem;border-radius:2px;
+  }
+  .navbar .links a.cta:hover{background:#2c4045;color:var(--paper);}
+
+  .hero{
+    position:relative;
+    min-height:clamp(460px, 68vh, 680px);
+    display:flex;
+    flex-direction:column;
+    background:#20242b url('https://t3.ftcdn.net/jpg/02/81/96/50/240_F_281965081_yu0FXuSyEj2zWdr6nI8pOoftkFE2EmP2.jpg') center 32%/cover no-repeat;
+    overflow:hidden;
+    margin-top:0.8rem;
+  }
+  .hero::before{
+    content:"";
+    position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(32,36,43,0.35) 0%, rgba(32,36,43,0.72) 55%, rgba(32,36,43,0.96) 100%);
+  }
+  .hero svg{display:block;width:100%;height:auto;position:relative;z-index:1;}
+  .hero-text{
+    position:relative;
+    margin-top:auto;
+    max-width:920px; margin-left:auto;margin-right:auto; width:100%;
+    padding:0 1.5rem 2.6rem;
+    z-index:2;
+  }
+  .hero-text .eyebrow{color:var(--brass-light);}
+  .hero-text h1{color:var(--paper); margin:0 0 0.7rem; font-size:2.3rem; max-width:19ch;}
+  .hero-text .sub{color:#d3d6da; max-width:58ch; font-size:1.05rem;}
+  .hero-cta{margin-top:1.4rem; display:flex; gap:0.9rem; flex-wrap:wrap;}
+  .btn-primary, .btn-secondary{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.85rem;
+    padding:0.7rem 1.3rem;
+    border-radius:2px;
+    text-decoration:none;
+    display:inline-block;
+  }
+  .btn-primary{background:var(--brass-light);color:var(--ink);}
+  .btn-primary:hover{background:#d8b27e;}
+  .btn-secondary{border:1px solid rgba(255,255,255,0.5);color:var(--paper);}
+  .btn-secondary:hover{border-color:var(--paper);}
+
+  .eyebrow{
+    font-size:0.72rem;
+    letter-spacing:0.02em;
+    color:var(--brass);
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    margin-bottom:0.4rem;
+  }
+  h1{
+    font-size:2rem;
+    margin:0 0 0.5rem;
+    font-weight:600;
+    letter-spacing:-0.01em;
+  }
+  h2{
+    font-size:1.15rem;
+    font-weight:600;
+    border-bottom:1px solid var(--line);
+    padding-bottom:0.5rem;
+    margin-bottom:1.2rem;
+  }
+  .sub{
+    max-width:60ch;
+    color:#44534f;
+    font-size:1rem;
+  }
+  main{max-width:920px;margin:0 auto;padding:0 1.5rem 4rem;}
+  section{margin-top:2.8rem;}
+  section p{color:#3a443f;}
+
+  .pilares{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1.2rem;
+    margin-top:1.4rem;
+  }
+  .pilar{
+    border:1px solid var(--line);
+    border-radius:2px;
+    padding:1.2rem;
+  }
+  .pilar .num{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    color:var(--brass);
+    font-size:0.85rem;
+    display:block;
+    margin-bottom:0.4rem;
+  }
+  .pilar h3{margin:0 0 0.5rem;font-size:1rem;}
+  .pilar p{margin:0;font-size:0.9rem;color:#44534f;}
+  @media (max-width:640px){
+    .pilares{grid-template-columns:1fr;}
+  }
+
+  .extras{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1.2rem;
+    margin-top:1.4rem;
+  }
+  .extras .pilar{background:var(--paper-2);}
+  .extras .pilar .badge-incluido{
+    display:inline-block;
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.68rem;
+    padding:0.15rem 0.5rem;
+    border:1px solid var(--ok);
+    color:var(--ok);
+    border-radius:2px;
+    margin-bottom:0.6rem;
+  }
+  .extras .pilar .badge-extra{
+    display:inline-block;
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.68rem;
+    padding:0.15rem 0.5rem;
+    border:1px solid var(--brass);
+    color:var(--brass);
+    border-radius:2px;
+    margin-bottom:0.6rem;
+  }
+  @media (max-width:640px){
+    .extras{grid-template-columns:1fr;}
+  }
+
+  .pasos{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1.4rem;
+  }
+  .paso .num{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    color:var(--brass);
+    font-size:0.85rem;
+    display:block;
+    margin-bottom:0.4rem;
+  }
+  .paso h3{margin:0 0 0.4rem;font-size:1rem;}
+  .paso p{margin:0;font-size:0.92rem;color:#44534f;}
+  @media (max-width:640px){
+    .pasos{grid-template-columns:1fr;}
+  }
+
+  .entry{
+    display:grid;
+    grid-template-columns:110px 1fr 130px;
+    gap:1rem;
+    padding:1rem 0;
+    align-items:start;
+  }
+  .entry .cuerpo{font-weight:600;}
+  .entry .detalle{color:#44534f;font-size:0.92rem;}
+  .badge{
+    display:inline-block;
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.72rem;
+    padding:0.15rem 0.5rem;
+    border:1px solid var(--brass);
+    color:var(--brass);
+    border-radius:2px;
+    white-space:nowrap;
+  }
+  .pct{
+    text-align:right;
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.95rem;
+  }
+  .pct .num{font-size:1.4rem;color:var(--ink);display:block;}
+  .pct .lbl{font-size:0.68rem;color:#7a8378;}
+
+  .nota{
+    font-size:0.85rem;
+    color:#5a6560;
+    border-left:2px solid var(--brass-light);
+    padding-left:0.9rem;
+    margin-top:1.4rem;
+  }
+  .nota a{color:var(--brass);font-weight:600;text-decoration:none;}
+  .nota a:hover{text-decoration:underline;}
+
+  .planes{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1.2rem;
+  }
+  .plan{
+    border:1px solid var(--line);
+    border-radius:2px;
+    padding:1.4rem;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+  }
+  .plan-destacado{
+    border-color:var(--brass);
+    background:var(--paper-2);
+  }
+  .plan-badge{
+    position:absolute;
+    top:-0.7rem; left:1.2rem;
+    background:var(--brass);
+    color:var(--paper);
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.68rem;
+    padding:0.2rem 0.6rem;
+    border-radius:2px;
+  }
+  .plan-precio{margin-bottom:1rem;}
+  .plan-precio .num{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:1.8rem;
+    display:block;
+  }
+  .plan-precio .lbl{font-size:0.8rem;color:#7a8378;}
+  .plan-lista{
+    list-style:none;
+    padding:0;
+    margin:0;
+    font-size:0.9rem;
+    flex:1;
+  }
+  .plan-lista li{
+    padding:0.4rem 0;
+    border-bottom:1px solid var(--line);
+  }
+  .plan-lista li:last-child{border-bottom:none;}
+  .plan-comprar{
+    display:block;
+    text-align:center;
+    margin-top:1.2rem;
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.88rem;
+    text-decoration:none;
+    padding:0.75rem 1rem;
+    border-radius:2px;
+  }
+  .plan-destacado .plan-comprar{background:var(--brass);color:var(--paper);}
+  .plan-destacado .plan-comprar:hover{background:#8f6636;}
+  .plan .plan-comprar{background:var(--ink);color:var(--paper);}
+  .plan .plan-comprar:hover{background:#2c4045;}
+  @media (max-width:640px){
+    .planes{grid-template-columns:1fr;}
+    .entry{grid-template-columns:80px 1fr;}
+    .pct{grid-column:2;text-align:left;margin-top:0.4rem;}
+  }
+  @media (max-width:640px){
+    .navbar{flex-wrap:wrap;row-gap:0.6rem;}
+    .navbar .links a{margin-left:0;margin-right:1rem;}
+  }
+  footer{
+    max-width:920px;margin:0 auto;padding:1.5rem;
+    font-size:0.78rem;color:#7a8378;
+    border-top:1px solid var(--line);
+  }
+  footer .legal-links{margin-top:0.6rem;}
+  footer .legal-links a{color:#7a8378;text-decoration:underline;margin-right:1rem;}
+  footer .legal-links a:hover{color:var(--brass);}
+  footer .footer-logo{width:26px;height:26px;display:block;margin-bottom:0.6rem;border-radius:6px;}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="index.html" class="brand">CUPO MILITAR</a>
+  <div class="links">
+    <a href="#pilar-permanencia">Permanencia</a>
+    <a href="#pilar-ascensos">Ascensos</a>
+    <a href="convocatorias.html">Convocatorias</a>
+    <a href="#planes">Planes</a>
+    <a href="https://portal.cupomilitar.es/login" class="cta">Acceder / Suscribirme</a>
+  </div>
+</div>
+
+<div class="hero">
+  <svg viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <!-- líneas topográficas, muy sutiles -->
+    <g fill="none" stroke="#ffffff" stroke-width="1" opacity="0.12">
+      <path d="M-50,60 C 250,10 450,110 750,50 S 1150,90 1250,40"/>
+      <path d="M-50,110 C 250,60 450,160 750,100 S 1150,140 1250,90"/>
+      <path d="M-50,160 C 250,110 450,210 750,150 S 1150,190 1250,140"/>
+      <path d="M-50,260 C 250,300 450,220 750,290 S 1150,240 1250,290"/>
+      <path d="M-50,300 C 250,340 450,260 750,330 S 1150,280 1250,330"/>
+    </g>
+    <!-- galones (chevrons) en latón, motivo estructural no decorativo -->
+    <g stroke="#c9a06a" stroke-width="3" fill="none" opacity="0.9">
+      <path d="M 940 260 L 980 230 L 1020 260"/>
+      <path d="M 940 285 L 980 255 L 1020 285"/>
+      <path d="M 940 310 L 980 280 L 1020 310"/>
+    </g>
+    <g stroke="#c9a06a" stroke-width="1.5" fill="none" opacity="0.6">
+      <path d="M 60 70 L 100 40 L 140 70"/>
+      <path d="M 60 90 L 100 60 L 140 90"/>
+    </g>
+    <!-- estrella de cinco puntas, única acentuación bold, esquina superior derecha -->
+    <g transform="translate(1120,55) scale(1.1)" fill="#c9a06a" opacity="0.9">
+      <path d="M0,-22 L5.9,-6.8 L22,-6.8 L9,3 L13.6,19 L0,9 L-13.6,19 L-9,3 L-22,-6.8 L-5.9,-6.8 Z"/>
+    </g>
+  </svg>
+  <div class="hero-text">
+    <div class="eyebrow">CUPO MILITAR · by Guardián de Datos</div>
+    <h1>Toda tu carrera en Tropa y Marinería, en un solo sitio</h1>
+    <p class="sub">Permanencia, ascensos a Cabo, Cabo Primero y Cabo Mayor, y el cupo que la Ley 8/2006 te reserva para pasar a Guardia Civil, Policía Nacional o Vigilancia Aduanera. Temario, tests y toda convocatoria que te afecte, en un solo sitio.</p>
+    <div class="hero-cta">
+      <a href="https://portal.cupomilitar.es/login" class="btn-primary">Ver mis cursos disponibles</a>
+      <a href="convocatorias.html" class="btn-secondary">Ver convocatorias activas</a>
+      <a href="#planes" class="btn-secondary">Ver planes</a>
+    </div>
+  </div>
+</div>
+
+<main>
+
+  <section id="que-es">
+    <h2>¿Qué es Cupo Militar?</h2>
+    <p>Aquí "cupo" lo entendemos en sentido amplio: las plazas limitadas que decides en cada etapa de tu carrera, no solo el cupo legal de salida. Cupo Militar reúne el temario, los tests y las convocatorias que te afectan en tres momentos distintos:</p>
+
+    <div class="pilares">
+      <div class="pilar" id="pilar-permanencia">
+        <span class="num">01</span>
+        <h3>Permanencia</h3>
+        <p>Si estás en tu periodo de compromiso, la permanencia es el paso que decide si sigues en las Fuerzas Armadas. Temario completo y tests ilimitados para preparártela con garantías.</p>
+      </div>
+      <div class="pilar" id="pilar-ascensos">
+        <span class="num">02</span>
+        <h3>Ascensos: Cabo, Cabo 1º, Cabo Mayor</h3>
+        <p>Sube de empleo dentro de tu ejército. Te explicamos el marco legal, los requisitos y el proceso de cada ascenso — y, donde el temario es público, también tests para practicar. Donde no lo es (como el examen de Formación Militar), te lo decimos claramente y te remitimos a tu unidad o CEFOT.</p>
+      </div>
+      <div class="pilar" id="pilar-cupo">
+        <span class="num">03</span>
+        <h3>Cupo a otros cuerpos</h3>
+        <p>La Ley 8/2006 te reserva plazas en Guardia Civil, Policía Nacional, Vigilancia Aduanera y otros organismos. Calculamos a qué cupo puedes optar según tus años de servicio y te avisamos cuándo se abren los plazos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona">
+    <h2>Cómo funciona</h2>
+    <div class="pasos">
+      <div class="paso">
+        <span class="num">01</span>
+        <h3>Consulta las convocatorias</h3>
+        <p>Todas las convocatorias con cupo militar reservado, siempre actualizadas, en una sola página.</p>
+      </div>
+      <div class="paso">
+        <span class="num">02</span>
+        <h3>Calcula a qué cupo optas</h3>
+        <p>Según tus años de servicio, tu situación y tu especialidad, te decimos qué cupos cumples ya.</p>
+      </div>
+      <div class="paso">
+        <span class="num">03</span>
+        <h3>Suscríbete para no perdértelo</h3>
+        <p>Baremo real, comparador de cupos y alertas de convocatoria antes de que se cierre cada plazo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="destacada">
+    <h2>Convocatoria destacada</h2>
+
+    <div class="entry">
+      <div><span class="badge">GC</span></div>
+      <div>
+        <div class="cuerpo">Guardia Civil — Escala de Cabos y Guardias</div>
+        <div class="detalle">3.240 plazas totales · BOE 8 mayo 2026 · Plazo cerrado (15 días hábiles) · Incorporación 13 octubre 2026. Además, 240 plazas para Guardias Jóvenes.</div>
+      </div>
+      <div class="pct"><span class="num">1.296</span><span class="lbl">reservadas (40%)</span></div>
+    </div>
+
+    <p class="nota">Esta es solo una muestra. En la página de convocatorias tienes las 5 convocatorias activas con cupo militar reservado (Guardia Civil, Policía Nacional, Vigilancia Aduanera, FAS y policías autonómicas/locales), siempre actualizadas, además de la calculadora de elegibilidad. <a href="convocatorias.html">Ver todas las convocatorias →</a></p>
+  </section>
+
+  <section id="planes">
+    <h2>Cupo Militar Completo</h2>
+    <p class="sub" style="margin-bottom:1.4rem;">Temario y test ilimitados de Permanencia, ascensos internos, Guardia Civil, Policía Nacional y Vigilancia Aduanera · calculadora de baremo real · comparador de cupos · alertas de convocatoria. Un único plan, sin niveles.</p>
+
+    <div class="planes">
+      <div class="plan plan-destacado">
+        <div class="plan-badge">Recomendado</div>
+        <div class="plan-precio"><span class="num">79&nbsp;€</span><span class="lbl">al año — equivale a 6,58 €/mes</span></div>
+        <ul class="plan-lista">
+          <li>Todo el contenido: Permanencia, ascensos y los tres cuerpos</li>
+          <li>Baremo real + comparador de cupos</li>
+          <li>Alertas de convocatoria y cuenta atrás a tus 5 años</li>
+          <li>Sin permanencia más allá del año contratado</li>
+        </ul>
+        <a class="plan-comprar" href="https://portal.cupomilitar.es/login">Suscribirme — plan anual →</a>
+      </div>
+      <div class="plan">
+        <div class="plan-precio"><span class="num">14,99&nbsp;€</span><span class="lbl">al mes — sin permanencia</span></div>
+        <ul class="plan-lista">
+          <li>Mismo contenido que el plan anual</li>
+          <li>Ideal para probar antes de pasarte al anual</li>
+          <li>Cancelas cuando quieras</li>
+        </ul>
+        <a class="plan-comprar" href="https://portal.cupomilitar.es/login">Suscribirme — plan mensual →</a>
+      </div>
+    </div>
+
+    <p class="nota">Al hacer clic en "Suscribirme" entrarás primero en el portal para identificarte con tu correo (o crear tu cuenta si es la primera vez) y después se abrirá el pago seguro con Stripe. <strong>Trae a un compañero de unidad:</strong> si recomiendas Cupo Militar a alguien de tu acuartelamiento y se suscribe, os regalamos un mes a los dos. Sin límite de recomendaciones.</p>
+  </section>
+
+  <section id="extras">
+    <h2>Además, en tu plan</h2>
+    <p class="sub" style="margin-bottom:1.4rem;">Dos herramientas pensadas para estudiar mejor, no solo para acumular temario.</p>
+
+    <div class="extras">
+      <div class="pilar">
+        <span class="badge-incluido">INCLUIDO</span>
+        <h3>🎧 Audiotemario</h3>
+        <p>Escucha cada tema narrado en audio, mientras conduces, entrenas o estás de guardia. Incluido en tu plan, sin coste adicional, y disponible también sin conexión una vez lo has abierto.</p>
+      </div>
+      <div class="pilar">
+        <span class="badge-extra">EXTRA OPCIONAL</span>
+        <h3>🤖 Instructor IA</h3>
+        <p>¿Fallas una pregunta y no sabes por qué? Pídele al Instructor IA que te la explique. Tienes 5 explicaciones gratis cada día — si te quedas corto, actívalo ilimitado por solo 1,99&nbsp;€/mes desde el panel.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+<svg class="footer-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cupo Militar">
+  <rect width="200" height="200" rx="28" fill="#20242b"/>
+  <g transform="translate(100,100)">
+    <circle r="66" fill="none" stroke="#eef0f2" stroke-width="10" opacity="0.85"/>
+    <path d="M 0,-66 A 66,66 0 0 1 62.8,-20.4" fill="none" stroke="#a9793f" stroke-width="14" stroke-linecap="round"/>
+    <path d="M -20,13 L 0,-9 L 20,13" fill="none" stroke="#eef0f2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+  Cupo Militar es un proyecto de Guardián de Datos SL. Los datos de las convocatorias proceden del Boletín Oficial del Estado (BOE). Este sitio no es un canal oficial de la Guardia Civil, la Policía Nacional, Vigilancia Aduanera ni el Ministerio de Defensa.
+  <div class="legal-links">
+    <a href="aviso-legal.html">Aviso legal</a>
+    <a href="privacidad.html">Política de privacidad</a>
+    <a href="cookies.html">Política de cookies</a>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cupo Militar — panel de convocatorias y calculadora</title>
+<style>
+  :root{
+    --ink:#20242b;
+    --paper:#eef0f2;
+    --paper-2:#e1e4e8;
+    --brass:#a9793f;
+    --brass-light:#c9a06a;
+    --line:#c7cbd0;
+    --alert:#7a2e3d;
+    --ok:#4a6350;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Georgia,serif;
+    line-height:1.5;
+  }
+  .mono{font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;}
+  .hero{
+    position:relative;
+    min-height:320px;
+    background:#20242b url('https://t3.ftcdn.net/jpg/02/81/96/50/240_F_281965081_yu0FXuSyEj2zWdr6nI8pOoftkFE2EmP2.jpg') center 35%/cover no-repeat;
+    overflow:hidden;
+  }
+  .hero::before{
+    content:"";
+    position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(32,36,43,0.55) 0%, rgba(32,36,43,0.88) 60%, rgba(32,36,43,0.97) 100%);
+  }
+  .hero svg{display:block;width:100%;height:auto;position:relative;z-index:1;}
+  .hero-text{
+    position:absolute; left:0; right:0; bottom:0;
+    max-width:920px; margin:0 auto; padding:0 1.5rem 2rem;
+    z-index:2;
+  }
+  .hero-text .eyebrow{color:var(--brass-light);}
+  .hero-text h1{color:var(--paper); margin:0 0 0.5rem;}
+  .hero-text .sub{color:#c7cbd0;}
+  header{
+    padding:2.5rem 1.5rem 1.5rem;
+    max-width:920px;
+    margin:0 auto;
+    border-bottom:1px solid var(--line);
+    display:none;
+  }
+  .eyebrow{
+    font-size:0.72rem;
+    letter-spacing:0.02em;
+    color:var(--brass);
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    margin-bottom:0.4rem;
+  }
+  h1{
+    font-size:2rem;
+    margin:0 0 0.5rem;
+    font-weight:600;
+    letter-spacing:-0.01em;
+  }
+  .sub{
+    max-width:60ch;
+    color:#44534f;
+    font-size:1rem;
+  }
+  main{max-width:920px;margin:0 auto;padding:0 1.5rem 4rem;}
+  section{margin-top:2.6rem;}
+  h2{
+    font-size:1.15rem;
+    font-weight:600;
+    border-bottom:1px solid var(--line);
+    padding-bottom:0.5rem;
+    margin-bottom:1.2rem;
+  }
+  .entry{
+    display:grid;
+    grid-template-columns:110px 1fr 130px;
+    gap:1rem;
+    padding:1rem 0;
+    border-bottom:1px solid var(--line);
+    align-items:start;
+  }
+  .entry:last-child{border-bottom:none;}
+  .entry .cuerpo{font-weight:600;}
+  .entry .detalle{color:#44534f;font-size:0.92rem;}
+  .entry .prevision{color:var(--brass);font-size:0.85rem;margin-top:0.35rem;}
+  .entry .prevision em{font-style:normal;color:#7a8378;}
+  .badge{
+    display:inline-block;
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.72rem;
+    padding:0.15rem 0.5rem;
+    border:1px solid var(--brass);
+    color:var(--brass);
+    border-radius:2px;
+    white-space:nowrap;
+  }
+  .pct{
+    text-align:right;
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.95rem;
+  }
+  .pct .num{font-size:1.4rem;color:var(--ink);display:block;}
+  .pct .lbl{font-size:0.68rem;color:#7a8378;}
+
+  .calc{
+    background:var(--paper-2);
+    border:1px solid var(--line);
+    padding:1.6rem;
+    border-radius:2px;
+  }
+  .calc form{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1.1rem 1.5rem;
+  }
+  .field{display:flex;flex-direction:column;gap:0.35rem;}
+  .field label{font-size:0.82rem;color:#44534f;}
+  .field input, .field select{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.95rem;
+    padding:0.5rem 0.6rem;
+    border:1px solid var(--line);
+    background:var(--paper);
+    color:var(--ink);
+    border-radius:2px;
+  }
+  .field input:focus,.field select:focus{outline:2px solid var(--brass-light);outline-offset:1px;}
+  .calc .full{grid-column:1/-1;}
+  button{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    background:var(--ink);
+    color:var(--paper);
+    border:none;
+    padding:0.65rem 1.3rem;
+    font-size:0.9rem;
+    cursor:pointer;
+    border-radius:2px;
+  }
+  button:hover{background:#2c4045;}
+
+  #resultado{margin-top:1.6rem;display:none;}
+  .res-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0.7rem 0;
+    border-bottom:1px solid var(--line);
+  }
+  .res-item:last-child{border-bottom:none;}
+  .estado{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.78rem;
+    padding:0.15rem 0.55rem;
+    border-radius:2px;
+  }
+  .estado.si{background:#e3ebe1;color:var(--ok);}
+  .estado.no{background:#f0e3df;color:var(--alert);}
+
+  .nota{
+    font-size:0.85rem;
+    color:#5a6560;
+    border-left:2px solid var(--brass-light);
+    padding-left:0.9rem;
+    margin-top:1.4rem;
+  }
+  .planes{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1.2rem;
+  }
+  .plan{
+    border:1px solid var(--line);
+    border-radius:2px;
+    padding:1.4rem;
+    position:relative;
+  }
+  .plan-destacado{
+    border-color:var(--brass);
+    background:var(--paper-2);
+  }
+  .plan-badge{
+    position:absolute;
+    top:-0.7rem; left:1.2rem;
+    background:var(--brass);
+    color:var(--paper);
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.68rem;
+    padding:0.2rem 0.6rem;
+    border-radius:2px;
+  }
+  .plan-precio{margin-bottom:1rem;}
+  .plan-precio .num{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:1.8rem;
+    display:block;
+  }
+  .plan-precio .lbl{font-size:0.8rem;color:#7a8378;}
+  .plan-lista{
+    list-style:none;
+    padding:0;
+    margin:0;
+    font-size:0.9rem;
+  }
+  .plan-lista li{
+    padding:0.4rem 0;
+    border-bottom:1px solid var(--line);
+  }
+  .plan-lista li:last-child{border-bottom:none;}
+  @media (max-width:640px){
+    .planes{grid-template-columns:1fr;}
+  }
+  footer{
+    max-width:920px;margin:0 auto;padding:1.5rem;
+    font-size:0.78rem;color:#7a8378;
+    border-top:1px solid var(--line);
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <svg viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <!-- líneas topográficas, muy sutiles -->
+    <g fill="none" stroke="#ffffff" stroke-width="1" opacity="0.12">
+      <path d="M-50,60 C 250,10 450,110 750,50 S 1150,90 1250,40"/>
+      <path d="M-50,110 C 250,60 450,160 750,100 S 1150,140 1250,90"/>
+      <path d="M-50,160 C 250,110 450,210 750,150 S 1150,190 1250,140"/>
+      <path d="M-50,260 C 250,300 450,220 750,290 S 1150,240 1250,290"/>
+      <path d="M-50,300 C 250,340 450,260 750,330 S 1150,280 1250,330"/>
+    </g>
+    <!-- galones (chevrons) en latón, motivo estructural no decorativo -->
+    <g stroke="#c9a06a" stroke-width="3" fill="none" opacity="0.9">
+      <path d="M 940 260 L 980 230 L 1020 260"/>
+      <path d="M 940 285 L 980 255 L 1020 285"/>
+      <path d="M 940 310 L 980 280 L 1020 310"/>
+    </g>
+    <g stroke="#c9a06a" stroke-width="1.5" fill="none" opacity="0.6">
+      <path d="M 60 70 L 100 40 L 140 70"/>
+      <path d="M 60 90 L 100 60 L 140 90"/>
+    </g>
+    <!-- estrella de cinco puntas, única acentuación bold, esquina superior derecha -->
+    <g transform="translate(1120,55) scale(1.1)" fill="#c9a06a" opacity="0.9">
+      <path d="M0,-22 L5.9,-6.8 L22,-6.8 L9,3 L13.6,19 L0,9 L-13.6,19 L-9,3 L-22,-6.8 L-5.9,-6.8 Z"/>
+    </g>
+  </svg>
+  <div class="hero-text">
+    <div class="eyebrow">CUPO MILITAR · by Guardián de Datos</div>
+    <h1>Cupo Militar</h1>
+    <p class="sub">Convocatorias con cupo reservado para militares profesionales de Tropa y Marinería, y orientación de a qué cupo puede optar cada perfil. Actualizado según la Ley 8/2006, de Tropa y Marinería.</p>
+  </div>
+</div>
+
+<header>
+  <div class="eyebrow">CUPO MILITAR · by Guardián de Datos</div>
+  <h1>Cupo Militar</h1>
+  <p class="sub">Convocatorias con cupo reservado para militares profesionales de Tropa y Marinería, y orientación de a qué cupo puede optar cada perfil. Actualizado según la Ley 8/2006, de Tropa y Marinería.</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Convocatorias 2026 con cupo militar reservado</h2>
+
+    <div class="entry">
+      <div><span class="badge">GC</span></div>
+      <div>
+        <div class="cuerpo">Guardia Civil — Escala de Cabos y Guardias</div>
+        <div class="detalle">3.240 plazas totales · BOE 8 mayo 2026 · Plazo cerrado (15 días hábiles) · Incorporación 13 octubre 2026. Además, 240 plazas para Guardias Jóvenes.</div>
+        <div class="prevision">Próxima convocatoria estimada: OEP ~marzo 2027, apertura de plazo ~mayo 2027 <em>(previsión según el patrón 2024-2026, no confirmada)</em>.</div>
+      </div>
+      <div class="pct"><span class="num">1.296</span><span class="lbl">reservadas (40%)</span></div>
+    </div>
+
+    <div class="entry">
+      <div><span class="badge">CNP</span></div>
+      <div>
+        <div class="cuerpo">Policía Nacional — Escala Básica (Convocatoria 43)</div>
+        <div class="detalle">2.704 plazas totales · BOE 10 julio 2026 · Plazo cerrado (finalizó 31 julio 2026) · Examen previsto 26 septiembre 2026.</div>
+        <div class="prevision">Próxima convocatoria estimada: apertura de plazo ~julio 2027 <em>(previsión según el patrón de años anteriores, no confirmada)</em>.</div>
+      </div>
+      <div class="pct"><span class="num">541</span><span class="lbl">reservadas (20%)</span></div>
+    </div>
+
+    <div class="entry">
+      <div><span class="badge">SVA</span></div>
+      <div>
+        <div class="cuerpo">Vigilancia Aduanera — Cuerpo de Agentes, esp. marítima</div>
+        <div class="detalle">20 plazas totales · BOE 31 diciembre 2025, con modificación de 30 enero 2026 · Plazo cerrado (20 días hábiles).</div>
+        <div class="prevision">Próxima convocatoria estimada: BOE ~diciembre 2026 / enero 2027 <em>(previsión, no confirmada)</em>.</div>
+      </div>
+      <div class="pct"><span class="num">8</span><span class="lbl">reservadas (40%)</span></div>
+    </div>
+
+    <div class="entry">
+      <div><span class="badge">FAS</span></div>
+      <div>
+        <div class="cuerpo">Oficiales y Suboficiales FAS/Guardia Civil — Promoción interna</div>
+        <div class="detalle">2.944 plazas totales (1.607 de promoción interna, ~55%) · BOE ~20 abril 2026 · Plazo cerrado (20 días hábiles). De ellas, 1.261 son específicas para tropa y marinería: 1.009 a Escala de Suboficiales (80%) y 120 a Escala de Oficiales.</div>
+        <div class="prevision">Próxima convocatoria estimada: ~abril 2027 <em>(previsión, no confirmada)</em>.</div>
+      </div>
+      <div class="pct"><span class="num">1.261</span><span class="lbl">para tropa y marinería</span></div>
+    </div>
+
+    <div class="entry">
+      <div><span class="badge">PAL</span></div>
+      <div>
+        <div class="cuerpo">Policías autonómicas y locales</div>
+        <div class="detalle">Reserva sujeta a convenio entre Defensa y cada Administración — variable por comunidad y convocatoria.</div>
+      </div>
+      <div class="pct"><span class="num">variable</span><span class="lbl">según convenio</span></div>
+    </div>
+
+    <p class="nota">Todas las convocatorias 2026 listadas tienen el plazo de solicitud ya cerrado a fecha de hoy. Las fechas de "próxima convocatoria" son una previsión calculada a partir del patrón de publicación de años anteriores — todavía no existe Oferta de Empleo Público 2027 aprobada por el Consejo de Ministros, así que son estimaciones, no confirmaciones oficiales. En cuanto se publique cada convocatoria nueva en el BOE, actualizaremos esta previsión con la fecha real.</p>
+  </section>
+
+  <section>
+    <h2>¿A qué cupo puedo optar?</h2>
+    <div class="calc">
+      <form id="form-baremo">
+        <div class="field">
+          <label for="anios">Años de servicio como Tropa y Marinería</label>
+          <input type="number" id="anios" min="0" max="30" value="6">
+        </div>
+        <div class="field">
+          <label for="situacion">Situación actual</label>
+          <select id="situacion">
+            <option value="activo">En activo</option>
+            <option value="reservista">Reservista de especial disponibilidad</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="restante">Años restantes de compromiso</label>
+          <input type="number" id="restante" min="0" max="15" value="3">
+        </div>
+        <div class="field">
+          <label for="especialidad">Especialidad / ejército</label>
+          <select id="especialidad">
+            <option>Ejército de Tierra</option>
+            <option>Armada</option>
+            <option>Ejército del Aire y del Espacio</option>
+          </select>
+        </div>
+        <div class="full">
+          <button type="submit">Calcular cupos disponibles</button>
+        </div>
+      </form>
+
+      <div id="resultado"></div>
+    </div>
+    <p class="nota">Esto calcula solo <strong>elegibilidad</strong> (si cumples el requisito de acceso a cada cupo), no la puntuación de baremo exacta — esa tabla de puntos la fija cada convocatoria concreta y hay que sacarla del BOE de cada proceso, no es una fórmula fija y universal. En cuanto se publique la convocatoria de cada cuerpo, incorporaremos aquí su tabla de baremo oficial.</p>
+  </section>
+
+  <section>
+    <h2>Cupo Militar Completo</h2>
+    <p class="sub" style="margin-bottom:1.4rem;">Temario y test ilimitados de Guardia Civil, Policía Nacional y Vigilancia Aduanera · calculadora de baremo real · comparador de cupos · alertas de convocatoria. Un único plan, sin niveles.</p>
+
+    <div class="planes">
+      <div class="plan plan-destacado">
+        <div class="plan-badge">Recomendado</div>
+        <div class="plan-precio"><span class="num">79&nbsp;€</span><span class="lbl">al año — equivale a 6,58 €/mes</span></div>
+        <ul class="plan-lista">
+          <li>Todo el contenido, los tres cuerpos</li>
+          <li>Baremo real + comparador de cupos</li>
+          <li>Alertas de convocatoria y cuenta atrás a tus 5 años</li>
+          <li>Sin permanencia más allá del año contratado</li>
+        </ul>
+      </div>
+      <div class="plan">
+        <div class="plan-precio"><span class="num">14,99&nbsp;€</span><span class="lbl">al mes — sin permanencia</span></div>
+        <ul class="plan-lista">
+          <li>Mismo contenido que el plan anual</li>
+          <li>Ideal para probar antes de pasarte al anual</li>
+          <li>Cancelas cuando quieras</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="nota"><strong>Trae a un compañero de unidad:</strong> si recomiendas Cupo Militar a alguien de tu acuartelamiento y se suscribe, os regalamos un mes a los dos. Sin límite de recomendaciones.</p>
+  </section>
+
+</main>
+
+<footer>
+  Cupo Militar es un proyecto de Guardián de Datos SL. Los datos de las convocatorias proceden del Boletín Oficial del Estado (BOE). Este sitio no es un canal oficial de la Guardia Civil, la Policía Nacional, Vigilancia Aduanera ni el Ministerio de Defensa.
+</footer>
+
+<script>
+document.getElementById('form-baremo').addEventListener('submit', function(e){
+  e.preventDefault();
+  const anios = parseInt(document.getElementById('anios').value || 0);
+  const situacion = document.getElementById('situacion').value;
+  const cumpleBase = anios >= 5 || situacion === 'reservista';
+
+  const cuerpos = [
+    {nombre: 'Guardia Civil (cupo 40%)', ok: cumpleBase},
+    {nombre: 'Policía Nacional (cupo 20%)', ok: cumpleBase},
+    {nombre: 'Vigilancia Aduanera, esp. marítima', ok: cumpleBase},
+    {nombre: 'Funcionarios de Defensa (cupo 50%)', ok: cumpleBase},
+    {nombre: 'Policías autonómicas/locales', ok: cumpleBase}
+  ];
+
+  const cont = document.getElementById('resultado');
+  cont.innerHTML = '';
+  cuerpos.forEach(function(c){
+    const row = document.createElement('div');
+    row.className = 'res-item';
+    row.innerHTML = '<span>' + c.nombre + '</span>' +
+      '<span class="estado ' + (c.ok ? 'si' : 'no') + '">' + (c.ok ? 'CUMPLES REQUISITO' : 'AÚN NO') + '</span>';
+    cont.appendChild(row);
+  });
+  cont.style.display = 'block';
+});
+</script>
+
+</body>
+</html>

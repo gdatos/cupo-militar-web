@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Convocatorias 2026-2027: Permanencia, Cabo 1º, Guardia Civil y Policía</title>
+<meta name="description" content="Convocatorias con cupo militar reservado (Guardia Civil, Policía Nacional, Vigilancia Aduanera), requisitos de la Permanencia militar y del ascenso a Cabo 1º, y calculadora de a qué cupo puedes optar. Actualizado según el BOE.">
+<link rel="canonical" href="https://www.cupomilitar.es/convocatorias.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cupo Militar">
+<meta property="og:title" content="Convocatorias 2026-2027: Permanencia, Cabo 1º, Guardia Civil y Policía">
+<meta property="og:description" content="Convocatorias con cupo militar reservado, requisitos de la Permanencia y del ascenso a Cabo 1º, actualizado según el BOE.">
+<meta property="og:url" content="https://www.cupomilitar.es/convocatorias.html">
+<meta property="og:locale" content="es_ES">
+<style>
+  :root{
+    --ink:#20242b;
+    --paper:#eef0f2;
+    --paper-2:#e1e4e8;
+    --brass:#a9793f;
+    --brass-light:#c9a06a;
+    --line:#c7cbd0;
+    --alert:#7a2e3d;
+    --ok:#4a6350;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family: 'Iowan Old Style','Palatino Linotype',Georgia,serif;
+    line-height:1.5;
+  }
+  .mono{font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;}
+  a{color:inherit;}
+
+  .navbar{
+    max-width:920px;margin:0 auto;padding:1.1rem 1.5rem 0;
+    display:flex;justify-content:space-between;align-items:center;
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.82rem;
+  }
+  .navbar .brand{color:var(--ink);text-decoration:none;font-weight:600;letter-spacing:0.02em;}
+  .navbar .links a{margin-left:1.3rem;color:#44534f;text-decoration:none;}
+  .navbar .links a:hover{color:var(--brass);}
+  .navbar .links a.cta{
+    color:var(--paper);background:var(--ink);
+    padding:0.4rem 0.8rem;border-radius:2px;
+  }
+  .navbar .links a.cta:hover{background:#2c4045;color:var(--paper);}
+
+  header{
+    padding:1.6rem 1.5rem 1.5rem;
+    max-width:920px;
+    margin:0 auto;
+    border-bottom:1px solid var(--line);
+  }
+  .eyebrow{
+    font-size:0.72rem;
+    letter-spacing:0.02em;
+    color:var(--brass);
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    margin-bottom:0.4rem;
+  }
+  h1{
+    font-size:1.7rem;
+    margin:0 0 0.5rem;
+    font-weight:600;
+    letter-spacing:-0.01em;
+  }
+  h2{
+    font-size:1.15rem;
+    font-weight:600;
+    border-bottom:1px solid var(--line);
+    padding-bottom:0.5rem;
+    margin-bottom:1.2rem;
+  }
+  .sub{
+    max-width:60ch;
+    color:#44534f;
+    font-size:1rem;
+  }
+  main{max-width:920px;margin:0 auto;padding:0 1.5rem 4rem;}
+  section{margin-top:2.6rem;}
+  .entry{
+    display:grid;
+    grid-template-columns:110px 1fr 130px;
+    gap:1rem;
+    padding:1rem 0;
+    border-bottom:1px solid var(--line);
+    align-items:start;
+  }
+  .entry:last-child{border-bottom:none;}
+  .entry .cuerpo{font-weight:600;}
+  .entry .detalle{color:#44534f;font-size:0.92rem;}
+  .entry .prevision{color:var(--brass);font-size:0.85rem;margin-top:0.35rem;}
+  .entry .prevision em{font-style:normal;color:#7a8378;}
+  .badge{
+    display:inline-block;
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.72rem;
+    padding:0.15rem 0.5rem;
+    border:1px solid var(--brass);
+    color:var(--brass);
+    border-radius:2px;
+    white-space:nowrap;
+  }
+  .pct{
+    text-align:right;
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.95rem;
+  }
+  .pct .num{font-size:1.4rem;color:var(--ink);display:block;}
+  .pct .lbl{font-size:0.68rem;color:#7a8378;}
+
+  .calc{
+    background:var(--paper-2);
+    border:1px solid var(--line);
+    padding:1.6rem;
+    border-radius:2px;
+  }
+  .calc form{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1.1rem 1.5rem;
+  }
+  .field{display:flex;flex-direction:column;gap:0.35rem;}
+  .field label{font-size:0.82rem;color:#44534f;}
+  .field input, .field select{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.95rem;
+    padding:0.5rem 0.6rem;
+    border:1px solid var(--line);
+    background:var(--paper);
+    color:var(--ink);
+    border-radius:2px;
+  }
+  .field input:focus,.field select:focus{outline:2px solid var(--brass-light);outline-offset:1px;}
+  .calc .full{grid-column:1/-1;}
+  button{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    background:var(--ink);
+    color:var(--paper);
+    border:none;
+    padding:0.65rem 1.3rem;
+    font-size:0.9rem;
+    cursor:pointer;
+    border-radius:2px;
+  }
+  button:hover{background:#2c4045;}
+
+  #resultado{margin-top:1.6rem;display:none;}
+  .res-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0.7rem 0;
+    border-bottom:1px solid var(--line);
+  }
+  .res-item:last-child{border-bottom:none;}
+  .estado{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.78rem;
+    padding:0.15rem 0.55rem;
+    border-radius:2px;
+  }
+  .estado.si{background:#e3ebe1;color:var(--ok);}
+  .estado.no{background:#f0e3df;color:var(--alert);}
+
+  .nota{
+    font-size:0.85rem;
+    color:#5a6560;
+    border-left:2px solid var(--brass-light);
+    padding-left:0.9rem;
+    margin-top:1.4rem;
+  }
+  .nota a{color:var(--brass);font-weight:600;text-decoration:none;}
+  .nota a:hover{text-decoration:underline;}
+
+  .banner-cta{
+    background:var(--ink);
+    color:var(--paper);
+    padding:1.4rem 1.6rem;
+    border-radius:2px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:1rem;
+    flex-wrap:wrap;
+  }
+  .banner-cta p{margin:0;max-width:52ch;font-size:0.95rem;}
+  .banner-cta a{
+    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    font-size:0.85rem;
+    background:var(--brass-light);
+    color:var(--ink);
+    padding:0.65rem 1.2rem;
+    border-radius:2px;
+    text-decoration:none;
+    white-space:nowrap;
+  }
+  .banner-cta a:hover{background:#d8b27e;}
+
+  @media (max-width:640px){
+    .entry{grid-template-columns:80px 1fr;}
+    .pct{grid-column:2;text-align:left;margin-top:0.4rem;}
+    .calc form{grid-template-columns:1fr;}
+  }
+  footer{
+    max-width:920px;margin:0 auto;padding:1.5rem;
+    font-size:0.78rem;color:#7a8378;
+    border-top:1px solid var(--line);
+  }
+  footer .legal-links{margin-top:0.6rem;}
+  footer .legal-links a{color:#7a8378;text-decoration:underline;margin-right:1rem;}
+  footer .legal-links a:hover{color:var(--brass);}
+  footer .footer-logo{width:26px;height:26px;display:block;margin-bottom:0.6rem;border-radius:6px;}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="index.html" class="brand">CUPO MILITAR</a>
+  <div class="links">
+    <a href="index.html#planes">Planes</a>
+    <a href="https://portal.cupomilitar.es/login" class="cta">Acceder / Suscribirme</a>
+  </div>
+</div>
+
+<header>
+  <div class="eyebrow">CUPO MILITAR · by Guardián de Datos</div>
+  <h1>Convocatorias con cupo militar reservado</h1>
+  <p class="sub">Convocatorias con cupo reservado para militares profesionales de Tropa y Marinería, y orientación de a qué cupo puede optar cada perfil. Además, cómo funciona el <a href="#ascenso-fas" style="color:var(--brass);">ascenso interno</a> en las Fuerzas Armadas y el acceso a la <a href="#permanencia" style="color:var(--brass);">condición de permanente</a>. Actualizado según la Ley 8/2006, de Tropa y Marinería.</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Convocatorias 2026 con cupo militar reservado</h2>
+
+    <div class="entry">
+      <div><span class="badge">GC</span></div>
+      <div>
+        <div class="cuerpo">Guardia Civil — Escala de Cabos y Guardias</div>
+        <div class="detalle">3.240 plazas totales · BOE 8 mayo 2026 · Plazo cerrado (15 días hábiles) · Incorporación 13 octubre 2026. Además, 240 plazas para Guardias Jóvenes.</div>
+        <div class="prevision">Próxima convocatoria estimada: OEP ~marzo 2027, apertura de plazo ~mayo 2027 <em>(previsión según el patrón 2024-2026, no confirmada)</em>.</div>
+      </div>
+      <div class="pct"><span class="num">1.296</span><span class="lbl">reservadas (40%)</span></div>
+    </div>
+
+    <div class="entry">
+      <div><span class="badge">CNP</span></div>
+      <div>
+        <div class="cuerpo">Policía Nacional — Escala Básica (Convocatoria 43)</div>
+        <div class="detalle">2.704 plazas totales · BOE 10 julio 2026 · Plazo cerrado (finalizó 31 julio 2026) · Examen previsto 26 septiembre 2026.</div>
+        <div class="prevision">Próxima convocatoria estimada: apertura de plazo ~julio 2027 <em>(previsión según el patrón de años anteriores, no confirmada)</em>.</div>
+      </div>
+      <div class="pct"><span class="num">541</span><span class="lbl">reservadas (20%)</span></div>
+    </div>
+
+    <div class="entry">
+      <div><span class="badge">SVA</span></div>
+      <div>
+        <div class="cuerpo">Vigilancia Aduanera — Cuerpo de Agentes, esp. marítima</div>
+        <div class="detalle">20 plazas totales · BOE 31 diciembre 2025, con modificación de 30 enero 2026 · Plazo cerrado (20 días hábiles).</div>
+        <div class="prevision">Próxima convocatoria estimada: BOE ~diciembre 2026 / enero 2027 <em>(previsión, no confirmada)</em>.</div>
+      </div>
+      <div class="pct"><span class="num">8</span><span class="lbl">reservadas (40%)</span></div>
+    </div>
+
+    <div class="entry">
+      <div><span class="badge">FAS</span></div>
+      <div>
+        <div class="cuerpo">Oficiales y Suboficiales FAS/Guardia Civil — Promoción interna</div>
+        <div class="detalle">2.944 plazas totales (1.607 de promoción interna, ~55%) · BOE ~20 abril 2026 · Plazo cerrado (20 días hábiles). De ellas, 1.261 son específicas para tropa y marinería: 1.009 a Escala de Suboficiales (80%) y 120 a Escala de Oficiales. <a href="#ascenso-fas" style="color:var(--brass);text-decoration:underline;">Cómo funciona este ascenso ↓</a></div>
+        <div class="prevision">Próxima convocatoria estimada: ~abril 2027 <em>(previsión, no confirmada)</em>.</div>
+      </div>
+      <div class="pct"><span class="num">1.261</span><span class="lbl">para tropa y marinería</span></div>
+    </div>
+
+    <div class="entry">
+      <div><span class="badge">PAL</span></div>
+      <div>
+        <div class="cuerpo">Policías autonómicas y locales</div>
+        <div class="detalle">Reserva sujeta a convenio entre Defensa y cada Administración — variable por comunidad y convocatoria.</div>
+      </div>
+      <div class="pct"><span class="num">variable</span><span class="lbl">según convenio</span></div>
+    </div>
+
+    <p class="nota">Todas las convocatorias 2026 listadas tienen el plazo de solicitud ya cerrado a fecha de hoy. Las fechas de "próxima convocatoria" son una previsión calculada a partir del patrón de publicación de años anteriores — todavía no existe Oferta de Empleo Público 2027 aprobada por el Consejo de Ministros, así que son estimaciones, no confirmaciones oficiales. En cuanto se publique cada convocatoria nueva en el BOE, actualizaremos esta previsión con la fecha real.</p>
+  </section>
+
+  <section id="ascenso-fas">
+    <h2>Ascenso y promoción dentro de las Fuerzas Armadas</h2>
+    <p class="sub" style="margin-bottom:1.2rem;">Además de las convocatorias con cupo reservado hacia otros cuerpos (Guardia Civil, Policía Nacional...), un militar profesional de Tropa y Marinería también puede ascender de categoría <em>dentro</em> del Ejército de Tierra, la Armada o el Ejército del Aire y del Espacio. Esta vía no es un "cupo": es un proceso de promoción interna dentro de las propias Fuerzas Armadas.</p>
+
+    <div class="entry" style="grid-template-columns:1fr;">
+      <div>
+        <div class="cuerpo">Ascenso en la Escala de Tropa y Marinería: Soldado/Marinero → Cabo → Cabo Primero → Cabo Mayor</div>
+        <div class="detalle">Progresión dentro de la propia Escala de Tropa y Marinería. No es solo antigüedad: cada empleo exige concurso o concurso-oposición y unos años mínimos en el empleo anterior. De Soldado/Marinero a Cabo, mínimo 4 años de servicio y superar la prueba física (TGCF). De Cabo a Cabo Primero, mínimo 3 años como Cabo y un curso de capacitación obligatorio. De Cabo Primero a Cabo Mayor, por elección, con condición de permanente y mínimo 10 años como Cabo Primero. En ningún caso hay cupo reservado frente a otros aspirantes: compites dentro de tu propia escala. <span style="color:#7a8378;">(Real Decreto 1411/2006, reglamento de ascensos de Tropa y Marinería)</span></div>
+      </div>
+    </div>
+
+    <div class="entry" style="grid-template-columns:1fr;">
+      <div>
+        <div class="cuerpo">Promoción interna a la Escala de Suboficiales (Programa Avanza)</div>
+        <div class="detalle">Desde 1 año de servicio tras la jura de bandera, se puede optar por concurso-oposición a la Escala de Suboficiales de los Cuerpos Generales y de Infantería de Marina. Al menos el 80% de las plazas convocadas se reservan a esta promoción interna. El proceso incluye examen de inglés, matemáticas y física, pruebas físicas, reconocimiento médico y <strong>pruebas psicotécnicas</strong>. La formación dura 3 años sin titulación previa, o 9 meses con Técnico Superior. <span style="color:#7a8378;">(BOE: Orden DEF/346/2026, Programa Avanza)</span>.</div>
+      </div>
+    </div>
+
+    <div class="entry" style="grid-template-columns:1fr;border-bottom:none;">
+      <div>
+        <div class="cuerpo">Acceso a la Escala de Oficiales</div>
+        <div class="detalle">Tras al menos 1 año como Suboficial, se puede optar a la Escala de Oficiales, generalmente con exigencia de titulación universitaria según la especialidad (ingeniería, medicina, derecho, etc.).</div>
+      </div>
+    </div>
+
+    <p class="nota">Esta vía de ascenso interno es distinta del cupo reservado hacia la Guardia Civil, la Policía Nacional u otros cuerpos: aquí no hay un porcentaje de plazas reservado frente a otros aspirantes, sino un proceso de promoción dentro de las propias Fuerzas Armadas. El plan Cupo Militar Completo también prepara esta vía: temario de matemáticas, física e inglés, y práctica de tests psicotécnicos.</p>
+  </section>
+
+  <section id="permanencia">
+    <h2>Permanencia: de militar temporal a militar de carrera</h2>
+    <p class="sub" style="margin-bottom:1.2rem;">La "permanencia" (condición de permanente) es el paso de militar profesional con compromiso temporal a militar de carrera, sin límite de edad de contrato. No es un cupo reservado hacia otro cuerpo: es un proceso interno de la Escala de Tropa y Marinería, y suele ser el objetivo a más largo plazo de quien hace carrera como militar profesional.</p>
+
+    <div class="entry" style="grid-template-columns:1fr;">
+      <div>
+        <div class="cuerpo">Requisitos de acceso</div>
+        <div class="detalle">Mínimo 14 años de servicio efectivo, con los últimos 5 años en el mismo ejército o armada en el que se solicita la permanencia. Es necesario estar en compromiso de larga duración vigente y contar, como mínimo, con la titulación de Técnico del Sistema Educativo General (FP de Grado Medio) o equivalente. Máximo 3 convocatorias ordinarias y 2 extraordinarias para conseguirlo. <span style="color:#7a8378;">(Ley 8/2006, de Tropa y Marinería, y convocatorias anuales de acceso a la condición de permanente)</span></div>
+      </div>
+    </div>
+
+    <div class="entry" style="grid-template-columns:1fr;">
+      <div>
+        <div class="cuerpo">Proceso de selección</div>
+        <div class="detalle">Concurso-oposición en dos fases: una evaluación de la hoja de servicios y los méritos profesionales/académicos (verano), y una fase selectiva con pruebas físicas (mediados de octubre) y examen de conocimientos tipo test, hasta 100 puntos (mediados de noviembre). Si se supera, la condición de permanente es efectiva a 31 de diciembre del año de la convocatoria.</div>
+      </div>
+    </div>
+
+    <div class="entry" style="grid-template-columns:1fr;border-bottom:none;">
+      <div>
+        <div class="cuerpo">Convocatoria 2026</div>
+        <div class="detalle">1.000 plazas en total para las Fuerzas Armadas, de las cuales 540 corresponden al Ejército de Tierra (350 operativas + 190 técnicas). <span style="color:#7a8378;">(BOD núm. 116, Resolución 452/08724/26)</span></div>
+      </div>
+    </div>
+
+    <p class="nota">La permanencia no debe confundirse con el ascenso a Cabo Primero: para ascender a Cabo Primero basta un mínimo de 3 años como Cabo, mientras que la permanencia exige 14 años de servicio total. Son dos metas de la carrera militar en momentos muy distintos — y ambas se preparan con lo mismo de fondo: hoja de méritos, condición física y examen de conocimientos.</p>
+  </section>
+
+  <section>
+    <h2>¿A qué cupo puedo optar?</h2>
+    <div class="calc">
+      <form id="form-baremo">
+        <div class="field">
+          <label for="anios">Años de servicio como Tropa y Marinería</label>
+          <input type="number" id="anios" min="0" max="30" value="6">
+        </div>
+        <div class="field">
+          <label for="situacion">Situación actual</label>
+          <select id="situacion">
+            <option value="activo">En activo</option>
+            <option value="reservista">Reservista de especial disponibilidad</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="restante">Años restantes de compromiso</label>
+          <input type="number" id="restante" min="0" max="15" value="3">
+        </div>
+        <div class="field">
+          <label for="especialidad">Especialidad / ejército</label>
+          <select id="especialidad">
+            <option>Ejército de Tierra</option>
+            <option>Armada</option>
+            <option>Ejército del Aire y del Espacio</option>
+          </select>
+        </div>
+        <div class="full">
+          <button type="submit">Calcular cupos disponibles</button>
+        </div>
+      </form>
+
+      <div id="resultado"></div>
+    </div>
+    <p class="nota">Esto calcula solo <strong>elegibilidad</strong> (si cumples el requisito de acceso a cada cupo), no la puntuación de baremo exacta — esa tabla de puntos la fija cada convocatoria concreta y hay que sacarla del BOE de cada proceso, no es una fórmula fija y universal. En cuanto se publique la convocatoria de cada cuerpo, incorporaremos aquí su tabla de baremo oficial.</p>
+  </section>
+
+  <section>
+    <div class="banner-cta">
+      <p>El baremo real, el comparador de cupos y las alertas de convocatoria están en el plan Cupo Militar Completo, desde 6,58 €/mes.</p>
+      <a href="https://portal.cupomilitar.es/login">Suscribirme ahora →</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+<svg class="footer-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cupo Militar">
+  <rect width="200" height="200" rx="28" fill="#20242b"/>
+  <g transform="translate(100,100)">
+    <circle r="66" fill="none" stroke="#eef0f2" stroke-width="10" opacity="0.85"/>
+    <path d="M 0,-66 A 66,66 0 0 1 62.8,-20.4" fill="none" stroke="#a9793f" stroke-width="14" stroke-linecap="round"/>
+    <path d="M -20,13 L 0,-9 L 20,13" fill="none" stroke="#eef0f2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+  Cupo Militar es un proyecto de Guardián de Datos SL. Los datos de las convocatorias proceden del Boletín Oficial del Estado (BOE). Este sitio no es un canal oficial de la Guardia Civil, la Policía Nacional, Vigilancia Aduanera ni el Ministerio de Defensa.
+  <div class="legal-links">
+    <a href="aviso-legal.html">Aviso legal</a>
+    <a href="privacidad.html">Política de privacidad</a>
+    <a href="cookies.html">Política de cookies</a>
+  </div>
+</footer>
+
+<script>
+document.getElementById('form-baremo').addEventListener('submit', function(e){
+  e.preventDefault();
+  const anios = parseInt(document.getElementById('anios').value || 0);
+  const situacion = document.getElementById('situacion').value;
+  const cumpleBase = anios >= 5 || situacion === 'reservista';
+
+  const cuerpos = [
+    {nombre: 'Guardia Civil (cupo 40%)', ok: cumpleBase},
+    {nombre: 'Policía Nacional (cupo 20%)', ok: cumpleBase},
+    {nombre: 'Vigilancia Aduanera, esp. marítima', ok: cumpleBase},
+    {nombre: 'Funcionarios de Defensa (cupo 50%)', ok: cumpleBase},
+    {nombre: 'Policías autonómicas/locales', ok: cumpleBase}
+  ];
+
+  const cont = document.getElementById('resultado');
+  cont.innerHTML = '';
+  cuerpos.forEach(function(c){
+    const row = document.createElement('div');
+    row.className = 'res-item';
+    row.innerHTML = '<span>' + c.nombre + '</span>' +
+      '<span class="estado ' + (c.ok ? 'si' : 'no') + '">' + (c.ok ? 'CUMPLES REQUISITO' : 'AÚN NO') + '</span>';
+    cont.appendChild(row);
+  });
+  cont.style.display = 'block';
+});
+</script>
+
+</body>
+</html>
