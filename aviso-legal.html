@@ -33,7 +33,8 @@
     font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
     font-size:0.82rem;
   }
-  .navbar .brand{color:var(--ink);text-decoration:none;font-weight:600;letter-spacing:0.02em;}
+  .navbar .brand{color:var(--ink);text-decoration:none;font-weight:600;letter-spacing:0.02em;display:flex;align-items:center;gap:0.5rem;}
+  .navbar .brand-icon{display:block;border-radius:6px;flex-shrink:0;}
   .navbar .links a{margin-left:1.3rem;color:#44534f;text-decoration:none;}
   .navbar .links a:hover{color:var(--brass);}
   @media (max-width:640px){
@@ -66,7 +67,7 @@
 <body>
 
 <div class="navbar">
-  <a href="index.html" class="brand">CUPO MILITAR</a>
+  <a href="index.html" class="brand"><img src="icono-cupo-militar.svg" alt="" width="26" height="26" class="brand-icon">CUPO MILITAR</a>
   <div class="links">
     <a href="convocatorias.html">Convocatorias</a>
     <a href="index.html#planes">Planes</a>
