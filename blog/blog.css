@@ -68,3 +68,6 @@ article.post .cta-box a:hover{text-decoration:underline;}
 
 footer{max-width:920px;margin:0 auto;padding:2rem 1.5rem 3rem;font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;font-size:0.78rem;color:#6b7680;}
 footer a{color:#6b7680;}
+
+article.post img.hero{display:block;width:100%;height:auto;border-radius:6px;border:1px solid var(--line);margin:0 0 1.8rem;}
+.post-card img.thumb{display:block;width:100%;height:auto;border-radius:4px;margin:0 0 0.9rem;border:1px solid var(--line);}
