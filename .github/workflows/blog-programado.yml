@@ -1,0 +1,32 @@
+name: Publicar artículos programados del blog
+
+on:
+  schedule:
+    # Todos los días a las 06:30 UTC (07:30 en Canarias en horario de verano, 06:30 en invierno)
+    - cron: '30 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generar blog y sitemap
+        run: node blog/build.mjs
+      - name: Subir cambios si hay artículos nuevos
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "Cupo Militar bot"
+            git config user.email "hola@cupomilitar.es"
+            git add blog sitemap.xml
+            git commit -m "Blog: publicación programada del día"
+            git push
+          else
+            echo "Nada que publicar hoy."
+          fi
