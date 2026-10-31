@@ -1,576 +1,1632 @@
 [
- {
-  "slug": "que-es-el-cupo-militar-quien-puede-usarlo",
-  "date": "2026-10-20",
-  "category": "Cupo a otros cuerpos",
-  "ref": "cupo",
-  "title": "Qué es el cupo militar y quién puede usarlo",
-  "description": "Qué es el cupo militar, qué cuerpos lo ofrecen, quién puede presentarse y en qué se diferencia de la oposición libre. Una guía corta para quien empieza.",
-  "imageAlt": "Una puerta abierta con un camino hacia tres escudos",
-  "blocks": [
-   {
-    "t": "p",
-    "x": "El cupo militar es la parte de las plazas de algunos cuerpos de seguridad que se reserva solo para militares profesionales de Tropa y Marinería. Compites con otros militares por esas plazas, no con todos los aspirantes."
-   },
-   {
-    "t": "h",
-    "x": "Qué cuerpos lo ofrecen"
-   },
-   {
-    "t": "p",
-    "x": "En las últimas convocatorias hay reserva de plazas en la Guardia Civil, en la Policía Nacional y en Vigilancia Aduanera. En 2026 la Guardia Civil reservó 1.296 de 3.240 plazas, la Policía Nacional 541 de 2.704, y Vigilancia Aduanera ocho plazas de la especialidad Marítima del Cuerpo de Agentes."
-   },
-   {
-    "t": "h",
-    "x": "Quién puede presentarse"
-   },
-   {
-    "t": "p",
-    "x": "El requisito común es llevar al menos cinco años de servicios como militar profesional de Tropa y Marinería. En la Guardia Civil, además, tienes que seguir en activo y no haber finalizado tu compromiso, y tener entre 18 y 40 años durante el año de la convocatoria. El resto de requisitos, como la titulación, los fija cada convocatoria."
-   },
-   {
-    "t": "h",
-    "x": "En qué se diferencia de la oposición libre"
-   },
-   {
-    "t": "p",
-    "x": "Las pruebas suelen ser parecidas, pero compites por un número de plazas separado. En la Guardia Civil, además, tu carrera militar puntúa en un baremo: los años de servicio y el empleo que has alcanzado suman puntos que un aspirante libre no tiene."
-   },
-   {
-    "t": "h",
-    "x": "Qué pasa con las plazas que no se cubren"
-   },
-   {
-    "t": "p",
-    "x": "En la Policía Nacional, las plazas reservadas que no se cubran se acumulan a las de oposición libre. Es decir, el cupo no garantiza plaza: hay que superar el proceso."
-   },
-   {
-    "t": "h",
-    "x": "Por dónde empezar"
-   },
-   {
-    "t": "ul",
-    "items": [
-     "Comprueba cuándo cumples los cinco años de servicio.",
-     "Mira qué cuerpo encaja con tu perfil y tu titulación.",
-     "Empieza el temario con tiempo, aunque todavía no haya convocatoria."
+  {
+    "slug": "que-es-el-cupo-militar-quien-puede-usarlo",
+    "date": "2026-10-20",
+    "category": "Cupo a otros cuerpos",
+    "ref": "cupo",
+    "title": "Qué es el cupo militar y quién puede usarlo",
+    "description": "Qué es el cupo militar, qué cuerpos lo ofrecen, quién puede presentarse y en qué se diferencia de la oposición libre. Una guía corta para quien empieza.",
+    "imageAlt": "Una puerta abierta con un camino hacia tres escudos",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "El cupo militar es la parte de las plazas de algunos cuerpos de seguridad que se reserva solo para militares profesionales de Tropa y Marinería. Compites con otros militares por esas plazas, no con todos los aspirantes."
+      },
+      {
+        "t": "h",
+        "x": "Qué cuerpos lo ofrecen"
+      },
+      {
+        "t": "p",
+        "x": "En las últimas convocatorias hay reserva de plazas en la Guardia Civil, en la Policía Nacional y en Vigilancia Aduanera. En 2026 la Guardia Civil reservó 1.296 de 3.240 plazas, la Policía Nacional 541 de 2.704, y Vigilancia Aduanera ocho plazas de la especialidad Marítima del Cuerpo de Agentes."
+      },
+      {
+        "t": "h",
+        "x": "Quién puede presentarse"
+      },
+      {
+        "t": "p",
+        "x": "El requisito común es llevar al menos cinco años de servicios como militar profesional de Tropa y Marinería. En la Guardia Civil, además, tienes que seguir en activo y no haber finalizado tu compromiso, y tener entre 18 y 40 años durante el año de la convocatoria. El resto de requisitos, como la titulación, los fija cada convocatoria."
+      },
+      {
+        "t": "h",
+        "x": "En qué se diferencia de la oposición libre"
+      },
+      {
+        "t": "p",
+        "x": "Las pruebas suelen ser parecidas, pero compites por un número de plazas separado. En la Guardia Civil, además, tu carrera militar puntúa en un baremo: los años de servicio y el empleo que has alcanzado suman puntos que un aspirante libre no tiene."
+      },
+      {
+        "t": "h",
+        "x": "Qué pasa con las plazas que no se cubren"
+      },
+      {
+        "t": "p",
+        "x": "En la Policía Nacional, las plazas reservadas que no se cubran se acumulan a las de oposición libre. Es decir, el cupo no garantiza plaza: hay que superar el proceso."
+      },
+      {
+        "t": "h",
+        "x": "Por dónde empezar"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Comprueba cuándo cumples los cinco años de servicio.",
+          "Mira qué cuerpo encaja con tu perfil y tu titulación.",
+          "Empieza el temario con tiempo, aunque todavía no haya convocatoria."
+        ]
+      }
     ]
-   }
-  ]
- },
- {
-  "slug": "cupo-militar-policia-nacional-2026-plazas-requisitos",
-  "date": "2026-10-21",
-  "category": "Cupo a otros cuerpos",
-  "ref": "policia-nacional",
-  "title": "Cupo militar a la Policía Nacional 2026: plazas reservadas y requisitos",
-  "description": "La Policía Nacional reserva 541 plazas en 2026 para militares de Tropa y Marinería con cinco años de servicio. Requisitos, cómo funciona la reserva y en qué se diferencia del cupo de la Guardia Civil.",
-  "imageAlt": "Escudo con una estrella de cinco puntas junto a una hoja de examen",
-  "blocks": [
-   {
-    "t": "p",
-    "x": "Si eres militar profesional de Tropa y Marinería y llevas cinco años de servicio, la Policía Nacional también tiene plazas reservadas para ti. En la oferta de empleo público de 2026, 541 de las 2.704 plazas de la Escala Básica están reservadas a militares."
-   },
-   {
-    "t": "h",
-    "x": "Qué dice la oferta de empleo público de 2026"
-   },
-   {
-    "t": "p",
-    "x": "La oferta de empleo público de la Policía Nacional para 2026 se aprobó con el Real Decreto 207/2026, de 11 de marzo, y se publicó en el BOE del 13 de marzo de 2026. Autoriza 2.704 plazas para ingreso por oposición libre en la Escala Básica, y 541 de ellas se reservan a personal de Tropa y Marinería. Las plazas reservadas que no se cubran se acumulan a las de oposición libre."
-   },
-   {
-    "t": "h",
-    "x": "El requisito principal: cinco años de servicio"
-   },
-   {
-    "t": "p",
-    "x": "Para optar por la reserva tienes que llevar al menos cinco años de servicios como militar de Tropa y Marinería. La base legal es el artículo 20.5 de la Ley 8/2006 de Tropa y Marinería, en la redacción dada por la Ley Orgánica 9/2015 de régimen de personal de la Policía Nacional. El resto de requisitos (edad, titulación, carné de conducir, idioma) son los de las bases de cada convocatoria."
-   },
-   {
-    "t": "h",
-    "x": "En qué se diferencia de la Guardia Civil"
-   },
-   {
-    "t": "p",
-    "x": "El esquema de las dos vías es parecido, pero las cifras no. En la Guardia Civil el cupo militar de 2026 es de 1.296 plazas de 3.240, alrededor del 40 %. En la Policía Nacional son 541 de 2.704, alrededor del 20 %. Además, la Guardia Civil se resuelve por concurso-oposición con un baremo de hasta 45 puntos de méritos, mientras que en la Policía Nacional las bases de cada convocatoria fijan cómo se valoran los años de servicio y el empleo."
-   },
-   {
-    "t": "h",
-    "x": "Qué hacer desde ahora"
-   },
-   {
-    "t": "ul",
-    "items": [
-     "Comprueba cuándo cumples tus cinco años de servicio.",
-     "Mira qué titulación te piden las bases de la última convocatoria y si ya la tienes.",
-     "Empieza el temario con tiempo: el cupo reserva plazas, pero el examen es el que decide quién entra."
+  },
+  {
+    "slug": "cupo-militar-policia-nacional-2026-plazas-requisitos",
+    "date": "2026-10-21",
+    "category": "Cupo a otros cuerpos",
+    "ref": "policia-nacional",
+    "title": "Cupo militar a la Policía Nacional 2026: plazas reservadas y requisitos",
+    "description": "La Policía Nacional reserva 541 plazas en 2026 para militares de Tropa y Marinería con cinco años de servicio. Requisitos, cómo funciona la reserva y en qué se diferencia del cupo de la Guardia Civil.",
+    "imageAlt": "Escudo con una estrella de cinco puntas junto a una hoja de examen",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Si eres militar profesional de Tropa y Marinería y llevas cinco años de servicio, la Policía Nacional también tiene plazas reservadas para ti. En la oferta de empleo público de 2026, 541 de las 2.704 plazas de la Escala Básica están reservadas a militares."
+      },
+      {
+        "t": "h",
+        "x": "Qué dice la oferta de empleo público de 2026"
+      },
+      {
+        "t": "p",
+        "x": "La oferta de empleo público de la Policía Nacional para 2026 se aprobó con el Real Decreto 207/2026, de 11 de marzo, y se publicó en el BOE del 13 de marzo de 2026. Autoriza 2.704 plazas para ingreso por oposición libre en la Escala Básica, y 541 de ellas se reservan a personal de Tropa y Marinería. Las plazas reservadas que no se cubran se acumulan a las de oposición libre."
+      },
+      {
+        "t": "h",
+        "x": "El requisito principal: cinco años de servicio"
+      },
+      {
+        "t": "p",
+        "x": "Para optar por la reserva tienes que llevar al menos cinco años de servicios como militar de Tropa y Marinería. La base legal es el artículo 20.5 de la Ley 8/2006 de Tropa y Marinería, en la redacción dada por la Ley Orgánica 9/2015 de régimen de personal de la Policía Nacional. El resto de requisitos (edad, titulación, carné de conducir, idioma) son los de las bases de cada convocatoria."
+      },
+      {
+        "t": "h",
+        "x": "En qué se diferencia de la Guardia Civil"
+      },
+      {
+        "t": "p",
+        "x": "El esquema de las dos vías es parecido, pero las cifras no. En la Guardia Civil el cupo militar de 2026 es de 1.296 plazas de 3.240, alrededor del 40 %. En la Policía Nacional son 541 de 2.704, alrededor del 20 %. Además, la Guardia Civil se resuelve por concurso-oposición con un baremo de hasta 45 puntos de méritos, mientras que en la Policía Nacional las bases de cada convocatoria fijan cómo se valoran los años de servicio y el empleo."
+      },
+      {
+        "t": "h",
+        "x": "Qué hacer desde ahora"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Comprueba cuándo cumples tus cinco años de servicio.",
+          "Mira qué titulación te piden las bases de la última convocatoria y si ya la tienes.",
+          "Empieza el temario con tiempo: el cupo reserva plazas, pero el examen es el que decide quién entra."
+        ]
+      }
     ]
-   }
-  ]
- },
- {
-  "slug": "cupo-militar-vigilancia-aduanera-plazas-requisitos",
-  "date": "2026-10-22",
-  "category": "Cupo a otros cuerpos",
-  "ref": "vigilancia-aduanera",
-  "title": "Cupo militar a Vigilancia Aduanera: plazas reservadas y requisitos",
-  "description": "Vigilancia Aduanera reserva plazas para militares de Tropa y Marinería con cinco años de servicio. Qué se convocó en la última convocatoria, qué especialidad es y qué tienes que comprobar.",
-  "imageAlt": "Lancha patrullera sobre las olas con una brújula",
-  "blocks": [
-   {
-    "t": "p",
-    "x": "Vigilancia Aduanera es la vía más pequeña del cupo militar, pero existe. En la última convocatoria del Cuerpo de Agentes, ocho plazas de la especialidad Marítima se reservaron a militares profesionales de Tropa y Marinería con cinco años de servicio."
-   },
-   {
-    "t": "h",
-    "x": "Qué se convocó"
-   },
-   {
-    "t": "p",
-    "x": "La Agencia Tributaria convocó el proceso selectivo para el Cuerpo de Agentes del Servicio de Vigilancia Aduanera, especialidades de Investigación y Marítima, con la Resolución de 22 de diciembre de 2025, publicada en el BOE el 31 de diciembre de 2025. De las plazas de la especialidad Marítima, ocho se reservaron a militares profesionales de Tropa y Marinería que lleven cinco años de servicios como tales. Esas plazas se cubren por oposición."
-   },
-   {
-    "t": "h",
-    "x": "La especialidad Marítima"
-   },
-   {
-    "t": "p",
-    "x": "La reserva afecta a la especialidad Marítima del Cuerpo de Agentes. Si vienes de la Armada o tienes experiencia en el mar, es la que mejor encaja con tu perfil. Para la especialidad de Investigación, mira en las bases si hay reserva, porque en la fuente que hemos consultado solo se menciona para la Marítima."
-   },
-   {
-    "t": "h",
-    "x": "El requisito principal"
-   },
-   {
-    "t": "p",
-    "x": "Igual que en Guardia Civil y Policía Nacional, tienes que acreditar cinco años de servicios como militar profesional de Tropa y Marinería. El resto de requisitos (edad, titulación, condiciones médicas y pruebas físicas) están en las bases de la convocatoria y conviene leerlos completos, porque cambian de un año a otro."
-   },
-   {
-    "t": "h",
-    "x": "Cuándo es el plazo"
-   },
-   {
-    "t": "p",
-    "x": "El plazo de solicitudes de la última convocatoria fue de veinte días hábiles desde el 1 de enero de 2026. Si quieres presentarte la próxima vez, la norma práctica es sencilla: no esperes a que salga la convocatoria para reunir la documentación de tus servicios."
-   },
-   {
-    "t": "h",
-    "x": "Qué hacer desde ahora"
-   },
-   {
-    "t": "ul",
-    "items": [
-     "Comprueba cuándo cumples tus cinco años de servicio.",
-     "Revisa las bases de la última convocatoria para ver las pruebas físicas y los requisitos médicos.",
-     "Mira el temario de la oposición de Agentes y empieza antes de que se publique la siguiente."
+  },
+  {
+    "slug": "cupo-militar-vigilancia-aduanera-plazas-requisitos",
+    "date": "2026-10-22",
+    "category": "Cupo a otros cuerpos",
+    "ref": "vigilancia-aduanera",
+    "title": "Cupo militar a Vigilancia Aduanera: plazas reservadas y requisitos",
+    "description": "Vigilancia Aduanera reserva plazas para militares de Tropa y Marinería con cinco años de servicio. Qué se convocó en la última convocatoria, qué especialidad es y qué tienes que comprobar.",
+    "imageAlt": "Lancha patrullera sobre las olas con una brújula",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Vigilancia Aduanera es la vía más pequeña del cupo militar, pero existe. En la última convocatoria del Cuerpo de Agentes, ocho plazas de la especialidad Marítima se reservaron a militares profesionales de Tropa y Marinería con cinco años de servicio."
+      },
+      {
+        "t": "h",
+        "x": "Qué se convocó"
+      },
+      {
+        "t": "p",
+        "x": "La Agencia Tributaria convocó el proceso selectivo para el Cuerpo de Agentes del Servicio de Vigilancia Aduanera, especialidades de Investigación y Marítima, con la Resolución de 22 de diciembre de 2025, publicada en el BOE el 31 de diciembre de 2025. De las plazas de la especialidad Marítima, ocho se reservaron a militares profesionales de Tropa y Marinería que lleven cinco años de servicios como tales. Esas plazas se cubren por oposición."
+      },
+      {
+        "t": "h",
+        "x": "La especialidad Marítima"
+      },
+      {
+        "t": "p",
+        "x": "La reserva afecta a la especialidad Marítima del Cuerpo de Agentes. Si vienes de la Armada o tienes experiencia en el mar, es la que mejor encaja con tu perfil. Para la especialidad de Investigación, mira en las bases si hay reserva, porque en la fuente que hemos consultado solo se menciona para la Marítima."
+      },
+      {
+        "t": "h",
+        "x": "El requisito principal"
+      },
+      {
+        "t": "p",
+        "x": "Igual que en Guardia Civil y Policía Nacional, tienes que acreditar cinco años de servicios como militar profesional de Tropa y Marinería. El resto de requisitos (edad, titulación, condiciones médicas y pruebas físicas) están en las bases de la convocatoria y conviene leerlos completos, porque cambian de un año a otro."
+      },
+      {
+        "t": "h",
+        "x": "Cuándo es el plazo"
+      },
+      {
+        "t": "p",
+        "x": "El plazo de solicitudes de la última convocatoria fue de veinte días hábiles desde el 1 de enero de 2026. Si quieres presentarte la próxima vez, la norma práctica es sencilla: no esperes a que salga la convocatoria para reunir la documentación de tus servicios."
+      },
+      {
+        "t": "h",
+        "x": "Qué hacer desde ahora"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Comprueba cuándo cumples tus cinco años de servicio.",
+          "Revisa las bases de la última convocatoria para ver las pruebas físicas y los requisitos médicos.",
+          "Mira el temario de la oposición de Agentes y empieza antes de que se publique la siguiente."
+        ]
+      }
     ]
-   }
-  ]
- },
- {
-  "slug": "guardia-civil-policia-nacional-vigilancia-aduanera-cupo-comparativa",
-  "date": "2026-10-23",
-  "category": "Cupo a otros cuerpos",
-  "ref": "comparativa",
-  "title": "Guardia Civil, Policía Nacional o Vigilancia Aduanera: qué cupo te conviene",
-  "description": "Comparativa del cupo militar en Guardia Civil, Policía Nacional y Vigilancia Aduanera en 2026: plazas reservadas, requisitos de servicio y cómo se resuelve cada proceso.",
-  "imageAlt": "Tres caminos desde un mismo punto hacia tres escudos",
-  "blocks": [
-   {
-    "t": "p",
-    "x": "Los tres cuerpos reservan plazas a militares de Tropa y Marinería, pero no son iguales. Esta es la comparación con las cifras de las últimas convocatorias, para que decidas hacia dónde enfocar tu preparación."
-   },
-   {
-    "t": "h",
-    "x": "Guardia Civil"
-   },
-   {
-    "t": "p",
-    "x": "La Escala de Cabos y Guardias de 2026 ofertó 3.240 plazas, de las que 1.296 fueron para militares de Tropa y Marinería, cerca del 40 %. Se pide un mínimo de cinco años de servicios y no haber finalizado el compromiso. El proceso es un concurso-oposición: el concurso valora tus méritos hasta 45 puntos, y la oposición incluye pruebas de conocimientos, psicotécnica y aptitud psicofísica."
-   },
-   {
-    "t": "h",
-    "x": "Policía Nacional"
-   },
-   {
-    "t": "p",
-    "x": "La oferta de empleo público de 2026 autorizó 2.704 plazas en la Escala Básica, y 541 se reservaron a militares con al menos cinco años de servicios. Es la vía con menos plazas reservadas en proporción que la Guardia Civil, en torno al 20 %."
-   },
-   {
-    "t": "h",
-    "x": "Vigilancia Aduanera"
-   },
-   {
-    "t": "p",
-    "x": "En la convocatoria del Cuerpo de Agentes de finales de 2025, ocho plazas de la especialidad Marítima se reservaron a militares con cinco años de servicios, por el sistema de oposición. Es la opción más pequeña en números y está enfocada a un perfil concreto."
-   },
-   {
-    "t": "h",
-    "x": "Qué tienen en común"
-   },
-   {
-    "t": "p",
-    "x": "Los tres exigen cinco años de servicios como militar profesional de Tropa y Marinería, y los tres obligan a superar un proceso de oposición. Lo que cambia es el número de plazas, la forma de valorar tu carrera militar y el perfil que busca cada cuerpo."
-   },
-   {
-    "t": "h",
-    "x": "Cómo elegir"
-   },
-   {
-    "t": "ul",
-    "items": [
-     "Si buscas la mayor cantidad de plazas, la Guardia Civil es la vía más abierta.",
-     "Si ya tienes la titulación que piden las bases de la Policía Nacional, puede encajar mejor con tu perfil.",
-     "Si vienes de la Armada o tu especialidad tiene que ver con el mar, la especialidad Marítima de Vigilancia Aduanera es la más directa.",
-     "Las convocatorias son independientes, así que nada te impide presentarte a más de un cuerpo si cumples los requisitos de cada uno."
+  },
+  {
+    "slug": "guardia-civil-policia-nacional-vigilancia-aduanera-cupo-comparativa",
+    "date": "2026-10-23",
+    "category": "Cupo a otros cuerpos",
+    "ref": "comparativa",
+    "title": "Guardia Civil, Policía Nacional o Vigilancia Aduanera: qué cupo te conviene",
+    "description": "Comparativa del cupo militar en Guardia Civil, Policía Nacional y Vigilancia Aduanera en 2026: plazas reservadas, requisitos de servicio y cómo se resuelve cada proceso.",
+    "imageAlt": "Tres caminos desde un mismo punto hacia tres escudos",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Los tres cuerpos reservan plazas a militares de Tropa y Marinería, pero no son iguales. Esta es la comparación con las cifras de las últimas convocatorias, para que decidas hacia dónde enfocar tu preparación."
+      },
+      {
+        "t": "h",
+        "x": "Guardia Civil"
+      },
+      {
+        "t": "p",
+        "x": "La Escala de Cabos y Guardias de 2026 ofertó 3.240 plazas, de las que 1.296 fueron para militares de Tropa y Marinería, cerca del 40 %. Se pide un mínimo de cinco años de servicios y no haber finalizado el compromiso. El proceso es un concurso-oposición: el concurso valora tus méritos hasta 45 puntos, y la oposición incluye pruebas de conocimientos, psicotécnica y aptitud psicofísica."
+      },
+      {
+        "t": "h",
+        "x": "Policía Nacional"
+      },
+      {
+        "t": "p",
+        "x": "La oferta de empleo público de 2026 autorizó 2.704 plazas en la Escala Básica, y 541 se reservaron a militares con al menos cinco años de servicios. Es la vía con menos plazas reservadas en proporción que la Guardia Civil, en torno al 20 %."
+      },
+      {
+        "t": "h",
+        "x": "Vigilancia Aduanera"
+      },
+      {
+        "t": "p",
+        "x": "En la convocatoria del Cuerpo de Agentes de finales de 2025, ocho plazas de la especialidad Marítima se reservaron a militares con cinco años de servicios, por el sistema de oposición. Es la opción más pequeña en números y está enfocada a un perfil concreto."
+      },
+      {
+        "t": "h",
+        "x": "Qué tienen en común"
+      },
+      {
+        "t": "p",
+        "x": "Los tres exigen cinco años de servicios como militar profesional de Tropa y Marinería, y los tres obligan a superar un proceso de oposición. Lo que cambia es el número de plazas, la forma de valorar tu carrera militar y el perfil que busca cada cuerpo."
+      },
+      {
+        "t": "h",
+        "x": "Cómo elegir"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Si buscas la mayor cantidad de plazas, la Guardia Civil es la vía más abierta.",
+          "Si ya tienes la titulación que piden las bases de la Policía Nacional, puede encajar mejor con tu perfil.",
+          "Si vienes de la Armada o tu especialidad tiene que ver con el mar, la especialidad Marítima de Vigilancia Aduanera es la más directa.",
+          "Las convocatorias son independientes, así que nada te impide presentarte a más de un cuerpo si cumples los requisitos de cada uno."
+        ]
+      }
     ]
-   }
-  ]
- },
- {
-  "slug": "documentos-reunir-cupo-militar-antes-de-la-convocatoria",
-  "date": "2026-10-24",
-  "category": "Cupo a otros cuerpos",
-  "ref": "documentos",
-  "title": "Qué papeles reunir antes de que salga la convocatoria del cupo",
-  "description": "Lista de lo que conviene tener preparado antes de presentarte al cupo militar: acreditación de servicios, titulaciones, idiomas, permisos y fechas clave, para no ir con prisas cuando salga la convocatoria.",
-  "imageAlt": "Carpeta de archivo con hojas y una lista de comprobación",
-  "blocks": [
-   {
-    "t": "p",
-    "x": "Los plazos de solicitud del cupo son de semanas, y las bases piden acreditar méritos con documentos. Tenerlos listos con antelación es la forma más barata de ganar tiempo y de no perder puntos por un papel que no encuentras."
-   },
-   {
-    "t": "h",
-    "x": "Tus servicios y tu empleo"
-   },
-   {
-    "t": "p",
-    "x": "Todos los cuerpos piden acreditar cinco años de servicios como militar profesional de Tropa y Marinería. Conviene saber con antelación cómo se solicita esa acreditación en tu unidad y cuánto tarda, porque no siempre es inmediata. Lo mismo para el empleo que tienes, que puntúa en el baremo de la Guardia Civil: 2,40 puntos si eres Cabo y 3,60 si eres Cabo Primero."
-   },
-   {
-    "t": "h",
-    "x": "Titulaciones, idiomas y permisos"
-   },
-   {
-    "t": "p",
-    "x": "En el baremo de la Guardia Civil, los méritos académicos (titulaciones e idiomas certificados) pueden pesar más que los años de servicio: en la convocatoria de 2025 llegaron a 27 de los 45 puntos del concurso. Reúne los títulos y certificados que ya tienes, y mira si alguno de los que te faltan puedes conseguirlo antes de la próxima convocatoria."
-   },
-   {
-    "t": "h",
-    "x": "Datos personales y documentación general"
-   },
-   {
-    "t": "p",
-    "x": "Prepara también lo básico que se pide en cualquier proceso: documento de identidad, certificados de titulación y, según el cuerpo, permiso de conducir. La lista exacta está en las bases de cada convocatoria."
-   },
-   {
-    "t": "h",
-    "x": "Fechas y tasas"
-   },
-   {
-    "t": "p",
-    "x": "En la Guardia Civil de 2026, la solicitud se presentó solo por vía telemática, en quince días hábiles, con una tasa de 11,66 euros. Si te haces el certificado digital con tiempo, no dependes de que funcione justo el último día."
-   },
-   {
-    "t": "h",
-    "x": "Una lista para tener a mano"
-   },
-   {
-    "t": "ul",
-    "items": [
-     "Fecha en que cumples cinco años de servicio.",
-     "Acreditación de servicios y de empleo, o cómo pedirla.",
-     "Titulaciones y certificados de idiomas, escaneados.",
-     "Permisos de conducción y otros documentos que puntuarán.",
-     "Certificado digital o Cl@ve operativos."
+  },
+  {
+    "slug": "documentos-reunir-cupo-militar-antes-de-la-convocatoria",
+    "date": "2026-10-24",
+    "category": "Cupo a otros cuerpos",
+    "ref": "documentos",
+    "title": "Qué papeles reunir antes de que salga la convocatoria del cupo",
+    "description": "Lista de lo que conviene tener preparado antes de presentarte al cupo militar: acreditación de servicios, titulaciones, idiomas, permisos y fechas clave, para no ir con prisas cuando salga la convocatoria.",
+    "imageAlt": "Carpeta de archivo con hojas y una lista de comprobación",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Los plazos de solicitud del cupo son de semanas, y las bases piden acreditar méritos con documentos. Tenerlos listos con antelación es la forma más barata de ganar tiempo y de no perder puntos por un papel que no encuentras."
+      },
+      {
+        "t": "h",
+        "x": "Tus servicios y tu empleo"
+      },
+      {
+        "t": "p",
+        "x": "Todos los cuerpos piden acreditar cinco años de servicios como militar profesional de Tropa y Marinería. Conviene saber con antelación cómo se solicita esa acreditación en tu unidad y cuánto tarda, porque no siempre es inmediata. Lo mismo para el empleo que tienes, que puntúa en el baremo de la Guardia Civil: 2,40 puntos si eres Cabo y 3,60 si eres Cabo Primero."
+      },
+      {
+        "t": "h",
+        "x": "Titulaciones, idiomas y permisos"
+      },
+      {
+        "t": "p",
+        "x": "En el baremo de la Guardia Civil, los méritos académicos (titulaciones e idiomas certificados) pueden pesar más que los años de servicio: en la convocatoria de 2025 llegaron a 27 de los 45 puntos del concurso. Reúne los títulos y certificados que ya tienes, y mira si alguno de los que te faltan puedes conseguirlo antes de la próxima convocatoria."
+      },
+      {
+        "t": "h",
+        "x": "Datos personales y documentación general"
+      },
+      {
+        "t": "p",
+        "x": "Prepara también lo básico que se pide en cualquier proceso: documento de identidad, certificados de titulación y, según el cuerpo, permiso de conducir. La lista exacta está en las bases de cada convocatoria."
+      },
+      {
+        "t": "h",
+        "x": "Fechas y tasas"
+      },
+      {
+        "t": "p",
+        "x": "En la Guardia Civil de 2026, la solicitud se presentó solo por vía telemática, en quince días hábiles, con una tasa de 11,66 euros. Si te haces el certificado digital con tiempo, no dependes de que funcione justo el último día."
+      },
+      {
+        "t": "h",
+        "x": "Una lista para tener a mano"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Fecha en que cumples cinco años de servicio.",
+          "Acreditación de servicios y de empleo, o cómo pedirla.",
+          "Titulaciones y certificados de idiomas, escaneados.",
+          "Permisos de conducción y otros documentos que puntuarán.",
+          "Certificado digital o Cl@ve operativos."
+        ]
+      }
     ]
-   }
-  ]
- },
- {
-  "slug": "calendario-convocatorias-2026-militares-cupo-permanencia",
-  "date": "2026-10-25",
-  "category": "Convocatorias",
-  "ref": "calendario",
-  "title": "Calendario de convocatorias 2026 para militares: fechas que no puedes perder",
-  "description": "Cuándo salieron en 2026 las convocatorias de Policía Nacional, Guardia Civil, Vigilancia Aduanera y Permanencia, y qué patrón puedes usar para anticipar las del año que viene.",
-  "imageAlt": "Calendario de pared con cuatro fechas marcadas",
-  "blocks": [
-   {
-    "t": "p",
-    "x": "Las convocatorias no salen todas a la vez ni avisan con mucho margen. Mirar en qué fechas salieron este año te da una referencia para organizarte, aunque cada año puede cambiar."
-   },
-   {
-    "t": "h",
-    "x": "Lo que ocurrió en 2026"
-   },
-   {
-    "t": "ul",
-    "items": [
-     "<strong>Vigilancia Aduanera:</strong> la convocatoria del Cuerpo de Agentes salió en el BOE del 31 de diciembre de 2025, con veinte días hábiles de plazo desde el 1 de enero de 2026.",
-     "<strong>Policía Nacional:</strong> la oferta de empleo público se aprobó con el Real Decreto 207/2026, de 11 de marzo, y se publicó en el BOE del 13 de marzo de 2026.",
-     "<strong>Guardia Civil:</strong> la Escala de Cabos y Guardias se convocó en el BOE número 112, del 8 de mayo de 2026, con plazo de solicitudes del 11 de mayo al 1 de junio.",
-     "<strong>Permanencia:</strong> la convocatoria de 2026 salió en el Boletín Oficial de Defensa número 116, con pruebas físicas hacia mediados de octubre y examen de conocimientos hacia mediados de noviembre."
+  },
+  {
+    "slug": "calendario-convocatorias-2026-militares-cupo-permanencia",
+    "date": "2026-10-25",
+    "category": "Convocatorias",
+    "ref": "calendario",
+    "title": "Calendario de convocatorias 2026 para militares: fechas que no puedes perder",
+    "description": "Cuándo salieron en 2026 las convocatorias de Policía Nacional, Guardia Civil, Vigilancia Aduanera y Permanencia, y qué patrón puedes usar para anticipar las del año que viene.",
+    "imageAlt": "Calendario de pared con cuatro fechas marcadas",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Las convocatorias no salen todas a la vez ni avisan con mucho margen. Mirar en qué fechas salieron este año te da una referencia para organizarte, aunque cada año puede cambiar."
+      },
+      {
+        "t": "h",
+        "x": "Lo que ocurrió en 2026"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "<strong>Vigilancia Aduanera:</strong> la convocatoria del Cuerpo de Agentes salió en el BOE del 31 de diciembre de 2025, con veinte días hábiles de plazo desde el 1 de enero de 2026.",
+          "<strong>Policía Nacional:</strong> la oferta de empleo público se aprobó con el Real Decreto 207/2026, de 11 de marzo, y se publicó en el BOE del 13 de marzo de 2026.",
+          "<strong>Guardia Civil:</strong> la Escala de Cabos y Guardias se convocó en el BOE número 112, del 8 de mayo de 2026, con plazo de solicitudes del 11 de mayo al 1 de junio.",
+          "<strong>Permanencia:</strong> la convocatoria de 2026 salió en el Boletín Oficial de Defensa número 116, con pruebas físicas hacia mediados de octubre y examen de conocimientos hacia mediados de noviembre."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "Qué patrón puedes sacar"
+      },
+      {
+        "t": "p",
+        "x": "En 2026 el primer proceso en moverse fue Vigilancia Aduanera, a final de año, y la Guardia Civil abrió su plazo en mayo. Si el patrón se repite, lo razonable es tener la documentación de tus servicios lista antes de que acabe el año, no cuando salga cada convocatoria."
+      },
+      {
+        "t": "h",
+        "x": "Qué preparar antes de que salgan"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "El certificado de tus servicios y de tu empleo.",
+          "Las titulaciones, idiomas y permisos que puntuarán en los baremos.",
+          "Tu temario y tus tests ya en marcha, porque los plazos de solicitud son de semanas, no de meses."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "Qué no sabemos todavía"
+      },
+      {
+        "t": "p",
+        "x": "No hay fechas oficiales de las convocatorias de 2027. Cuando se publiquen las ofertas de empleo público, las anotaremos aquí."
+      }
     ]
-   },
-   {
-    "t": "h",
-    "x": "Qué patrón puedes sacar"
-   },
-   {
-    "t": "p",
-    "x": "En 2026 el primer proceso en moverse fue Vigilancia Aduanera, a final de año, y la Guardia Civil abrió su plazo en mayo. Si el patrón se repite, lo razonable es tener la documentación de tus servicios lista antes de que acabe el año, no cuando salga cada convocatoria."
-   },
-   {
-    "t": "h",
-    "x": "Qué preparar antes de que salgan"
-   },
-   {
-    "t": "ul",
-    "items": [
-     "El certificado de tus servicios y de tu empleo.",
-     "Las titulaciones, idiomas y permisos que puntuarán en los baremos.",
-     "Tu temario y tus tests ya en marcha, porque los plazos de solicitud son de semanas, no de meses."
+  },
+  {
+    "slug": "ascenso-cabo-cabo-primero-cabo-mayor-requisitos",
+    "date": "2026-10-26",
+    "category": "Ascensos",
+    "ref": "ascensos",
+    "title": "Ascenso a Cabo, Cabo Primero y Cabo Mayor: requisitos y cómo se consigue",
+    "description": "Cómo se asciende a Cabo, Cabo Primero y Cabo Mayor en Tropa y Marinería: sistema de selección, cursos, número de convocatorias y qué puntúa en cada empleo.",
+    "imageAlt": "Escalera de tres peldaños con galones de uno, dos y tres trazos",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Subir de empleo en Tropa y Marinería no depende solo de los años que lleves. Cada escalón tiene su propio sistema de selección y sus propios requisitos, y conviene conocerlos con tiempo porque de ellos depende también tu puntuación si más adelante te presentas al cupo militar de la Guardia Civil o de la Policía Nacional."
+      },
+      {
+        "t": "h",
+        "x": "Qué norma lo regula"
+      },
+      {
+        "t": "p",
+        "x": "Los ascensos de Tropa y Marinería los regula el Real Decreto 168/2009, de 13 de febrero, que derogó el reglamento anterior de 2006. Si encuentras guías antiguas con otros plazos o cifras, probablemente se refieren a la norma derogada."
+      },
+      {
+        "t": "h",
+        "x": "Cabo: concurso o concurso-oposición"
+      },
+      {
+        "t": "p",
+        "x": "El ascenso a Cabo se resuelve por concurso o por concurso-oposición. Los tiempos de servicio exigidos no están en el real decreto: los fija el Ministerio de Defensa y deben ser continuados y en el mismo Ejército o Armada. Para presentarte necesitas además haber superado la evaluación previa, que te declara apto o no apto."
+      },
+      {
+        "t": "h",
+        "x": "Cabo Primero: concurso-oposición y curso de actualización"
+      },
+      {
+        "t": "p",
+        "x": "El ascenso a Cabo Primero se hace por concurso-oposición. La fase de concurso pesa entre el 30 y el 50 % del total. Es obligatorio superar un curso de actualización, y los asistentes se seleccionan con ese mismo procedimiento."
+      },
+      {
+        "t": "h",
+        "x": "Cabo Mayor: elección"
+      },
+      {
+        "t": "p",
+        "x": "El ascenso a Cabo Mayor no es por oposición, sino por elección. Para optar tienes que ser Cabo Primero con la condición de militar de carrera y contar con el título de Técnico del sistema educativo general o equivalente. También hay un curso de actualización obligatorio, con un número limitado de plazas. Las evaluaciones tienen un máximo de dos, salvo circunstancias excepcionales."
+      },
+      {
+        "t": "h",
+        "x": "Cuántas veces puedes intentarlo"
+      },
+      {
+        "t": "p",
+        "x": "Para Cabo y Cabo Primero el máximo es de cuatro convocatorias por empleo. Si renuncias de forma expresa antes de que se publiquen los resultados del concurso, esa convocatoria no se te cuenta."
+      },
+      {
+        "t": "h",
+        "x": "Por qué importa para el cupo"
+      },
+      {
+        "t": "p",
+        "x": "En el baremo del cupo a la Guardia Civil, ser Cabo suma 2,40 puntos y ser Cabo Primero 3,60. Subir un empleo mejora tu puntuación de forma directa, además de tu sueldo y tus funciones."
+      }
     ]
-   },
-   {
-    "t": "h",
-    "x": "Qué no sabemos todavía"
-   },
-   {
-    "t": "p",
-    "x": "No hay fechas oficiales de las convocatorias de 2027. Cuando se publiquen las ofertas de empleo público, las anotaremos aquí."
-   }
-  ]
- },
- {
-  "slug": "ascenso-cabo-cabo-primero-cabo-mayor-requisitos",
-  "date": "2026-10-26",
-  "category": "Ascensos",
-  "ref": "ascensos",
-  "title": "Ascenso a Cabo, Cabo Primero y Cabo Mayor: requisitos y cómo se consigue",
-  "description": "Cómo se asciende a Cabo, Cabo Primero y Cabo Mayor en Tropa y Marinería: sistema de selección, cursos, número de convocatorias y qué puntúa en cada empleo.",
-  "imageAlt": "Escalera de tres peldaños con galones de uno, dos y tres trazos",
-  "blocks": [
-   {
-    "t": "p",
-    "x": "Subir de empleo en Tropa y Marinería no depende solo de los años que lleves. Cada escalón tiene su propio sistema de selección y sus propios requisitos, y conviene conocerlos con tiempo porque de ellos depende también tu puntuación si más adelante te presentas al cupo militar de la Guardia Civil o de la Policía Nacional."
-   },
-   {
-    "t": "h",
-    "x": "Qué norma lo regula"
-   },
-   {
-    "t": "p",
-    "x": "Los ascensos de Tropa y Marinería los regula el Real Decreto 168/2009, de 13 de febrero, que derogó el reglamento anterior de 2006. Si encuentras guías antiguas con otros plazos o cifras, probablemente se refieren a la norma derogada."
-   },
-   {
-    "t": "h",
-    "x": "Cabo: concurso o concurso-oposición"
-   },
-   {
-    "t": "p",
-    "x": "El ascenso a Cabo se resuelve por concurso o por concurso-oposición. Los tiempos de servicio exigidos no están en el real decreto: los fija el Ministerio de Defensa y deben ser continuados y en el mismo Ejército o Armada. Para presentarte necesitas además haber superado la evaluación previa, que te declara apto o no apto."
-   },
-   {
-    "t": "h",
-    "x": "Cabo Primero: concurso-oposición y curso de actualización"
-   },
-   {
-    "t": "p",
-    "x": "El ascenso a Cabo Primero se hace por concurso-oposición. La fase de concurso pesa entre el 30 y el 50 % del total. Es obligatorio superar un curso de actualización, y los asistentes se seleccionan con ese mismo procedimiento."
-   },
-   {
-    "t": "h",
-    "x": "Cabo Mayor: elección"
-   },
-   {
-    "t": "p",
-    "x": "El ascenso a Cabo Mayor no es por oposición, sino por elección. Para optar tienes que ser Cabo Primero con la condición de militar de carrera y contar con el título de Técnico del sistema educativo general o equivalente. También hay un curso de actualización obligatorio, con un número limitado de plazas. Las evaluaciones tienen un máximo de dos, salvo circunstancias excepcionales."
-   },
-   {
-    "t": "h",
-    "x": "Cuántas veces puedes intentarlo"
-   },
-   {
-    "t": "p",
-    "x": "Para Cabo y Cabo Primero el máximo es de cuatro convocatorias por empleo. Si renuncias de forma expresa antes de que se publiquen los resultados del concurso, esa convocatoria no se te cuenta."
-   },
-   {
-    "t": "h",
-    "x": "Por qué importa para el cupo"
-   },
-   {
-    "t": "p",
-    "x": "En el baremo del cupo a la Guardia Civil, ser Cabo suma 2,40 puntos y ser Cabo Primero 3,60. Subir un empleo mejora tu puntuación de forma directa, además de tu sueldo y tus funciones."
-   }
-  ]
- },
- {
-  "slug": "convocatorias-permanencia-ascenso-tropa-marineria-cuantas-intentos",
-  "date": "2026-10-27",
-  "category": "Permanencia y ascensos",
-  "ref": "convocatorias",
-  "title": "Cuántas convocatorias tienes en Tropa y Marinería y cuándo cuenta una que no apruebas",
-  "description": "Cuántos intentos tienes para ascender o para obtener la condición de militar de carrera en Tropa y Marinería, y en qué casos renunciar o no ser declarado apto consume convocatoria.",
-  "imageAlt": "Cinco fichas, tres rellenas y dos vacías, sobre un calendario",
-  "blocks": [
-   {
-    "t": "p",
-    "x": "En Tropa y Marinería los intentos son limitados, y saber exactamente cuándo se gasta uno puede ahorrarte un disgusto. Las reglas no son las mismas para ascender que para pasar a militar de carrera."
-   },
-   {
-    "t": "h",
-    "x": "Ascensos a Cabo y Cabo Primero"
-   },
-   {
-    "t": "p",
-    "x": "El máximo es de cuatro convocatorias por empleo. Si renuncias de forma expresa antes de que se publiquen los resultados del concurso, esa convocatoria no se te cuenta. Si en la fase de evaluación previa se te declara no apto, tampoco cuenta como convocatoria."
-   },
-   {
-    "t": "h",
-    "x": "Acceso a militar de carrera (Permanencia)"
-   },
-   {
-    "t": "p",
-    "x": "Tienes tres convocatorias ordinarias y dos extraordinarias. Las extraordinarias se consideran comisiones de servicio no indemnizables, y la última debe realizarse en los cinco años anteriores al final de tu compromiso de larga duración. La renuncia no cuenta como convocatoria si la comunicas antes de que se publiquen los resultados del concurso de la fase selectiva."
-   },
-   {
-    "t": "h",
-    "x": "La diferencia clave: ser declarado no apto"
-   },
-   {
-    "t": "p",
-    "x": "Aquí está la trampa. En la Permanencia, un no apto en la evaluación te deja fuera del proceso selectivo y sí cuenta como convocatoria. En los ascensos a Cabo y Cabo Primero, un no apto en la evaluación previa no consume convocatoria."
-   },
-   {
-    "t": "h",
-    "x": "Qué hacer con esto"
-   },
-   {
-    "t": "ul",
-    "items": [
-     "Lleva la cuenta de las convocatorias que has agotado en cada vía.",
-     "Si ves que no vas a llegar bien preparado, renunciar antes de los resultados puede ser mejor que presentarte y gastar el intento.",
-     "Planifica la última convocatoria extraordinaria con margen respecto al final de tu compromiso."
+  },
+  {
+    "slug": "convocatorias-permanencia-ascenso-tropa-marineria-cuantas-intentos",
+    "date": "2026-10-27",
+    "category": "Permanencia y ascensos",
+    "ref": "convocatorias",
+    "title": "Cuántas convocatorias tienes en Tropa y Marinería y cuándo cuenta una que no apruebas",
+    "description": "Cuántos intentos tienes para ascender o para obtener la condición de militar de carrera en Tropa y Marinería, y en qué casos renunciar o no ser declarado apto consume convocatoria.",
+    "imageAlt": "Cinco fichas, tres rellenas y dos vacías, sobre un calendario",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "En Tropa y Marinería los intentos son limitados, y saber exactamente cuándo se gasta uno puede ahorrarte un disgusto. Las reglas no son las mismas para ascender que para pasar a militar de carrera."
+      },
+      {
+        "t": "h",
+        "x": "Ascensos a Cabo y Cabo Primero"
+      },
+      {
+        "t": "p",
+        "x": "El máximo es de cuatro convocatorias por empleo. Si renuncias de forma expresa antes de que se publiquen los resultados del concurso, esa convocatoria no se te cuenta. Si en la fase de evaluación previa se te declara no apto, tampoco cuenta como convocatoria."
+      },
+      {
+        "t": "h",
+        "x": "Acceso a militar de carrera (Permanencia)"
+      },
+      {
+        "t": "p",
+        "x": "Tienes tres convocatorias ordinarias y dos extraordinarias. Las extraordinarias se consideran comisiones de servicio no indemnizables, y la última debe realizarse en los cinco años anteriores al final de tu compromiso de larga duración. La renuncia no cuenta como convocatoria si la comunicas antes de que se publiquen los resultados del concurso de la fase selectiva."
+      },
+      {
+        "t": "h",
+        "x": "La diferencia clave: ser declarado no apto"
+      },
+      {
+        "t": "p",
+        "x": "Aquí está la trampa. En la Permanencia, un no apto en la evaluación te deja fuera del proceso selectivo y sí cuenta como convocatoria. En los ascensos a Cabo y Cabo Primero, un no apto en la evaluación previa no consume convocatoria."
+      },
+      {
+        "t": "h",
+        "x": "Qué hacer con esto"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lleva la cuenta de las convocatorias que has agotado en cada vía.",
+          "Si ves que no vas a llegar bien preparado, renunciar antes de los resultados puede ser mejor que presentarte y gastar el intento.",
+          "Planifica la última convocatoria extraordinaria con margen respecto al final de tu compromiso."
+        ]
+      }
     ]
-   }
-  ]
- },
- {
-  "slug": "examen-penalizacion-un-tercio-contestar-o-dejar-en-blanco",
-  "date": "2026-10-28",
-  "category": "Examen",
-  "ref": "examen",
-  "title": "Examen con penalización: cuándo contestar y cuándo dejar en blanco",
-  "description": "En un examen tipo test de cuatro opciones donde cada fallo resta un tercio, contestar al azar no compensa. Las cuentas para saber cuándo conviene arriesgar y cuándo dejar en blanco.",
-  "imageAlt": "Hoja de examen con cuatro casillas y una balanza",
-  "blocks": [
-   {
-    "t": "p",
-    "x": "En el examen de Permanencia cada fallo resta un tercio del valor de un acierto y las preguntas en blanco no penalizan. Con esa regla, la decisión de contestar o no contestar es una cuenta que conviene tener hecha antes de entrar al examen."
-   },
-   {
-    "t": "h",
-    "x": "La regla"
-   },
-   {
-    "t": "p",
-    "x": "El examen tiene 100 preguntas con cuatro alternativas, 120 minutos de tiempo y una penalización de un tercio por fallo. Un acierto suma 1 punto, un fallo resta 0,33 y una pregunta en blanco ni suma ni resta."
-   },
-   {
-    "t": "h",
-    "x": "Si no sabes nada: dejarla en blanco"
-   },
-   {
-    "t": "p",
-    "x": "Si contestas al azar entre cuatro opciones, aciertas una de cada cuatro. Eso son 0,25 puntos esperados por los aciertos menos 0,25 por los fallos (tres de cada cuatro, a 0,33 cada uno). El resultado es cero: no ganas ni pierdes de media, pero asumes la varianza. Si no tienes ninguna pista, dejarla en blanco es igual de bueno y más tranquilo."
-   },
-   {
-    "t": "h",
-    "x": "Si puedes descartar una opción: compensa"
-   },
-   {
-    "t": "p",
-    "x": "Si eliminas una de las cuatro y eliges entre tres, tienes un tercio de probabilidad de acertar. Esperas ganar un tercio de punto por acierto y perder dos tercios de 0,33, unos 0,22. El balance es positivo, alrededor de 0,11 puntos por pregunta. Con dos opciones descartadas, el balance sube a unos 0,33."
-   },
-   {
-    "t": "h",
-    "x": "La regla práctica"
-   },
-   {
-    "t": "ul",
-    "items": [
-     "Sin ninguna opción descartada: en blanco.",
-     "Con una descartada: contesta, pero sin dedicarle mucho tiempo.",
-     "Con dos o más descartadas: contesta siempre."
+  },
+  {
+    "slug": "examen-penalizacion-un-tercio-contestar-o-dejar-en-blanco",
+    "date": "2026-10-28",
+    "category": "Examen",
+    "ref": "examen",
+    "title": "Examen con penalización: cuándo contestar y cuándo dejar en blanco",
+    "description": "En un examen tipo test de cuatro opciones donde cada fallo resta un tercio, contestar al azar no compensa. Las cuentas para saber cuándo conviene arriesgar y cuándo dejar en blanco.",
+    "imageAlt": "Hoja de examen con cuatro casillas y una balanza",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "En el examen de Permanencia cada fallo resta un tercio del valor de un acierto y las preguntas en blanco no penalizan. Con esa regla, la decisión de contestar o no contestar es una cuenta que conviene tener hecha antes de entrar al examen."
+      },
+      {
+        "t": "h",
+        "x": "La regla"
+      },
+      {
+        "t": "p",
+        "x": "El examen tiene 100 preguntas con cuatro alternativas, 120 minutos de tiempo y una penalización de un tercio por fallo. Un acierto suma 1 punto, un fallo resta 0,33 y una pregunta en blanco ni suma ni resta."
+      },
+      {
+        "t": "h",
+        "x": "Si no sabes nada: dejarla en blanco"
+      },
+      {
+        "t": "p",
+        "x": "Si contestas al azar entre cuatro opciones, aciertas una de cada cuatro. Eso son 0,25 puntos esperados por los aciertos menos 0,25 por los fallos (tres de cada cuatro, a 0,33 cada uno). El resultado es cero: no ganas ni pierdes de media, pero asumes la varianza. Si no tienes ninguna pista, dejarla en blanco es igual de bueno y más tranquilo."
+      },
+      {
+        "t": "h",
+        "x": "Si puedes descartar una opción: compensa"
+      },
+      {
+        "t": "p",
+        "x": "Si eliminas una de las cuatro y eliges entre tres, tienes un tercio de probabilidad de acertar. Esperas ganar un tercio de punto por acierto y perder dos tercios de 0,33, unos 0,22. El balance es positivo, alrededor de 0,11 puntos por pregunta. Con dos opciones descartadas, el balance sube a unos 0,33."
+      },
+      {
+        "t": "h",
+        "x": "La regla práctica"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Sin ninguna opción descartada: en blanco.",
+          "Con una descartada: contesta, pero sin dedicarle mucho tiempo.",
+          "Con dos o más descartadas: contesta siempre."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "Entrénalo antes del examen"
+      },
+      {
+        "t": "p",
+        "x": "No se aprende en el propio examen. En un simulacro con cronómetro y la misma penalización, apunta cuántas dejaste en blanco y cuántas de las que contestaste con duda acertaste. En un par de simulacros verás si tu intuición es mejor o peor de lo que crees."
+      }
     ]
-   },
-   {
-    "t": "h",
-    "x": "Entrénalo antes del examen"
-   },
-   {
-    "t": "p",
-    "x": "No se aprende en el propio examen. En un simulacro con cronómetro y la misma penalización, apunta cuántas dejaste en blanco y cuántas de las que contestaste con duda acertaste. En un par de simulacros verás si tu intuición es mejor o peor de lo que crees."
-   }
-  ]
- },
- {
-  "slug": "como-estudiar-oposicion-militar-trabajando-plan-semanal",
-  "date": "2026-10-29",
-  "category": "Preparación",
-  "ref": "estudio",
-  "title": "Cómo estudiar para el examen de militar trabajando en una unidad",
-  "description": "Un plan de estudio realista para militares de Tropa y Marinería que preparan Permanencia o cupo mientras trabajan: cuánto tiempo reservar, cómo repartirlo y cómo aprovechar los huecos.",
-  "imageAlt": "Libro abierto, móvil con lista de tareas y reloj de arena",
-  "blocks": [
-   {
-    "t": "p",
-    "x": "Estudiar mientras sirves en una unidad significa guardias, ejercicios, desplazamientos y semanas en las que no controlas tu horario. Por eso el plan que funciona no es el de estudiar muchas horas, sino el de estudiar con constancia y adaptarlo a tu servicio."
-   },
-   {
-    "t": "h",
-    "x": "Planifica por semanas, no por días"
-   },
-   {
-    "t": "p",
-    "x": "Tu horario cambia, así que un plan de \"dos horas cada tarde\" se rompe a la primera guardia. Es mejor fijar un objetivo semanal, por ejemplo cubrir un tema y hacer un test de ese tema, y repartirlo según lo que puedas cada día. Si una semana no llegas, la siguiente se recupera sin culpa."
-   },
-   {
-    "t": "h",
-    "x": "Aprovecha los huecos cortos"
-   },
-   {
-    "t": "p",
-    "x": "Las sesiones de veinte o treinta minutos funcionan si son concretas: un bloque de preguntas de un solo tema, un repaso de lo que fallaste el día anterior o escuchar un tema en el trayecto. Para esto sirve tener el temario en el móvil y poder hacer tests por tema sin ordenador."
-   },
-   {
-    "t": "h",
-    "x": "Alterna estudio y práctica"
-   },
-   {
-    "t": "p",
-    "x": "Leer un tema no basta. Después de cada uno, haz preguntas de ese tema el mismo día o al siguiente y repasa los fallos antes de pasar al siguiente. Cada fallo que entiendes te cuesta menos que repetirlo en el examen."
-   },
-   {
-    "t": "h",
-    "x": "Reserva las semanas de simulacro"
-   },
-   {
-    "t": "p",
-    "x": "En las semanas finales deja de aprender temas nuevos y haz exámenes completos con cronómetro, para acostumbrarte al ritmo y a decidir qué preguntas dejar en blanco. Si el examen es de 100 preguntas en 120 minutos, entrenar con ese formato se nota."
-   },
-   {
-    "t": "h",
-    "x": "Cuida el descanso y la parte física"
-   },
-   {
-    "t": "p",
-    "x": "Las pruebas físicas también puntúan o eliminan, así que no sacrifiques tu entrenamiento por estudiar más. Una semana con buen descanso rinde más que otra de estudio con sueño recortado."
-   }
-  ]
- }
+  },
+  {
+    "slug": "como-estudiar-oposicion-militar-trabajando-plan-semanal",
+    "date": "2026-10-29",
+    "category": "Preparación",
+    "ref": "estudio",
+    "title": "Cómo estudiar para el examen de militar trabajando en una unidad",
+    "description": "Un plan de estudio realista para militares de Tropa y Marinería que preparan Permanencia o cupo mientras trabajan: cuánto tiempo reservar, cómo repartirlo y cómo aprovechar los huecos.",
+    "imageAlt": "Libro abierto, móvil con lista de tareas y reloj de arena",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Estudiar mientras sirves en una unidad significa guardias, ejercicios, desplazamientos y semanas en las que no controlas tu horario. Por eso el plan que funciona no es el de estudiar muchas horas, sino el de estudiar con constancia y adaptarlo a tu servicio."
+      },
+      {
+        "t": "h",
+        "x": "Planifica por semanas, no por días"
+      },
+      {
+        "t": "p",
+        "x": "Tu horario cambia, así que un plan de \"dos horas cada tarde\" se rompe a la primera guardia. Es mejor fijar un objetivo semanal, por ejemplo cubrir un tema y hacer un test de ese tema, y repartirlo según lo que puedas cada día. Si una semana no llegas, la siguiente se recupera sin culpa."
+      },
+      {
+        "t": "h",
+        "x": "Aprovecha los huecos cortos"
+      },
+      {
+        "t": "p",
+        "x": "Las sesiones de veinte o treinta minutos funcionan si son concretas: un bloque de preguntas de un solo tema, un repaso de lo que fallaste el día anterior o escuchar un tema en el trayecto. Para esto sirve tener el temario en el móvil y poder hacer tests por tema sin ordenador."
+      },
+      {
+        "t": "h",
+        "x": "Alterna estudio y práctica"
+      },
+      {
+        "t": "p",
+        "x": "Leer un tema no basta. Después de cada uno, haz preguntas de ese tema el mismo día o al siguiente y repasa los fallos antes de pasar al siguiente. Cada fallo que entiendes te cuesta menos que repetirlo en el examen."
+      },
+      {
+        "t": "h",
+        "x": "Reserva las semanas de simulacro"
+      },
+      {
+        "t": "p",
+        "x": "En las semanas finales deja de aprender temas nuevos y haz exámenes completos con cronómetro, para acostumbrarte al ritmo y a decidir qué preguntas dejar en blanco. Si el examen es de 100 preguntas en 120 minutos, entrenar con ese formato se nota."
+      },
+      {
+        "t": "h",
+        "x": "Cuida el descanso y la parte física"
+      },
+      {
+        "t": "p",
+        "x": "Las pruebas físicas también puntúan o eliminan, así que no sacrifiques tu entrenamiento por estudiar más. Una semana con buen descanso rinde más que otra de estudio con sueño recortado."
+      }
+    ]
+  },
+  {
+    "slug": "pruebas-fisicas-guardia-civil-policia-nacional-cupo-marcas",
+    "date": "2026-10-31",
+    "category": "Pruebas físicas",
+    "ref": "blog-pruebas-fisicas",
+    "title": "Pruebas físicas de Guardia Civil y Policía Nacional por el cupo: marcas de la última convocatoria",
+    "description": "Qué pruebas físicas hay en Guardia Civil y Policía Nacional, qué marcas pedían las bases de 2026 y por qué conviene entrenarlas con bastantes meses de margen.",
+    "imageAlt": "Un cronómetro, una pesa rusa y un silbato junto a una valla",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Las pruebas físicas son el filtro donde más gente se cae aunque el estudio vaya bien. Como militar de Tropa y Marinería partes con ventaja, pero las marcas de la Guardia Civil y de la Policía Nacional no son las de tu unidad, y conviene conocerlas con meses de antelación."
+      },
+      {
+        "t": "p",
+        "x": "Un aviso antes de empezar. Lo que lees aquí sale de las bases de las convocatorias de 2026 publicadas en el BOE. Cada año se publican unas nuevas y las marcas pueden cambiar, así que úsalas como referencia para entrenar y confirma siempre las de la convocatoria abierta."
+      },
+      {
+        "t": "h",
+        "x": "Guardia Civil: cuatro pruebas de apto o no apto"
+      },
+      {
+        "t": "p",
+        "x": "En la convocatoria de la Escala de Cabos y Guardias de 2026 (Resolución 160/38243/2026, BOE del 8 de mayo) las pruebas son resistencia, circuito de coordinación, potencia del tren superior y soltura acuática. No hay nota. El resultado es apto o no apto, y quien no supera todos los ejercicios queda fuera."
+      },
+      {
+        "t": "p",
+        "x": "Estas son las marcas para menores de 35 años, tiempo máximo en las carreras y en el agua, y repeticiones mínimas en la de brazos:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Resistencia, 2.000 metros: 9 min 25 s los hombres y 11 min 14 s las mujeres.",
+          "Coordinación, circuito: 14,00 s los hombres y 16,00 s las mujeres.",
+          "Potencia del tren superior: 16 repeticiones los hombres y 11 las mujeres.",
+          "Soltura acuática, 50 metros: 70 s los hombres y 81 s las mujeres."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Para quienes tienen entre 35 y 39 años, y para los de 40 en adelante, las marcas se relajan. La tabla completa está en el Apéndice II de las bases."
+      },
+      {
+        "t": "p",
+        "x": "Fíjate en los intentos. La resistencia y la natación se hacen en un único intento. El circuito y la prueba de brazos tienen dos, con descanso entre ellos. Y antes de empezar tienes que entregar un certificado médico oficial emitido en los 20 días anteriores. Sin él, quedas excluido."
+      },
+      {
+        "t": "h",
+        "x": "Policía Nacional: tres ejercicios con nota"
+      },
+      {
+        "t": "p",
+        "x": "La convocatoria de la Escala Básica de 2026 (Resolución de 7 de julio, BOE del 10 de julio) incluye un circuito de agilidad con vallas, un ejercicio de fuerza y una carrera de 1.000 metros. En el de fuerza los hombres hacen dominadas, y las mujeres tienen un ejercicio distinto. Cada ejercicio se puntúa de 0 a 10. Un 0 en cualquiera te elimina, y necesitas una media de 5 para aprobar."
+      },
+      {
+        "t": "p",
+        "x": "En el circuito de agilidad hay un corte que no admite discusión: 11,7 segundos o más para los hombres y 12,8 o más para las mujeres supone la eliminación. Tienes un intento, y un segundo solo si el primero se declara nulo."
+      },
+      {
+        "t": "p",
+        "x": "Las marcas para puntuar en dominadas, en el ejercicio de las mujeres y en los 1.000 metros están en el Anexo II de las bases. Míralas en el BOE con la convocatoria abierta delante, porque esa tabla es la que cuenta. También se exige un certificado médico que acredite que puedes hacer las pruebas, y conviene mirar en las bases cuándo hay que entregarlo."
+      },
+      {
+        "t": "h",
+        "x": "Cuándo llegas a las físicas"
+      },
+      {
+        "t": "p",
+        "x": "En la Policía Nacional las pruebas van en orden y eliminatorias: primero conocimientos, después aptitud física y al final la tercera prueba, que reúne el reconocimiento médico, la entrevista y los test psicotécnicos. Solo se evalúa cada prueba a quien superó la anterior. En la Guardia Civil la fase psicofísica viene después de la oposición, y a ella se convoca a 1,5 aspirantes por plaza ofertada. Es decir, entrenas ahora para una prueba que quizá hagas dentro de unos meses."
+      },
+      {
+        "t": "h",
+        "x": "Cómo entrenar sabiendo las marcas"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Empieza por la prueba que peor se te da. En la Guardia Civil un solo fallo te deja fuera aunque el resto salga perfecto.",
+          "Entrena con margen. Si la marca exigida son 14,00 s en el circuito, apunta a bajar de 13 y medio, porque el día del examen hay nervios y suelo desconocido.",
+          "Practica el circuito y la natación con cronómetro y con la técnica propia de cada prueba, además de la forma física general.",
+          "La natación es la que más fácil se descuida. Si llevas tiempo sin meterte en una piscina, empieza antes de lo que crees necesario.",
+          "Haz un reconocimiento médico deportivo con antelación para llegar con el certificado sin prisas."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Cuando salga la próxima convocatoria, compara las tablas con las de 2026. Si coinciden, ya llevarás ventaja. Si cambian, el trabajo de base te servirá igual."
+      }
+    ]
+  },
+  {
+    "slug": "reconocimiento-medico-guardia-civil-policia-exclusiones-cupo",
+    "date": "2026-11-01",
+    "category": "Reconocimiento médico",
+    "ref": "blog-reconocimiento-medico",
+    "title": "Reconocimiento médico para Guardia Civil y Policía Nacional: qué se mira y qué te puede dejar fuera",
+    "description": "Cómo es el reconocimiento médico de Guardia Civil y Policía Nacional, qué cuadro de exclusiones se aplica y ejemplos de causas con cifras, como IMC o tensión.",
+    "imageAlt": "Un fonendoscopio, una báscula y una carpeta clínica",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "El reconocimiento médico asusta más de lo que debería, sobre todo porque mucha gente no sabe qué se mira. Nadie te pide estar perfecto. Lo que se comprueba es que no tengas ninguna de las causas que figuran en un cuadro médico de exclusiones, y ese cuadro es público."
+      },
+      {
+        "t": "p",
+        "x": "Antes de entrar en detalle, una advertencia. Los cuadros se han modificado varias veces y los tribunales han anulado partes de ellos. Lo que ves aquí está tomado de las convocatorias de 2026 y de las normas que citan. Si tienes una duda concreta sobre tu caso, llévala a tu médico con el texto oficial delante."
+      },
+      {
+        "t": "h",
+        "x": "Qué cuadro se aplica en cada cuerpo"
+      },
+      {
+        "t": "p",
+        "x": "En la Guardia Civil, las bases de 2026 remiten al anexo I de la Orden PCI/155/2019, de 19 de febrero, con la referencia a la sentencia del Tribunal Supremo de 21 de febrero de 2023. Esa orden se modificó en 2021 mediante la Orden PCM/521/2021, que eliminó el VIH, la diabetes, la enfermedad celiaca y la psoriasis como causas de exclusión."
+      },
+      {
+        "t": "p",
+        "x": "En la Policía Nacional se aplica el Real Decreto 326/2021, de 11 de mayo. La convocatoria deja sin aplicar los puntos 2 y 10 del apartado de visión por otra sentencia del Tribunal Supremo, de 16 de febrero de 2023, que los declaró nulos."
+      },
+      {
+        "t": "h",
+        "x": "Cómo es el reconocimiento"
+      },
+      {
+        "t": "p",
+        "x": "En la Guardia Civil forma parte de la fase psicofísica y el resultado puede ser apto, no apto o no apto circunstancial. Si te dan un no apto, puedes pedir revisión ante una Junta Médica de Revisión en un plazo de tres días hábiles. En la Policía Nacional es una de las partes de la tercera prueba, y se califica como apto o no apto. Incluye análisis de saliva, sangre y orina, y negarte a hacerlos implica la exclusión. Además, un no apto solo procede si la causa tiene intensidad suficiente."
+      },
+      {
+        "t": "h",
+        "x": "Ejemplos de causas con cifras"
+      },
+      {
+        "t": "p",
+        "x": "El cuadro es largo y está dividido por aparatos: piel, digestivo, locomotor, visión, audición, neurología y psiquiatría, sangre, entre otros. Algunas causas llevan cifras, y son las que conviene comprobar antes con tu médico:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Índice de masa corporal. En la Guardia Civil debe estar entre 17 y 30, y en la Policía Nacional entre 18 y 28. Por encima se admite si se debe a musculatura desarrollada y no a grasa, sin patología añadida.",
+          "Tensión arterial. En ambos cuerpos las cifras de 140 mm Hg de sistólica o 90 de diastólica son motivo de exclusión.",
+          "Columna. Una cifosis superior a 45 grados o una escoliosis superior a 15 grados.",
+          "Visión cromática. No se admiten discromatopsias, que son las alteraciones en la percepción de los colores. Las lentes fáquicas tampoco.",
+          "Apnea obstructiva del sueño, en ambos cuadros.",
+          "Consumo de drogas, con detección analítica en el propio reconocimiento.",
+          "En la Policía Nacional, las hernias de cualquier tipo, incluidas las pequeñas, y el asma bronquial persistente."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Hay otras causas con cifras, como las de audición o las de refracción. Las encuentras en el anexo de cada norma, y varían según el cuerpo."
+      },
+      {
+        "t": "h",
+        "x": "Lo que ya no te deja fuera"
+      },
+      {
+        "t": "p",
+        "x": "Mucha gente se descarta sola por cosas que ya no excluyen. En la Guardia Civil, desde 2021 el VIH, la diabetes, la enfermedad celiaca y la psoriasis no son causas de exclusión. En la Policía Nacional, el preámbulo del real decreto indica que diabetes, psoriasis y VIH no excluyen por el diagnóstico en sí. Solo se tienen en cuenta si resultan incompatibles con la función policial, y esa decisión debe motivarse con un informe técnico individual. La enfermedad celiaca no es causa de exclusión."
+      },
+      {
+        "t": "h",
+        "x": "No es del cuadro médico, pero se mira"
+      },
+      {
+        "t": "p",
+        "x": "Los tatuajes no figuran en el cuadro médico, pero las bases de la Guardia Civil los regulan entre los requisitos. Se exige no tener tatuajes con expresiones o imágenes contrarias a los valores constitucionales o a la disciplina. Los tatuajes visibles con el uniforme de uso general se permiten si no incurren en esas prohibiciones. También están prohibidos los piercings visibles, salvo pendientes, y los implantes subcutáneos y similares."
+      },
+      {
+        "t": "h",
+        "x": "Qué hacer antes de presentarte"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Descarga el anexo de la norma y repásalo con tu médico, apartado por apartado.",
+          "Mide tu IMC y tu tensión con antelación, y repite la tensión en reposo.",
+          "Reúne los informes de cualquier operación o lesión antigua, sobre todo del aparato locomotor.",
+          "Si tienes algo que figura en el cuadro, consulta con un especialista si tu caso concreto entra o no en la causa."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Y mira la convocatoria vigente. El cuadro que se aplique será el que citen sus bases, y puede cambiar de un año a otro."
+      }
+    ]
+  },
+  {
+    "slug": "cupo-militar-o-plaza-libre-diferencias-cuando-conviene",
+    "date": "2026-11-02",
+    "category": "Cupo a otros cuerpos",
+    "ref": "blog-cupo-o-libre",
+    "title": "Cupo militar o plaza libre: diferencias reales y cuándo conviene cada una",
+    "description": "Plazas reservadas o libres en Guardia Civil y Policía Nacional: cifras de 2026, requisitos, puntos por servicios y en qué casos te interesa una vía u otra.",
+    "imageAlt": "Dos puertas de distinta altura con una balanza entre ellas",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Si llevas varios años en Tropa y Marinería, probablemente alguien ya te ha dicho que \"por el cupo es más fácil\". Esa frase se queda corta. Hay diferencias reales entre presentarte por las plazas reservadas y hacerlo por las libres, y algunas juegan a tu favor y otras no."
+      },
+      {
+        "t": "p",
+        "x": "Las cifras que siguen son de las convocatorias de 2026. El año que viene serán otras, así que sirven para entender el mecanismo."
+      },
+      {
+        "t": "h",
+        "x": "Cuántas plazas hay en cada vía"
+      },
+      {
+        "t": "p",
+        "x": "En la Guardia Civil se convocaron 3.240 plazas. De ellas, 1.296 estaban reservadas a militares profesionales de Tropa y Marinería con al menos cinco años de servicios efectivos, 240 a alumnos del Colegio de Guardias Jóvenes y 1.704 eran libres. La reserva equivale al 40 % de las plazas."
+      },
+      {
+        "t": "p",
+        "x": "En la Policía Nacional, de las 2.704 plazas de la Escala Básica, 541 eran para militares de Tropa y Marinería con cinco años de servicio y 2.163 de oposición libre. Es algo más del 20 %."
+      },
+      {
+        "t": "p",
+        "x": "En ambos casos las plazas reservadas que no se cubren se suman a las libres. Es decir, no se pierden, pero tampoco te las regalan: hay que aprobar igual."
+      },
+      {
+        "t": "h",
+        "x": "Compites en una lista aparte"
+      },
+      {
+        "t": "p",
+        "x": "La Policía Nacional ordena a los aspirantes en dos listas, una para las plazas reservadas y otra para las libres. En la Guardia Civil los aprobados se ordenan por puntuación dentro de cada modalidad de ingreso. En la práctica, si vas por el cupo compites con otros militares y no con el resto de opositores, y eso cambia las cuentas de cada plaza."
+      },
+      {
+        "t": "h",
+        "x": "Los méritos puntúan distinto"
+      },
+      {
+        "t": "p",
+        "x": "En la Guardia Civil el concurso de méritos llega a 45 puntos. Para las plazas reservadas, el servicio como Tropa y Marinería da 0,90 puntos por año completo, hasta un máximo de 9, y el empleo suma aparte: 2,40 como Cabo y 3,60 como Cabo Primero. En las plazas libres también cuenta el tiempo de servicio en la Administración General del Estado, incluido el militar, a 0,90 puntos por año completo."
+      },
+      {
+        "t": "p",
+        "x": "En la Policía Nacional el baremo suma 0,15 puntos por año completo de servicio en las Fuerzas Armadas, hasta 1,5, y un extra por el empleo más alto que hayas alcanzado: 0,10 por Cabo, 0,15 por Cabo Primero y 0,20 por Cabo Mayor. Esos puntos se añaden a quien supera la oposición."
+      },
+      {
+        "t": "h",
+        "x": "Requisitos que no cambian con la vía"
+      },
+      {
+        "t": "p",
+        "x": "El cupo no te exime de nada. Sigues necesitando el permiso de conducción B y pasar el reconocimiento médico y las pruebas físicas. Y las dos convocatorias piden titulaciones distintas: la Guardia Civil el acceso a Formación Profesional de Grado Medio, por ejemplo la ESO, y la Policía Nacional el Bachiller o equivalente. Si tienes la ESO y no el Bachiller, tu opción real es la Guardia Civil. En edad también hay una diferencia. La Guardia Civil exigía haber cumplido 18 años en 2026 y no tener 41 o más. La Policía Nacional pide no exceder la edad máxima de jubilación en el cuerpo."
+      },
+      {
+        "t": "h",
+        "x": "Qué no cambia aunque vayas por el cupo"
+      },
+      {
+        "t": "p",
+        "x": "Las pruebas son las mismas. Un militar con diez años de servicio y un civil que se presenta por libre hacen el mismo examen de conocimientos, los mismos tests y las mismas marcas físicas, y los dos pasan por el mismo reconocimiento médico. Lo que cambia es la lista en la que quedas y los puntos que te suman por tus servicios."
+      },
+      {
+        "t": "h",
+        "x": "Cuándo conviene el cupo"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Cuando ya tienes los cinco años de servicio a la fecha en que cierra el plazo de instancias.",
+          "Cuando tu compromiso sigue vivo y no has pedido la renuncia a tu condición militar, porque el certificado lo exige.",
+          "Cuando vas a la Guardia Civil y tu empleo suma puntos, como Cabo o Cabo Primero."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "Cuándo toca la plaza libre"
+      },
+      {
+        "t": "p",
+        "x": "Si a la fecha de cierre no llegas a cinco años, no puedes ir por las reservadas. En la Policía Nacional, quien no acredite el requisito se adscribe a las plazas de turno libre. Y si no tienes el Bachiller, la Policía Nacional queda fuera con cualquiera de las dos vías, mientras que la Guardia Civil te deja entrar con la ESO."
+      },
+      {
+        "t": "h",
+        "x": "Qué pasa con tu compromiso"
+      },
+      {
+        "t": "p",
+        "x": "Según las bases de la Guardia Civil, el compromiso del militar de Tropa y Marinería se resuelve al ser nombrado alumno. Si no completas el acceso, un militar con compromiso de larga duración puede reincorporarse a las Fuerzas Armadas en las mismas condiciones. Lee esa base con calma antes de dar el paso."
+      }
+    ]
+  },
+  {
+    "slug": "certificado-servicios-militar-tropa-marineria-como-pedirlo-unidad",
+    "date": "2026-11-03",
+    "category": "Documentación",
+    "ref": "blog-certificado-servicios",
+    "title": "Cómo pedir a tu unidad el certificado de servicios y el resto de papeles militares",
+    "description": "Qué documentos militares piden Guardia Civil y Policía Nacional, qué debe decir el certificado de servicios y cómo pedirlo a tu unidad con tiempo y sin sustos.",
+    "imageAlt": "Una carpeta con sello dorado, una hoja con lazo y un sobre",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Entre todos los papeles de la oposición, los de tu vida militar son los que no puedes conseguir tú solo. Dependen de tu unidad, de una firma y de un sello. Por eso conviene saber qué se pide, cuándo se pide y qué tiene que decir cada documento."
+      },
+      {
+        "t": "p",
+        "x": "Todo lo que sigue sale de las bases de 2026 de la Guardia Civil y de la Policía Nacional. Las de la próxima convocatoria pueden variar, pero la lógica suele repetirse."
+      },
+      {
+        "t": "h",
+        "x": "El certificado de militar profesional de Tropa y Marinería"
+      },
+      {
+        "t": "p",
+        "x": "En la Guardia Civil es el documento del Apéndice VI de las bases. Lo expide el jefe de la unidad, centro u organismo donde sirves. Certifica que los datos son fiel reflejo de los que constan en tu historial militar y que, a la fecha de incorporación, se cumplen tres cosas:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Eres militar profesional de Tropa y Marinería y completas cinco años de servicios efectivos a la fecha en que cierra el plazo de instancias.",
+          "No has finalizado tu compromiso ni se te ha denegado la ampliación.",
+          "No has solicitado la renuncia a tu condición de militar profesional de Tropa y Marinería."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Sirve para justificar que perteneces a las Fuerzas Armadas y que tienes derecho a las plazas reservadas."
+      },
+      {
+        "t": "h",
+        "x": "Cuándo se pide cada papel"
+      },
+      {
+        "t": "p",
+        "x": "Aquí hay una diferencia entre cuerpos. En la Guardia Civil, con la solicitud no se aporta el certificado. En la inscripción indicas los méritos, que luego tendrás que justificar. El certificado de militar de Tropa y Marinería y una copia de la Hoja General de Servicios se entregan al incorporarte, que en 2026 fue el 13 de octubre. La Hoja General de Servicios también hay que llevarla a la entrevista."
+      },
+      {
+        "t": "p",
+        "x": "En la Policía Nacional, las bases dicen que los cinco años de servicio hay que acreditarlos documentalmente al presentar la instancia, y que quien no lo hace pasa al turno libre. Las bases no detallan qué documento ni quién lo expide, así que pregunta a tu unidad y guarda la respuesta por escrito. Después, el día de la entrevista, se presenta el documento que acredite tus servicios en las Fuerzas Armadas."
+      },
+      {
+        "t": "h",
+        "x": "Otros papeles que te van a pedir"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Hoja General de Servicios, con tu historial.",
+          "Certificación de pertenencia y tiempo de servicios en las Fuerzas Armadas, si no autorizas la consulta de tus datos. En la Guardia Civil se pide cuando lo indique el Tribunal.",
+          "Documentos de los méritos que alegues, como el perfil lingüístico STANAG 6001 si lo tienes. Quien no presenta un mérito pierde esos puntos."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "Cómo pedirlo a tu unidad"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Pregunta en tu unidad quién tramita estos certificados y qué plazo suelen necesitar. Hazlo semanas antes, no días.",
+          "Pídelo por escrito y di para qué lo necesitas: ingreso en la Guardia Civil o en la Policía Nacional, por las plazas reservadas.",
+          "Comprueba la fecha en la que cumples los cinco años de servicio y el día en que cierra el plazo de instancias de la convocatoria.",
+          "Asegúrate de que tu compromiso sigue vigente y de que no hay una renuncia registrada a tu nombre.",
+          "Revisa los datos al recibirlo: empleo, fechas de ingreso, unidad y firma.",
+          "Guarda varias copias y una versión escaneada."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "Dos fechas que se confunden"
+      },
+      {
+        "t": "p",
+        "x": "Los cinco años se cuentan a la fecha en que cierra el plazo de instancias, y no a la de incorporación. Es un error fácil. Si cumples los cinco años una semana después del cierre, para esa convocatoria no cuentas con ellos, aunque cuando te incorpores ya los tengas. Mira la fecha de tu empleo en la Hoja General de Servicios y haz la cuenta con el calendario de la convocatoria."
+      },
+      {
+        "t": "p",
+        "x": "Con los méritos pasa algo parecido. En la Guardia Civil solo cuentan los que alegas en la inscripción telemática y posees cuando termina el plazo de solicitudes. Los méritos militares se comprueban consultando las bases de datos del Ministerio de Defensa, siempre que hayas autorizado la consulta. Si no la autorizas, tendrás que aportar tú la certificación de servicios."
+      },
+      {
+        "t": "h",
+        "x": "Cuánto tiempo tienes"
+      },
+      {
+        "t": "p",
+        "x": "Como referencia, en 2026 las bases de la Guardia Civil se publicaron el 8 de mayo y la incorporación a la academia fue el 13 de octubre. Los papeles militares se piden hacia el final, pero tu unidad no trabaja al ritmo de la convocatoria. Un jefe de unidad que está de maniobras o de comisión de servicio no firma ese día. Adelantarte te quita el problema."
+      },
+      {
+        "t": "p",
+        "x": "Haz la petición con tiempo. No esperes a que te la pidan el último día."
+      }
+    ]
+  },
+  {
+    "slug": "test-psicotecnico-guardia-civil-policia-preparar-gratis",
+    "date": "2026-11-04",
+    "category": "Psicotécnico",
+    "ref": "blog-psicotecnico",
+    "title": "Test psicotécnico: cómo prepararlo sin gastar dinero",
+    "description": "Qué piden los test psicotécnicos de Guardia Civil y Policía Nacional según las bases de 2026, qué nota mínima exigen y cómo entrenarlos gratis con método.",
+    "imageAlt": "Un rompecabezas geométrico, fichas con símbolos y un reloj de arena",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "El psicotécnico tiene fama de prueba que se prepara con academias y libros caros. No hace falta. Con las bases de la convocatoria en la mano y un poco de método, puedes entrenarlo gratis."
+      },
+      {
+        "t": "h",
+        "x": "Qué dicen las bases"
+      },
+      {
+        "t": "p",
+        "x": "En la Guardia Civil, según la convocatoria de 2026, la prueba de aptitudes intelectuales tiene 80 preguntas tipo test y 55 minutos en total, incluida la lectura de las instrucciones. Cada pregunta tiene una sola respuesta válida. Las erróneas penalizan y las no contestadas no. Se puntúa de 0 a 30 y hay que sacar al menos 12 para ser apto."
+      },
+      {
+        "t": "p",
+        "x": "En la Policía Nacional, la parte psicotécnica de la tercera prueba son uno o varios test de aptitudes generales y específicas, con un máximo de 60 minutos. Se califica como apto o no apto, y el tribunal fija la puntuación mínima."
+      },
+      {
+        "t": "p",
+        "x": "Hay un detalle que se pasa por alto. Ninguna de las dos convocatorias detalla qué tipos de pregunta incluye el test. Hablan de tests de inteligencia general o de escalas que miden aprendizaje, análisis, razonamiento y potencial cognitivo. Por eso conviene practicar los tipos habituales de razonamiento, sin casarte con un formato."
+      },
+      {
+        "t": "h",
+        "x": "El perfil de personalidad"
+      },
+      {
+        "t": "p",
+        "x": "Además de las aptitudes, la Guardia Civil evalúa rasgos de personalidad, actitudes y motivación mediante test. Las bases no le asignan puntuación ni mínimo, y dicen que sus resultados podrán tenerse en cuenta para valorar tu adecuación al perfil profesional. En la Policía Nacional estos test de personalidad van en la entrevista, como información complementaria, y la valoración no puede depender solo de ellos. Aquí no hay nada que memorizar. Contesta con calma y con coherencia."
+      },
+      {
+        "t": "h",
+        "x": "Las cuentas del tiempo"
+      },
+      {
+        "t": "p",
+        "x": "Con 80 preguntas en 55 minutos te salen unos 41 segundos por pregunta. Eso es poco. Si te quedas pensando en una de ellas durante dos minutos, pierdes el tiempo de otras tres. Entrena con ese ritmo desde el primer día, porque la velocidad se gana con repetición."
+      },
+      {
+        "t": "h",
+        "x": "Cómo entrenar sin gastar"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Pide en la biblioteca de tu municipio libros de psicotécnicos y de razonamiento. Suelen tener ediciones de oposiciones.",
+          "Busca los test de práctica gratuitos que ofrecen muchas academias y webs de oposiciones. Mira solo los que se ajusten a 80 preguntas y 55 minutos.",
+          "Haz series numéricas, de letras y de figuras en un cuaderno. Puedes inventarlas tú mismo, y cada una que resuelves te entrena mejor que leer la solución.",
+          "Entrena con cronómetro. Una sesión corta y exigente rinde más que una larga y relajada.",
+          "Revisa los fallos. Apunta de qué tipo era cada uno y vuelve a hacer ese tipo de pregunta al día siguiente."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "Cuánto pesa en tu nota"
+      },
+      {
+        "t": "p",
+        "x": "En la Guardia Civil, la psicotécnica entra en la fórmula de la fase de oposición con un peso de 30, frente a 100 del examen de conocimientos generales y 20 del inglés. No es la prueba que más suma, pero el mínimo de 12 sobre 30 es eliminatorio. Quien no lo alcanza queda excluido, por buenas que hayan sido el resto de notas."
+      },
+      {
+        "t": "h",
+        "x": "Tres tipos de ejercicio para empezar"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Series numéricas. Por ejemplo, 3, 6, 12, 24 y lo que sigue. Se trata de descubrir la regla, que a veces es una multiplicación y a veces una suma que va creciendo.",
+          "Analogías verbales. Perro es a ladrar como gato es a maullar. Entrenan el vocabulario y la lógica de relación entre palabras.",
+          "Series de figuras y matrices. Hay que fijarse en qué cambia de una figura a la siguiente: giro, color, número de elementos."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Estos son ejemplos de los tipos habituales de razonamiento, no una lista oficial de lo que saldrá en el examen."
+      },
+      {
+        "t": "h",
+        "x": "La penalización"
+      },
+      {
+        "t": "p",
+        "x": "Recuerda que en el test de la Guardia Civil las erróneas penalizan. La fórmula exacta figura en las bases de cada convocatoria, y conviene mirarla. Mientras tanto, la idea de fondo es la misma que en el examen de conocimientos: si no tienes ninguna pista, valora dejarla en blanco."
+      },
+      {
+        "t": "h",
+        "x": "Un plan de tres semanas"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Primera semana: familiarízate con los tipos de pregunta y resuélvelas sin tiempo, para entender el método.",
+          "Segunda semana: haz sesiones de 20 minutos con cronómetro y revisa los fallos.",
+          "Tercera semana: simulacros completos de 80 preguntas en 55 minutos, a la hora a la que sueles examinarte."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Duerme bien la noche antes. En una prueba de razonamiento contrarreloj, el cansancio resta más que unas horas menos de práctica."
+      }
+    ]
+  },
+  {
+    "slug": "estudiar-por-turnos-guardias-cuantas-horas-semana",
+    "date": "2026-11-05",
+    "category": "Preparación",
+    "ref": "blog-turnos",
+    "title": "Estudiar con turnos y guardias: cuántas horas y cómo repartirlas en la semana",
+    "description": "Si haces guardias y turnos, olvida las horas por día. Un método semanal con bloques fijos para estudiar la oposición de militar según tus descansos y guardias.",
+    "imageAlt": "Un cuadrante semanal, un reloj de arena, un libro y una luna",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Cuando haces turnos, la pregunta «cuánto estudio al día» no tiene respuesta, porque no hay dos días iguales. Hoy sales de guardia a las ocho de la mañana, mañana entras a las tres y el jueves no sabes a qué hora acabas. Funciona mejor otra pregunta: cuántas horas puedo reunir en el ciclo completo de turnos."
+      },
+      {
+        "t": "h",
+        "x": "Cuenta horas por ciclo, no por día"
+      },
+      {
+        "t": "p",
+        "x": "Coge tu cuadrante y mira el ciclo entero, sea de una semana o de tres. Anota qué días son de servicio, cuáles de descanso y cuáles de recuperación tras una noche. Sobre esa foto reparte las horas."
+      },
+      {
+        "t": "p",
+        "x": "Como punto de partida, entre siete y diez horas semanales de estudio real bastan para sostener un ritmo sin quemarte. Es una recomendación mía, no una cifra de ninguna convocatoria. Si tienes más margen, sube. Si no lo tienes, no te castigues: ajusta según lo que midas en los tests."
+      },
+      {
+        "t": "h",
+        "x": "Asigna cada tipo de día a una tarea"
+      },
+      {
+        "t": "p",
+        "x": "Una hora después de una guardia de noche no vale lo mismo que una hora en un día libre. Por eso conviene decidir de antemano qué se hace en cada tipo de día, en lugar de improvisar con la cabeza cansada."
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Día de descanso completo: tema nuevo o el más difícil, en dos bloques con pausa.",
+          "Servicio de mañana: un test corto por la tarde, de un solo tema.",
+          "Servicio de tarde o noche: repaso de fallos por la mañana, o inglés.",
+          "Día de salida de guardia: dormir primero. Después, como mucho, un test ligero.",
+          "Víspera de guardia larga: nada nuevo, solo tarjetas de repaso."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "Trabaja con tres bloques fijos"
+      },
+      {
+        "t": "p",
+        "x": "Las horas se escurren, los bloques se pueden mover. Usa tres piezas y cámbialas de sitio según te deje el cuadrante."
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Bloque largo, 90 minutos: tema nuevo y esquema propio.",
+          "Bloque corto, 25 minutos: test de un tema.",
+          "Bloque de fallos, 20 minutos: repasar por qué fallaste cada pregunta."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Una semana de unas ocho horas puede ser tres bloques largos, cinco cortos y cuatro de fallos. Si te toca una semana de guardias seguidas, haces uno largo y todos los cortos que quepan."
+      },
+      {
+        "t": "h",
+        "x": "Reparte también por materias"
+      },
+      {
+        "t": "p",
+        "x": "La primera prueba de la convocatoria de Guardia Civil de 2026 reunía en una misma sesión ortografía, gramática, conocimientos generales e inglés, según el BOE. Las bases cambian entre convocatorias, así que mira siempre las de la última. Pero el reparto te da una idea útil: inglés y gramática se estudian en pastillas de diez o quince minutos, y esas pastillas caben en cualquier turno."
+      },
+      {
+        "t": "h",
+        "x": "Un ciclo de ejemplo"
+      },
+      {
+        "t": "p",
+        "x": "Imagina un ciclo de cuatro días: mañana, tarde, noche y descanso. En el día de mañana sales a las tres y haces un bloque corto a media tarde. En el de tarde estudias por la mañana, antes de entrar, y ese es tu bloque de fallos. Tras la noche duermes y no estudias, o haces diez minutos de tarjetas si te apetece. En el descanso caben los dos bloques largos. Resultado: dos bloques largos, un corto y uno de fallos por ciclo, sin forzar ningún día."
+      },
+      {
+        "t": "h",
+        "x": "Cuando el turno cambia a última hora"
+      },
+      {
+        "t": "p",
+        "x": "Los cambios de cuadrante son parte del oficio. Si te mueven un servicio, no rehagas el plan: arrastra los bloques que se han quedado sin hueco al siguiente día libre y descarta los bloques cortos antes que los largos. Lo que no puedes es acumularlos todos para el fin de semana, porque esa montaña no se estudia."
+      },
+      {
+        "t": "h",
+        "x": "Define tus mínimos"
+      },
+      {
+        "t": "p",
+        "x": "Escribe qué haces cuando la semana se tuerce. Por ejemplo, un test de 25 minutos y un repaso de fallos. Con eso la semana cuenta y el hábito sigue vivo. Una semana de mínimos es normal. Tres seguidas indican que el plan es demasiado grande para tu servicio y toca recortarlo."
+      },
+      {
+        "t": "h",
+        "x": "La revisión del domingo"
+      },
+      {
+        "t": "p",
+        "x": "Dedica quince minutos, antes de que empiece la semana, a mirar tu cuadrante y colocar los bloques en los huecos reales. Ponlos en el calendario del móvil con hora. Un bloque sin hora suele quedarse sin hacer."
+      },
+      {
+        "t": "h",
+        "x": "No sacrifiques el sueño ni el entrenamiento"
+      },
+      {
+        "t": "p",
+        "x": "Las pruebas físicas de las convocatorias de 2026 de Guardia Civil y Policía Nacional pueden dejarte fuera del proceso. Quitar horas de sueño o de entrenamiento para estudiar más sale caro. Ajusta antes el número de bloques que el descanso."
+      },
+      {
+        "t": "p",
+        "x": "Cada dos o tres semanas haz un test completo y compara con el anterior. Si subes, el plan funciona aunque lo hayas cumplido a medias. Si no sube, cambia primero el tipo de bloque (más fallos y menos lectura) y solo después la cantidad de horas."
+      }
+    ]
+  },
+  {
+    "slug": "destino-lejos-cambio-unidad-seguir-preparando-oposicion",
+    "date": "2026-11-06",
+    "category": "Preparación",
+    "ref": "blog-cambio-destino",
+    "title": "Te destinan lejos o cambias de unidad: cómo seguir preparando la oposición",
+    "description": "Un cambio de destino no te saca de la oposición, pero mueve papeles y rutinas. Qué trámites revisar y cómo mantener el estudio y el entrenamiento allí.",
+    "imageAlt": "Una maleta, un mapa con chincheta, una carpeta y una brújula",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Llega el aviso: te cambian de unidad o te destinan a otra provincia. Entre la mudanza, el nuevo jefe y las rutinas por montar, la oposición pasa a segundo plano. Conviene que no se quede ahí, y para eso ayuda saber qué cambia y qué sigue igual."
+      },
+      {
+        "t": "h",
+        "x": "Lo que mira la convocatoria"
+      },
+      {
+        "t": "p",
+        "x": "Las convocatorias de 2026 de Guardia Civil y Policía Nacional exigen cinco años de servicio como militar profesional de tropa y marinería, contados hasta la fecha en que termina el plazo de solicitudes. La de Guardia Civil añade que no hayas terminado tu compromiso con las Fuerzas Armadas en esa fecha. Ninguna de las dos habla de en qué unidad o en qué ciudad estás destinado."
+      },
+      {
+        "t": "p",
+        "x": "Aun así, lee cómo define la convocatoria los «servicios efectivos» de la Guardia Civil. Si has pasado por situaciones especiales, como una excedencia, comprueba con tu unidad si ese tiempo se computa."
+      },
+      {
+        "t": "h",
+        "x": "Trámites que conviene revisar"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Certificado de militar profesional. Según la convocatoria de Guardia Civil de 2026, lo expide el jefe de la unidad donde prestas servicios y acredita que tienes cinco años de servicio, que no has terminado el compromiso y que no has pedido la renuncia. Si cambias de unidad, ese jefe será otro. Avísale con tiempo.",
+          "Hoja General de Servicios. La misma convocatoria pide una copia al incorporarte al centro de formación. Pídela cuando te hagas con tu nuevo destino y guárdala.",
+          "Datos de contacto. Las listas y avisos se publican en las webs oficiales de cada convocatoria, no en tu unidad. Mira esas webs con regularidad, estés donde estés.",
+          "Permiso por mudanza. La Orden DEF/253/2015 da un día por traslado de domicilio sin cambio de localidad de destino. Si el traslado viene de un cambio de destino, se aplican los plazos del reglamento de destinos."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "La solicitud no depende de tu unidad"
+      },
+      {
+        "t": "p",
+        "x": "En las dos convocatorias de 2026 la solicitud es telemática. En Guardia Civil se presenta por la Sede Electrónica con identificación por Cl@ve o certificado, y la presentación incluye el pago de la tasa y la firma electrónica. Puedes hacerlo desde cualquier sitio. Deja la identificación electrónica lista antes de la mudanza para no perder días."
+      },
+      {
+        "t": "h",
+        "x": "Compromiso y fechas"
+      },
+      {
+        "t": "p",
+        "x": "La Ley 8/2006, de Tropa y Marinería, permite resolver el compromiso de larga duración a petición del interesado con un preaviso de tres meses. Lo menciono como dato para que lo tengas en cuenta con las fechas, porque la convocatoria de Guardia Civil de 2026 exige no haber terminado el compromiso cuando acaba el plazo de solicitudes. Pedir una baja o un cambio de situación por tu cuenta, en pleno traslado, puede dejarte sin cumplir un requisito. Consulta antes con personal."
+      },
+      {
+        "t": "h",
+        "x": "Permisos para ir a las pruebas"
+      },
+      {
+        "t": "p",
+        "x": "La Orden DEF/253/2015 reconoce el tiempo indispensable para exámenes finales y pruebas definitivas de aptitud en centros oficiales, incluidos los desplazamientos. El texto que he podido consultar no menciona de forma expresa las pruebas selectivas de acceso a otros cuerpos. Por eso, cuando sepas las fechas, habla con tu mando y pregunta qué permiso te corresponde. La orden da diez días hábiles para resolver."
+      },
+      {
+        "t": "h",
+        "x": "Cómo mantener el estudio al llegar"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Primera semana: solo mínimos. Un test corto y un repaso de fallos al día. Estás recolocándote.",
+          "Segunda semana: vuelve al plan semanal con el cuadrante nuevo.",
+          "Material en el móvil y sin depender de la conexión de la unidad anterior: tests descargados y temas en esquema.",
+          "Un sitio fijo para estudiar, aunque sea una mesa en una habitación compartida."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "El entrenamiento también se muda"
+      },
+      {
+        "t": "p",
+        "x": "La convocatoria de Guardia Civil de 2026 incluye 2.000 metros, circuito de agilidad, extensiones de brazos y 50 metros de natación libre. En tu nuevo destino, averigua en la primera semana dónde hay una piscina y una pista, y cuándo puedes usarlas. Es lo que más se pierde con un cambio de ciudad."
+      },
+      {
+        "t": "h",
+        "x": "Habla con tu nuevo mando"
+      },
+      {
+        "t": "p",
+        "x": "Cuando llegues, cuéntale a tu jefe directo que preparas una oposición. No hace falta dar detalles. Sirve para que, si hay que cambiar un servicio por una prueba o una cita médica, no lo oiga por primera vez en ese momento. Tampoco te garantiza nada, pero evita sorpresas."
+      },
+      {
+        "t": "h",
+        "x": "Qué no hacer"
+      },
+      {
+        "t": "p",
+        "x": "No pidas la renuncia a tu compromiso ni muevas tu situación militar sin saber cómo afecta a los requisitos. Si dudas, pregunta antes en la oficina de personal de tu unidad. Y no esperes a que salga la convocatoria para ordenar papeles: con 15 días hábiles de plazo, cualquier retraso en un certificado se nota."
+      }
+    ]
+  },
+  {
+    "slug": "leer-convocatoria-cupo-militar-plazas-baremo-plazos",
+    "date": "2026-11-07",
+    "category": "Convocatorias",
+    "ref": "blog-leer-convocatoria",
+    "title": "Cómo leer una convocatoria del cupo militar sin errores: plazas, plazos y baremo",
+    "description": "Las partes de una convocatoria de Guardia Civil o Policía Nacional, dónde mirar plazos y requisitos y cómo se reparten las plazas de cupo y el baremo.",
+    "imageAlt": "Un documento con apartados, una lupa, un calendario marcado y un sello",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Una convocatoria en el BOE tiene muchas páginas y casi todas hablan de otra cosa que lo que tú buscas. Si sabes en qué base mirar cada dato, la lees en veinte minutos. Los ejemplos de este artículo salen de las convocatorias de 2026 de Guardia Civil y Policía Nacional. Los números cambian cada año, así que sirven de guía de lectura, no de promesa."
+      },
+      {
+        "t": "h",
+        "x": "Cómo está organizada"
+      },
+      {
+        "t": "p",
+        "x": "La de Guardia Civil (Escala de Cabos y Guardias) tiene catorce bases: normas generales, requisitos, solicitudes, tribunal, proceso selectivo, desarrollo de las pruebas, calificaciones, aptitud psicofísica y otras. Lleva apéndices, entre ellos el baremo y el modelo de certificado de militar profesional."
+      },
+      {
+        "t": "p",
+        "x": "La de Policía Nacional (Escala Básica) tiene doce bases y seis anexos. Los anexos recogen temario, pruebas físicas, inscripción y tasas, cuadro médico y certificados de idiomas."
+      },
+      {
+        "t": "h",
+        "x": "Base 1: cuántas plazas y cuántas son tuyas"
+      },
+      {
+        "t": "p",
+        "x": "Aquí está la reserva para militares. La Guardia Civil convocó 3.240 plazas: 1.296 para militares profesionales de tropa y marinería, 240 para alumnos del Colegio de Guardias Jóvenes y 1.704 de acceso libre. La Policía Nacional convocó 2.704: 541 reservadas a militares y 2.163 por oposición libre."
+      },
+      {
+        "t": "p",
+        "x": "En ambas, las plazas reservadas que no se cubren se acumulan a las libres. Y en ambas se pide llegar con cinco años de servicio como militar profesional de tropa y marinería a la fecha en que acaba el plazo de solicitudes."
+      },
+      {
+        "t": "h",
+        "x": "Base de requisitos: míralos con fecha"
+      },
+      {
+        "t": "p",
+        "x": "Cada requisito se comprueba en un momento concreto, normalmente la fecha de fin del plazo de instancias. En Guardia Civil: edad de 18 años cumplidos en 2026 y no cumplir 41 ese año, titulación de ESO o equivalente y permiso de conducción de la clase B. En Policía Nacional: 18 años, Bachiller o equivalente, permiso B, y nivel A2 de inglés o francés antes de que acabe el plazo."
+      },
+      {
+        "t": "h",
+        "x": "Base de solicitudes: el plazo"
+      },
+      {
+        "t": "p",
+        "x": "En las dos, el plazo es de quince días hábiles desde el día siguiente al de publicación en el BOE. Ahí también se explica cómo se presenta (telemática) y la tasa. En Guardia Civil fue de 11,66 euros, con bonificaciones y exenciones que detalla la propia convocatoria."
+      },
+      {
+        "t": "h",
+        "x": "El baremo: dónde puntúas por ser militar"
+      },
+      {
+        "t": "p",
+        "x": "Cambia mucho de un cuerpo a otro. En Guardia Civil hay una fase de concurso de hasta 45 puntos. Los méritos profesionales llegan a 13,5, con 0,90 puntos por año completo de servicio hasta un máximo de 9, más 2,40 por ser Cabo o 3,60 por ser Cabo Primero. Los académicos llegan a 27 y otros méritos, como el permiso de conducción, a 4,5."
+      },
+      {
+        "t": "p",
+        "x": "En Policía Nacional el baremo es mucho más pequeño. Cuenta 0,15 puntos por año completo hasta 1,5, y por el empleo máximo alcanzado, 0,10 para Cabo, 0,15 para Cabo Primero y 0,20 para Cabo Mayor, entre otros. Se suma a la nota de oposición de quien la supera. El mismo mérito pesa distinto según el cuerpo."
+      },
+      {
+        "t": "p",
+        "x": "Esto cambia la estrategia. Donde el baremo pesa mucho, cada año de servicio y cada certificado de idiomas se traducen en puntos. Donde pesa poco, la nota de las pruebas lo decide casi todo."
+      },
+      {
+        "t": "h",
+        "x": "Nota de corte: no la verás en la convocatoria"
+      },
+      {
+        "t": "p",
+        "x": "Las bases no publican una nota de corte. Fijan mínimos y reglas de orden. En Guardia Civil, por ejemplo, 50 puntos de 100 en conocimientos generales, 8 de 20 en inglés y 12 de 30 en aptitudes intelectuales, y los aprobados se ordenan de mayor a menor puntuación dentro de cada modalidad de ingreso. La nota que te deja dentro sale al final, según cuántas plazas haya y cómo les vaya al resto."
+      },
+      {
+        "t": "h",
+        "x": "Lee en tres pasadas"
+      },
+      {
+        "t": "p",
+        "x": "En la primera pasada solo buscas el calendario: fecha del BOE, plazo, fechas que ya figuren. En la segunda, los requisitos que dependen de ti y de una fecha concreta. En la tercera, la parte de las pruebas y el baremo, con lápiz. Leída así, la convocatoria deja de ser un bloque de texto y se convierte en una lista de tareas."
+      },
+      {
+        "t": "h",
+        "x": "Dónde mirar cada cosa"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Plazas y reserva: base 1 en ambas.",
+          "Requisitos y fecha de comprobación: base 2.",
+          "Plazo, tasa y forma de presentar: base 3.",
+          "Subsanación de errores: diez días hábiles tras la lista provisional de admitidos.",
+          "Baremo: apéndice I en Guardia Civil, base 6.12 en Policía Nacional.",
+          "Listas y avisos: web de cada cuerpo, no en tu unidad."
+        ]
+      },
+      {
+        "t": "p",
+        "x": "Subraya fechas, números y verbos como «deberán», «acreditar» y «a la fecha de». Casi todos los errores nacen de leer el requisito pero no el momento en que se mide."
+      }
+    ]
+  },
+  {
+    "slug": "errores-solicitud-cupo-militar-presentar-en-plazo",
+    "date": "2026-11-08",
+    "category": "Convocatorias",
+    "ref": "blog-errores-solicitud",
+    "title": "Errores típicos al rellenar la solicitud del cupo y cómo presentarla en plazo",
+    "description": "Fallos al presentar la solicitud de Guardia Civil o Policía Nacional como militar: plazos mal contados, méritos sin alegar y documentos que no se acreditan.",
+    "imageAlt": "Un formulario marcado, un sello de tinta, un reloj de pared y un sobre",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Puedes tener el examen medio preparado y quedarte fuera por un fallo de solicitud. Pasa, y casi siempre por algo evitable. Esta lista recoge errores que se desprenden de lo que dicen las bases de las convocatorias de 2026 de Guardia Civil y Policía Nacional. Antes de presentar la tuya, lee siempre las bases de la convocatoria vigente."
+      },
+      {
+        "t": "h",
+        "x": "Contar mal el plazo"
+      },
+      {
+        "t": "p",
+        "x": "En las dos convocatorias el plazo es de quince días hábiles desde el día siguiente al de publicación en el BOE. Los domingos y festivos no cuentan, y la Ley 39/2015 declara además inhábiles los sábados. Un plazo de quince días hábiles dura bastante más de quince días en el calendario. Calcula tú la fecha de cierre y apúntala. Tampoco te fíes de cómo la cuente alguien en un grupo de mensajes."
+      },
+      {
+        "t": "h",
+        "x": "Dejarlo para el último día"
+      },
+      {
+        "t": "p",
+        "x": "La solicitud es telemática. En Guardia Civil se presenta por la Sede Electrónica, con identificación por Cl@ve o certificado electrónico, y la presentación incluye el pago de la tasa y la firma electrónica. Si algo falla el último día, ya no tienes margen. Prepárala en la primera semana y deja las últimas jornadas para repasar."
+      },
+      {
+        "t": "h",
+        "x": "No tener lista la identificación electrónica"
+      },
+      {
+        "t": "p",
+        "x": "Darte de alta en Cl@ve o conseguir un certificado lleva su trámite. Hazlo antes de que salga la convocatoria, junto con los documentos que ya hablamos de reunir."
+      },
+      {
+        "t": "h",
+        "x": "Mirar el requisito pero no la fecha"
+      },
+      {
+        "t": "p",
+        "x": "Los cinco años de servicio se cuentan hasta la fecha en que termina el plazo de solicitudes, no hasta el examen. En Guardia Civil, además, no puedes haber terminado tu compromiso con las Fuerzas Armadas en esa fecha. Si te faltan semanas para los cinco años, revisa bien cuándo cierra el plazo."
+      },
+      {
+        "t": "h",
+        "x": "No acreditar los cinco años"
+      },
+      {
+        "t": "p",
+        "x": "En Policía Nacional, los militares deben acreditar documentalmente ese requisito al hacer la instancia. Si no lo acreditan, pasan a las plazas de turno libre. Piensa en qué documento lo prueba y pídelo con antelación. En Guardia Civil, el certificado de militar profesional lo expide el jefe de tu unidad y se presenta al incorporarte al centro de formación, junto con la Hoja General de Servicios."
+      },
+      {
+        "t": "h",
+        "x": "Olvidar el idioma en Policía Nacional"
+      },
+      {
+        "t": "p",
+        "x": "La convocatoria de 2026 pide nivel A2 de inglés o francés acreditado antes de que acabe el plazo de solicitudes. Quien no lo acredita queda fuera del proceso. En la solicitud hay que indicar el idioma que se acredita."
+      },
+      {
+        "t": "h",
+        "x": "No alegar los méritos en la inscripción"
+      },
+      {
+        "t": "p",
+        "x": "En Guardia Civil solo cuentan los méritos del baremo que alegues en la inscripción telemática y que poseas dentro del plazo de solicitudes. Los documentos se presentan después, cuando lo indique el Tribunal. Quien no los presenta, pierde los puntos. Revisa el baremo y marca todo lo que tengas, desde idiomas a permisos de conducción."
+      },
+      {
+        "t": "h",
+        "x": "Saltarse las autorizaciones"
+      },
+      {
+        "t": "p",
+        "x": "En Policía Nacional la solicitud incluye apartados para autorizar las pruebas médicas, los análisis de drogas y la consulta de antecedentes penales. Si no autorizas esa consulta, tendrás que aportar el certificado del Ministerio de Justicia."
+      },
+      {
+        "t": "h",
+        "x": "Equivocarte con la tasa"
+      },
+      {
+        "t": "p",
+        "x": "La tasa de Guardia Civil de 2026 fue de 11,66 euros, con un 50 % de bonificación para familia numerosa de categoría general y exención en algunos casos. Mira en las bases si te corresponde una de esas reducciones y cómo se acredita. En Policía Nacional, el importe y el procedimiento están en el anexo III de las bases."
+      },
+      {
+        "t": "h",
+        "x": "No mirar la lista de admitidos"
+      },
+      {
+        "t": "p",
+        "x": "Tras la lista provisional tienes diez días hábiles para subsanar defectos. En Guardia Civil, además, para corregir errores de puntuación del concurso. Si no la miras, un fallo corregible puede acabar en exclusión. Las listas salen en la web de cada cuerpo."
+      },
+      {
+        "t": "h",
+        "x": "Presentar no es el final"
+      },
+      {
+        "t": "p",
+        "x": "Cuando tengas el justificante, el trabajo sigue. Hay que consultar la lista provisional, corregir si procede y acudir a las pruebas con los certificados que pidan las bases. En Guardia Civil, para hacer las pruebas físicas se exige un certificado médico de menos de 20 días o la ficha médica válida, así que no lo pidas demasiado pronto."
+      },
+      {
+        "t": "h",
+        "x": "Una rutina de cierre"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Calcula y apunta la fecha de cierre del plazo.",
+          "Presenta en los primeros días, no en los últimos.",
+          "Guarda el justificante en PDF y una copia en la nube.",
+          "Revisa la lista provisional el día que salga."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "calendario-semanal-meses-antes-examen-cuenta-atras",
+    "date": "2026-11-09",
+    "category": "Preparación",
+    "ref": "blog-cuenta-atras",
+    "title": "Cuenta atrás hacia el examen: qué hacer cada mes y cómo es una semana tipo",
+    "description": "Un plan para los meses previos al examen de cupo o permanencia: qué priorizar cuando faltan seis, tres y un mes antes, con una semana tipo para cada fase.",
+    "imageAlt": "Un calendario, un cronómetro, un lápiz y una zapatilla",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Preparar una oposición sin fecha clara de examen cuesta. Y aun así conviene tener una cuenta atrás. Este plan va de meses hacia atrás y sirve cuando ya sabes qué examen quieres hacer, aunque no conozcas el día. Ajusta las cifras a tus horas reales."
+      },
+      {
+        "t": "h",
+        "x": "Por qué no esperar a la convocatoria"
+      },
+      {
+        "t": "p",
+        "x": "En 2026, la convocatoria de Guardia Civil salió en el BOE el 8 de mayo y la incorporación del alumnado estaba prevista para el 13 de octubre. Son unos cinco meses entre un hecho y otro, con solicitud, listas, pruebas y reconocimientos en medio. Quien empieza a estudiar cuando sale la convocatoria llega justo."
+      },
+      {
+        "t": "h",
+        "x": "Seis meses antes: construir la base"
+      },
+      {
+        "t": "p",
+        "x": "Aquí se estudia el temario entero por primera vez. Un tema nuevo cada dos o tres días, con test del tema al terminar. Empieza ya el entrenamiento físico regular. La convocatoria de Guardia Civil de 2026 incluía 2.000 metros, circuito de agilidad, extensiones de brazos y 50 metros de natación libre. Si nadar no es lo tuyo, este es el momento de empezar."
+      },
+      {
+        "t": "p",
+        "x": "Semana tipo: cuatro sesiones de estudio de dos horas, un día de test largo, tres entrenamientos y un descanso completo."
+      },
+      {
+        "t": "h",
+        "x": "Cuatro a tres meses: segunda vuelta y mapa de fallos"
+      },
+      {
+        "t": "p",
+        "x": "Repasa el temario completo, pero ahora con los tests como guía: los temas donde más fallas reciben más tiempo. Lleva un cuaderno o una hoja con los errores repetidos. Si el examen incluye inglés, haz diez minutos diarios sin falta."
+      },
+      {
+        "t": "p",
+        "x": "Semana tipo: tres sesiones de estudio dirigido a fallos, tres de test por tema, un test mixto largo, tres entrenamientos."
+      },
+      {
+        "t": "h",
+        "x": "Dos meses antes: formato de examen"
+      },
+      {
+        "t": "p",
+        "x": "Empieza con exámenes completos. El examen de conocimientos de Guardia Civil de 2026 duraba 140 minutos e incluía ortografía, gramática, 100 preguntas de conocimientos generales y 20 de inglés, con mínimos en cada parte. Haz uno cada semana con cronómetro, en el mismo horario que tendrá la prueba, y corrígelo despacio."
+      },
+      {
+        "t": "p",
+        "x": "Semana tipo: un simulacro completo, un día entero de corrección, dos sesiones de repaso de temas flojos, tests cortos diarios y tres entrenamientos con las marcas de las pruebas."
+      },
+      {
+        "t": "h",
+        "x": "Si apuntas a Policía Nacional"
+      },
+      {
+        "t": "p",
+        "x": "La convocatoria de 2026 de Escala Básica puntúa cada prueba física de 0 a 10. Obtener un cero en algún ejercicio elimina, y la media tiene que llegar a 5. Además hay examen de conocimientos con nota mínima, reconocimiento médico, entrevista y test psicotécnicos. El peso de las pruebas físicas aconseja empezar a entrenar antes y con las marcas del anexo en la mano."
+      },
+      {
+        "t": "h",
+        "x": "Cómo medir si vas bien"
+      },
+      {
+        "t": "p",
+        "x": "Pon tus resultados junto a los mínimos que exigen las bases, como los 50 puntos de 100 en conocimientos generales de Guardia Civil. Un mes antes, quieres estar claramente por encima en cada parte, no rozando. Una parte que anda justa pide más horas, aunque la media global te parezca buena."
+      },
+      {
+        "t": "h",
+        "x": "Último mes: afinar y no ir a más"
+      },
+      {
+        "t": "p",
+        "x": "Haz dos simulacros por semana como máximo. No abras temas nuevos. Repasa tus esquemas y tu hoja de errores. Si las pruebas físicas exigen certificado médico, mira cuánto caduca: la convocatoria de Guardia Civil de 2026 pedía uno de menos de 20 días o la ficha médica válida. Pídelo con fecha reciente, que no caduque antes de la prueba."
+      },
+      {
+        "t": "p",
+        "x": "Semana tipo: dos simulacros, dos días de repaso de errores, tests ligeros y entrenamientos más cortos."
+      },
+      {
+        "t": "h",
+        "x": "Última semana: bajar el ritmo"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Dos días antes: último repaso ligero y preparar la documentación y la ropa.",
+          "Víspera: nada de estudiar por la noche; cena normal y a dormir pronto.",
+          "Día del examen: llega con margen, con DNI y lo que pidan las bases."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "Qué mirar cada semana"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Horas reales de estudio frente a las previstas.",
+          "Resultado del último test y los temas que más has fallado.",
+          "Marcas en las pruebas físicas, anotadas con fecha.",
+          "Horas de sueño medias. Si caen, recorta bloques antes que dormir menos."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "Si te falta tiempo"
+      },
+      {
+        "t": "p",
+        "x": "Una cuenta atrás sirve de referencia, no de condena. Si la fecha se acerca y vas por detrás, no intentes meterlo todo. Prioriza las partes con nota mínima eliminatoria y los temas que más pesan. Y piensa que presentarte con una base sólida a la siguiente convocatoria también es una decisión razonable, sobre todo si cuidas lo que ya llevas hecho."
+      }
+    ]
+  }
 ]
