@@ -122,7 +122,7 @@ const nuevoIndex = indexHtml.replace(/<main>[\s\S]*<\/main>/, `<main>\n\n${tarje
 fs.writeFileSync(indexPath, nuevoIndex);
 
 // Sitemap
-const urls = [`${SITE}/`, `${SITE}/convocatorias.html`, `${SITE}/blog/`, ...todos.map((p) => `${SITE}/blog/${p.slug}.html`)];
+const urls = [`${SITE}/`, `${SITE}/test-guardia-civil.html`, `${SITE}/test-policia-nacional.html`, `${SITE}/convocatorias.html`, `${SITE}/blog/`, ...todos.map((p) => `${SITE}/blog/${p.slug}.html`)];
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 
 console.log(`Hoy (Canarias): ${today} · publicados ${publicados.length}/${programados.length} programados · ${todos.length} en el listado`);
