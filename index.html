@@ -5,496 +5,571 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<title>Cupo Militar — Tests de Guardia Civil y Policía Nacional, permanencia y ascensos</title>
-<meta name="description" content="Prepara tu permanencia, tu ascenso a Cabo, Cabo Primero o Cabo Mayor, o el cupo para pasar a Guardia Civil, Policía Nacional o Vigilancia Aduanera. Temario, más de 9.000 preguntas de test y convocatorias actualizadas para Tropa y Marinería.">
+<title>Cupo Militar — Test de Guardia Civil y Policía Nacional, Permanencia y ascensos</title>
+<meta name="description" content="Test de Guardia Civil y Policía Nacional con cada respuesta explicada, simulacros como el examen oficial y temario. Para opositores y para militares de Tropa y Marinería: Permanencia, ascensos y cupo. Prueba gratis sin registrarte.">
 <link rel="canonical" href="https://www.cupomilitar.es/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Cupo Militar">
-<meta property="og:title" content="Cupo Militar — Permanencia, ascensos y cupo a otros cuerpos">
-<meta property="og:description" content="Prepara tu permanencia, tu ascenso a Cabo/Cabo 1º/Cabo Mayor, o el cupo para pasar a Guardia Civil, Policía Nacional o Vigilancia Aduanera.">
+<meta property="og:title" content="Cupo Militar — Test de Guardia Civil, Policía Nacional y Permanencia">
+<meta property="og:description" content="Más de 9.000 preguntas de test explicadas y simulacros como el examen oficial. Prueba gratis sin registrarte.">
 <meta property="og:url" content="https://www.cupomilitar.es/">
+<meta property="og:image" content="https://www.cupomilitar.es/img/hero-examen.webp">
 <meta property="og:locale" content="es_ES">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="img/hero-examen.webp">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Cupo Militar",
   "url": "https://www.cupomilitar.es/",
-  "parentOrganization": {
-    "@type": "Organization",
-    "name": "Guardián de Datos SL"
-  },
-  "description": "Preparación para militares de Tropa y Marinería: permanencia, ascensos internos (Cabo, Cabo Primero, Cabo Mayor) y cupo reservado hacia Guardia Civil, Policía Nacional y Vigilancia Aduanera."
+  "logo": "https://www.cupomilitar.es/logo-cupo-militar.svg",
+  "parentOrganization": {"@type": "Organization", "name": "Guardián de Datos SL"},
+  "description": "Test y temario para opositores de Guardia Civil y Policía Nacional, y para militares de Tropa y Marinería: Permanencia, ascensos internos y cupo reservado."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "¿Necesito tarjeta para probarlo?", "acceptedAnswer": {"@type": "Answer", "text": "No. Puedes hacer un test sin registrarte y, si creas tu cuenta, tienes 7 días de prueba gratis sin tarjeta."}},
+    {"@type": "Question", "name": "¿Sirve si no soy militar?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. El Plan Oposición es para cualquier persona que prepare Guardia Civil o Policía Nacional. El nombre viene de nuestros inicios con militares de Tropa y Marinería."}},
+    {"@type": "Question", "name": "¿Qué diferencia hay entre el Plan Oposición y el Plan Completo?", "acceptedAnswer": {"@type": "Answer", "text": "El Plan Oposición incluye Guardia Civil y Policía Nacional. El Plan Completo añade Permanencia, ascensos, Vigilancia Aduanera, calculadora de baremo, comparador de cupos y alertas de convocatoria."}},
+    {"@type": "Question", "name": "¿Puedo cancelar cuando quiera?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. El plan mensual se cancela cuando quieras y el anual no se renueva si lo cancelas antes de que termine."}}
+  ]
 }
 </script>
 <style>
   :root{
-    --ink:#20242b;
-    --paper:#eef0f2;
-    --paper-2:#e1e4e8;
-    --brass:#a9793f;
-    --brass-light:#c9a06a;
-    --line:#c7cbd0;
-    --alert:#7a2e3d;
-    --ok:#4a6350;
+    --ink:#20242b; --ink-2:#2b313a; --paper:#eef0f2; --paper-2:#e1e4e8; --white:#f8f9fa;
+    --brass:#a9793f; --brass-light:#c9a06a; --line:#c7cbd0; --alert:#7a2e3d; --ok:#4a6350; --muted:#44534f;
+    --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
+    --mono:'IBM Plex Mono','SF Mono',Menlo,monospace;
+    --ease:cubic-bezier(.2,.7,.2,1);
   }
-  *{box-sizing:border-box;}
-  body{
-    margin:0;
-    background:var(--paper);
-    color:var(--ink);
-    font-family: 'Iowan Old Style','Palatino Linotype',Georgia,serif;
-    line-height:1.5;
-  }
-  .mono{font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;}
-  a{color:inherit;}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 1.5rem}
+  .mono,.eyebrow{font-family:var(--mono)}
+  .eyebrow{font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--brass);margin:0 0 .6rem}
 
-  .navbar{
-    max-width:920px;margin:0 auto;padding:1.1rem 1.5rem 0;
-    display:flex;justify-content:space-between;align-items:center;
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    font-size:0.82rem;
-  }
-  .navbar .brand{color:var(--ink);text-decoration:none;font-weight:600;letter-spacing:0.02em;display:flex;align-items:center;gap:0.5rem;}
-  .navbar .brand-icon{display:block;border-radius:6px;flex-shrink:0;}
-  .navbar .links{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:0.5rem 1.3rem;}
-  .navbar .links a{color:#44534f;text-decoration:none;white-space:nowrap;}
-  .navbar .links a:hover{color:var(--brass);}
-  .navbar .links a.cta{
-    color:var(--paper);background:var(--ink);
-    padding:0.4rem 0.8rem;border-radius:2px;
-  }
-  .navbar .links a.cta:hover{background:#2c4045;color:var(--paper);}
+  /* Barra superior */
+  .navbar{position:sticky;top:0;z-index:50;transition:background .3s,box-shadow .3s}
+  .navbar.scrolled{background:color-mix(in srgb,var(--paper) 86%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line)}
+  .navbar .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:.9rem;padding-bottom:.9rem;font-family:var(--mono);font-size:.82rem}
+  .brand{text-decoration:none;font-weight:600;letter-spacing:.02em;display:flex;align-items:center;gap:.5rem}
+  .brand img{border-radius:6px}
+  .links{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:.5rem 1.3rem}
+  .links a{color:var(--muted);text-decoration:none;white-space:nowrap;position:relative}
+  .links a:not(.cta)::after{content:"";position:absolute;left:0;right:0;bottom:-3px;height:1px;background:var(--brass);transform:scaleX(0);transform-origin:left;transition:transform .3s var(--ease)}
+  .links a:not(.cta):hover{color:var(--ink)}
+  .links a:not(.cta):hover::after{transform:scaleX(1)}
+  .links a.cta{color:var(--paper);background:var(--ink);padding:.45rem .9rem;border-radius:4px;transition:background .2s}
+  .links a.cta:hover{background:var(--brass)}
+  .navbar:not(.scrolled) .brand,.navbar:not(.scrolled) .links a:not(.cta){color:#e3e6e9}
+  .navbar:not(.scrolled) .links a:not(.cta):hover{color:var(--brass-light)}
+  .navbar:not(.scrolled) .links a.cta{background:var(--brass-light);color:var(--ink)}
+  .menu-btn{display:none;background:none;border:1px solid var(--line);border-radius:4px;padding:.35rem .6rem;font:inherit;cursor:pointer;color:var(--ink)}
 
-  .hero{
-    position:relative;
-    min-height:clamp(460px, 68vh, 680px);
-    display:flex;
-    flex-direction:column;
-    background:#20242b url('https://t3.ftcdn.net/jpg/02/81/96/50/240_F_281965081_yu0FXuSyEj2zWdr6nI8pOoftkFE2EmP2.jpg') center 32%/cover no-repeat;
-    overflow:hidden;
-    margin-top:0.8rem;
-  }
-  .hero::before{
-    content:"";
-    position:absolute; inset:0;
-    background:linear-gradient(180deg, rgba(32,36,43,0.35) 0%, rgba(32,36,43,0.72) 55%, rgba(32,36,43,0.96) 100%);
-  }
-  .hero svg{display:block;width:100%;height:auto;position:relative;z-index:1;}
-  .hero-text{
-    position:relative;
-    margin-top:auto;
-    max-width:920px; margin-left:auto;margin-right:auto; width:100%;
-    padding:0 1.5rem 2.6rem;
-    z-index:2;
-  }
-  .hero-text .eyebrow{color:var(--brass-light);}
-  .hero-text h1{color:var(--paper); margin:0 0 0.7rem; font-size:2.3rem; max-width:19ch;}
-  .hero-text .sub{color:#d3d6da; max-width:58ch; font-size:1.05rem;}
-  .hero-cta{margin-top:1.4rem; display:flex; gap:0.9rem; flex-wrap:wrap;}
-  .btn-primary, .btn-secondary{
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    font-size:0.85rem;
-    padding:0.7rem 1.3rem;
-    border-radius:2px;
-    text-decoration:none;
-    display:inline-block;
-  }
-  .btn-primary{background:var(--brass-light);color:var(--ink);}
-  .btn-primary:hover{background:#d8b27e;}
-  .btn-secondary{border:1px solid rgba(255,255,255,0.5);color:var(--paper);}
-  .btn-secondary:hover{border-color:var(--paper);}
+  /* Portada */
+  .hero{position:relative;overflow:hidden;background:var(--ink);color:var(--paper);margin-top:-62px;padding-top:62px}
+  .hero::before{content:"";position:absolute;inset:-20%;background:
+     radial-gradient(40% 50% at 15% 30%,rgba(169,121,63,.28),transparent 70%),
+     radial-gradient(35% 45% at 85% 70%,rgba(74,99,80,.25),transparent 70%);
+     animation:deriva 18s ease-in-out infinite alternate}
+  .hero::after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(238,240,242,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(238,240,242,.05) 1px,transparent 1px);background-size:56px 56px;mask-image:linear-gradient(180deg,#000 20%,transparent 95%);-webkit-mask-image:linear-gradient(180deg,#000 20%,transparent 95%)}
+  @keyframes deriva{to{transform:translate(4%,-3%) rotate(3deg)}}
+  .hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:3rem;align-items:center;padding-top:3.5rem;padding-bottom:4.5rem}
+  .hero .eyebrow{color:var(--brass-light)}
+  .hero h1{font-size:clamp(2.2rem,4.6vw,3.6rem);line-height:1.04;letter-spacing:-.02em;margin:0 0 1.1rem;font-weight:600}
+  .hero h1 .acento{color:var(--brass-light);position:relative;white-space:nowrap}
+  .hero h1 .acento::after{content:"";position:absolute;left:0;right:0;bottom:.05em;height:.08em;background:var(--brass-light);transform:scaleX(0);transform-origin:left;animation:subraya 1s .9s var(--ease) forwards}
+  @keyframes subraya{to{transform:scaleX(1)}}
+  .hero .sub{color:#c9ced4;font-size:1.12rem;max-width:52ch;margin:0 0 1.6rem}
+  .hero-cta{display:flex;gap:.8rem;flex-wrap:wrap}
+  .btn{font-family:var(--mono);font-size:.86rem;padding:.85rem 1.3rem;border-radius:4px;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;transition:transform .2s var(--ease),background .2s,border-color .2s,box-shadow .2s;cursor:pointer;border:0}
+  .btn:hover{transform:translateY(-2px)}
+  .btn .flecha{transition:transform .2s var(--ease)}
+  .btn:hover .flecha{transform:translateX(4px)}
+  .btn-brass{background:var(--brass-light);color:var(--ink);box-shadow:0 8px 24px -10px rgba(201,160,106,.8)}
+  .btn-brass:hover{background:#d8b27e}
+  .btn-ghost{border:1px solid rgba(238,240,242,.35);color:var(--paper);background:transparent}
+  .btn-ghost:hover{border-color:var(--paper)}
+  .btn-ink{background:var(--ink);color:var(--paper)}
+  .btn-ink:hover{background:var(--brass)}
+  .btn-line{border:1px solid var(--ink);color:var(--ink);background:transparent}
+  .btn-line:hover{background:var(--ink);color:var(--paper)}
+  .hero-nota{font-family:var(--mono);font-size:.76rem;color:#9aa2ab;margin-top:1.1rem}
+  .hero-nota b{color:var(--brass-light);font-weight:500}
 
-  .eyebrow{
-    font-size:0.72rem;
-    letter-spacing:0.02em;
-    color:var(--brass);
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    margin-bottom:0.4rem;
-  }
-  h1{
-    font-size:2rem;
-    margin:0 0 0.5rem;
-    font-weight:600;
-    letter-spacing:-0.01em;
-  }
-  h2{
-    font-size:1.15rem;
-    font-weight:600;
-    border-bottom:1px solid var(--line);
-    padding-bottom:0.5rem;
-    margin-bottom:1.2rem;
-  }
-  .sub{
-    max-width:60ch;
-    color:#44534f;
-    font-size:1rem;
-  }
-  main{max-width:920px;margin:0 auto;padding:0 1.5rem 4rem;}
-  section{margin-top:2.8rem;}
-  section p{color:#3a443f;}
+  .hero-foto{position:relative;aspect-ratio:4/5;border-radius:14px;overflow:visible}
+  .hero-foto .marco{position:absolute;inset:0;border-radius:14px;overflow:hidden;box-shadow:0 30px 80px -30px rgba(0,0,0,.7)}
+  .hero-foto img{width:100%;height:100%;object-fit:cover;object-position:50% 40%;transform:scale(1.08);animation:zoom 14s ease-in-out infinite alternate}
+  @keyframes zoom{to{transform:scale(1.18) translateY(-2%)}}
+  .hero-foto .marco::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(32,36,43,.75))}
+  .chip{position:absolute;z-index:3;background:rgba(238,240,242,.96);color:var(--ink);border-radius:10px;padding:.7rem .95rem;box-shadow:0 14px 34px -14px rgba(0,0,0,.6);min-width:170px;animation:flota 6s ease-in-out infinite}
+  .chip .n{font-family:var(--mono);font-weight:700;font-size:1.5rem;line-height:1;display:block;font-variant-numeric:tabular-nums}
+  .chip .t{font-family:var(--mono);font-size:.7rem;color:var(--muted);letter-spacing:.02em}
+  .chip.c1{top:9%;left:-14%}
+  .chip.c2{top:44%;right:-10%;animation-delay:-2s}
+  .chip.c3{bottom:8%;left:-8%;animation-delay:-4s}
+  .chip.c2 .n{color:var(--brass)}
+  @keyframes flota{50%{transform:translateY(-10px)}}
 
-  .pilares{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:1.2rem;
-    margin-top:1.4rem;
-  }
-  .pilar{
-    border:1px solid var(--line);
-    border-radius:2px;
-    padding:1.2rem;
-  }
-  .pilar .num{
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    color:var(--brass);
-    font-size:0.85rem;
-    display:block;
-    margin-bottom:0.4rem;
-  }
-  .pilar h3{margin:0 0 0.5rem;font-size:1rem;}
-  .pilar p{margin:0;font-size:0.9rem;color:#44534f;}
-  @media (max-width:640px){
-    .pilares{grid-template-columns:1fr;}
-  }
+  /* Secciones */
+  section{padding:5rem 0}
+  .titulo{font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.12;letter-spacing:-.015em;margin:0 0 .8rem;font-weight:600}
+  .intro{color:var(--muted);max-width:60ch;font-size:1.05rem;margin:0 0 2.4rem}
+  .centro{text-align:center}.centro .intro{margin-left:auto;margin-right:auto}
 
-  .extras{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:1.2rem;
-    margin-top:1.4rem;
-  }
-  .extras .pilar{background:var(--paper-2);}
-  .extras .pilar .badge-incluido{
-    display:inline-block;
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    font-size:0.68rem;
-    padding:0.15rem 0.5rem;
-    border:1px solid var(--ok);
-    color:var(--ok);
-    border-radius:2px;
-    margin-bottom:0.6rem;
-  }
-  .extras .pilar .badge-extra{
-    display:inline-block;
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    font-size:0.68rem;
-    padding:0.15rem 0.5rem;
-    border:1px solid var(--brass);
-    color:var(--brass);
-    border-radius:2px;
-    margin-bottom:0.6rem;
-  }
-  @media (max-width:640px){
-    .extras{grid-template-columns:1fr;}
-  }
+  /* Dos caminos */
+  .caminos{margin-top:-3rem;padding-top:0;position:relative;z-index:5}
+  .caminos .grid{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}
+  .camino{position:relative;overflow:hidden;border-radius:14px;min-height:340px;color:var(--paper);text-decoration:none;display:flex;flex-direction:column;justify-content:flex-end;padding:1.8rem;background:var(--ink);box-shadow:0 20px 50px -28px rgba(32,36,43,.7);transition:transform .35s var(--ease),box-shadow .35s}
+  .camino img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease);opacity:.55}
+  .camino::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(32,36,43,.1),rgba(32,36,43,.92) 70%);z-index:1}
+  .camino>*:not(img){position:relative;z-index:2}
+  .camino:hover{transform:translateY(-6px);box-shadow:0 30px 60px -28px rgba(32,36,43,.8)}
+  .camino:hover img{transform:scale(1.06)}
+  .camino .tag{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--brass-light)}
+  .camino h3{font-size:1.75rem;margin:.3rem 0 .5rem;line-height:1.1}
+  .camino p{margin:0 0 1rem;color:#d3d6da;max-width:40ch}
+  .camino ul{list-style:none;padding:0;margin:0 0 1.2rem;font-family:var(--mono);font-size:.8rem;color:#e3e6e9;display:flex;flex-wrap:wrap;gap:.4rem}
+  .camino li{border:1px solid rgba(238,240,242,.3);border-radius:99px;padding:.2rem .65rem}
+  .camino .ir{font-family:var(--mono);font-size:.86rem;color:var(--brass-light);display:inline-flex;gap:.4rem}
+  .camino:hover .ir .flecha{transform:translateX(5px)}
+  .camino .ir .flecha{transition:transform .25s var(--ease)}
 
-  .pasos{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:1.4rem;
-  }
-  .paso .num{
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    color:var(--brass);
-    font-size:0.85rem;
-    display:block;
-    margin-bottom:0.4rem;
-  }
-  .paso h3{margin:0 0 0.4rem;font-size:1rem;}
-  .paso p{margin:0;font-size:0.92rem;color:#44534f;}
-  @media (max-width:640px){
-    .pasos{grid-template-columns:1fr;}
-  }
+  /* Pregunta jugable */
+  .juego{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .juego .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:3rem;align-items:center}
+  .tabs{display:inline-flex;background:var(--paper-2);border-radius:99px;padding:4px;margin-bottom:1.2rem}
+  .tabs button{font-family:var(--mono);font-size:.8rem;border:0;background:transparent;padding:.5rem 1rem;border-radius:99px;cursor:pointer;color:var(--muted);transition:background .25s,color .25s}
+  .tabs button[aria-selected="true"]{background:var(--ink);color:var(--paper)}
+  .tarjeta{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:1.6rem;box-shadow:0 20px 50px -34px rgba(32,36,43,.6)}
+  .tarjeta .cab{display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:.72rem;color:var(--brass);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.6rem}
+  .barra{height:5px;background:var(--paper-2);border-radius:3px;overflow:hidden;margin-bottom:1.1rem}
+  .barra i{display:block;height:100%;background:var(--brass);transform-origin:left;transform:scaleX(1)}
+  .barra.corre i{transition:transform 20s linear;transform:scaleX(0)}
+  .tarjeta h3{font-size:1.25rem;line-height:1.3;margin:0 0 1rem}
+  .opcion{display:flex;gap:.8rem;align-items:flex-start;width:100%;text-align:left;font:inherit;font-size:1rem;background:var(--white);border:1.5px solid var(--line);border-radius:10px;padding:.8rem 1rem;margin-bottom:.6rem;cursor:pointer;transition:border-color .2s,background .2s,transform .2s var(--ease),opacity .3s;color:var(--ink)}
+  .opcion b{font-family:var(--mono);color:var(--brass);min-width:1.2em}
+  .opcion:hover:not(:disabled){border-color:var(--brass);transform:translateX(4px)}
+  .opcion:disabled{cursor:default}
+  .opcion.bien{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--white))}
+  .opcion.mal{border-color:var(--alert);background:color-mix(in srgb,var(--alert) 9%,var(--white))}
+  .opcion.apagada{opacity:.45}
+  .explica{display:none;margin-top:.8rem;padding:1rem 1.1rem;border-radius:10px;background:color-mix(in srgb,var(--ok) 11%,var(--white));border-left:4px solid var(--ok);font-size:.95rem;animation:entra .5s var(--ease)}
+  .explica.si{display:block}
+  .explica strong{font-family:var(--mono);font-size:.78rem;display:block;margin-bottom:.3rem;color:var(--ok)}
+  .tras{display:none;margin-top:1rem;gap:.7rem;flex-wrap:wrap}
+  .tras.si{display:flex;animation:entra .5s .15s var(--ease) both}
+  @keyframes entra{from{opacity:0;transform:translateY(10px)}}
 
-  .entry{
-    display:grid;
-    grid-template-columns:110px 1fr 130px;
-    gap:1rem;
-    padding:1rem 0;
-    align-items:start;
-  }
-  .entry .cuerpo{font-weight:600;}
-  .entry .detalle{color:#44534f;font-size:0.92rem;}
-  .badge{
-    display:inline-block;
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    font-size:0.72rem;
-    padding:0.15rem 0.5rem;
-    border:1px solid var(--brass);
-    color:var(--brass);
-    border-radius:2px;
-    white-space:nowrap;
-  }
-  .pct{
-    text-align:right;
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    font-size:0.95rem;
-  }
-  .pct .num{font-size:1.4rem;color:var(--ink);display:block;}
-  .pct .lbl{font-size:0.68rem;color:#7a8378;}
+  /* Cómo funciona */
+  .pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;position:relative}
+  .pasos::before{content:"";position:absolute;top:26px;left:8%;right:8%;height:2px;background:var(--line)}
+  .pasos::after{content:"";position:absolute;top:26px;left:8%;right:8%;height:2px;background:var(--brass);transform:scaleX(0);transform-origin:left;transition:transform 1.6s var(--ease) .3s}
+  .pasos.visto::after{transform:scaleX(1)}
+  .paso{position:relative;z-index:1}
+  .paso .bola{width:54px;height:54px;border-radius:50%;background:var(--paper);border:2px solid var(--brass);display:grid;place-items:center;font-family:var(--mono);font-weight:700;color:var(--brass);margin-bottom:1rem}
+  .paso h3{margin:0 0 .4rem;font-size:1.15rem}
+  .paso p{margin:0;color:var(--muted)}
 
-  .nota{
-    font-size:0.85rem;
-    color:#5a6560;
-    border-left:2px solid var(--brass-light);
-    padding-left:0.9rem;
-    margin-top:1.4rem;
-  }
-  .nota a{color:var(--brass);font-weight:600;text-decoration:none;}
-  .nota a:hover{text-decoration:underline;}
+  /* Convocatorias */
+  .convos{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+  .convo{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:1.5rem;text-decoration:none;display:flex;flex-direction:column;transition:transform .3s var(--ease),box-shadow .3s,border-color .3s}
+  .convo:hover{transform:translateY(-5px);box-shadow:0 24px 50px -30px rgba(32,36,43,.6);border-color:var(--brass)}
+  .convo .cuerpo{font-family:var(--mono);font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--brass)}
+  .convo .n{font-family:var(--mono);font-weight:700;font-size:2.6rem;line-height:1;margin:.6rem 0 .2rem;font-variant-numeric:tabular-nums}
+  .convo .n small{font-size:.9rem;font-weight:500;color:var(--muted)}
+  .convo p{margin:.4rem 0 1rem;color:var(--muted);font-size:.92rem;flex:1}
+  .convo .ir{font-family:var(--mono);font-size:.82rem}
+  .nota-pie{font-size:.85rem;color:var(--muted);margin-top:1.2rem}
 
-  .planes{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:1.2rem;
+  /* Planes */
+  .planes-sec{background:var(--ink);color:var(--paper);position:relative;overflow:hidden}
+  .planes-sec::before{content:"";position:absolute;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(169,121,63,.22),transparent 65%);top:-300px;right:-200px}
+  .planes-sec .wrap{position:relative}
+  .planes-sec .intro{color:#c9ced4}
+  .periodo{display:inline-flex;background:rgba(238,240,242,.08);border-radius:99px;padding:4px;margin-bottom:2rem}
+  .periodo button{font-family:var(--mono);font-size:.8rem;border:0;background:transparent;color:#c9ced4;padding:.5rem 1.1rem;border-radius:99px;cursor:pointer;transition:background .25s,color .25s}
+  .periodo button[aria-pressed="true"]{background:var(--brass-light);color:var(--ink)}
+  .planes{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;align-items:stretch}
+  .plan{background:var(--ink-2);border:1px solid rgba(238,240,242,.14);border-radius:16px;padding:2rem;display:flex;flex-direction:column;transition:transform .3s var(--ease),border-color .3s}
+  .plan:hover{transform:translateY(-4px);border-color:rgba(201,160,106,.6)}
+  .plan.destacado{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+  .plan .para{font-family:var(--mono);font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--brass-light)}
+  .plan.destacado .para{color:var(--brass)}
+  .plan h3{font-size:1.6rem;margin:.3rem 0 .3rem}
+  .plan .desc{margin:0 0 1.3rem;color:#c9ced4}
+  .plan.destacado .desc{color:var(--muted)}
+  .precio{font-family:var(--mono);display:flex;align-items:baseline;gap:.4rem;margin-bottom:.2rem}
+  .precio .cifra{font-size:2.8rem;font-weight:700;line-height:1;font-variant-numeric:tabular-nums;transition:opacity .2s}
+  .precio .per{font-size:.9rem;opacity:.75}
+  .precio-nota{font-family:var(--mono);font-size:.76rem;min-height:2.4em;margin:0 0 1.2rem;color:var(--brass-light)}
+  .plan.destacado .precio-nota{color:var(--brass)}
+  .plan ul{list-style:none;padding:0;margin:0 0 1.6rem;flex:1}
+  .plan li{padding:.45rem 0 .45rem 1.7rem;position:relative;font-size:.95rem;border-bottom:1px solid rgba(238,240,242,.08)}
+  .plan.destacado li{border-color:var(--paper-2)}
+  .plan li::before{content:"✓";position:absolute;left:0;top:.45rem;font-family:var(--mono);color:var(--brass-light)}
+  .plan.destacado li::before{color:var(--ok)}
+  .plan li.mas{font-weight:600}
+  .plan .acciones{display:flex;flex-direction:column;gap:.6rem}
+  .plan .acciones .btn{justify-content:center}
+  .planes-letra{font-size:.82rem;color:#9aa2ab;margin-top:1.6rem;max-width:80ch}
+
+  /* Militares */
+  .militar .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+  .pilar{border:1px solid var(--line);border-radius:14px;padding:1.5rem;background:var(--paper);transition:transform .3s var(--ease),background .3s}
+  .pilar:hover{transform:translateY(-4px);background:var(--white)}
+  .pilar .num{font-family:var(--mono);color:var(--brass);font-size:.85rem}
+  .pilar h3{margin:.4rem 0 .5rem;font-size:1.15rem}
+  .pilar p{margin:0;font-size:.93rem;color:var(--muted)}
+  .militar .acciones{margin-top:1.8rem;display:flex;gap:.8rem;flex-wrap:wrap}
+
+  /* Extras */
+  .extras{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+  .extra{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:1.6rem;display:flex;gap:1.1rem;align-items:flex-start}
+  .extra .ico{font-size:1.7rem;line-height:1}
+  .extra h3{margin:0 0 .4rem;font-size:1.1rem}
+  .extra p{margin:0;color:var(--muted);font-size:.93rem}
+  .badge{display:inline-block;font-family:var(--mono);font-size:.66rem;padding:.12rem .5rem;border-radius:4px;margin-bottom:.5rem}
+  .badge.inc{border:1px solid var(--ok);color:var(--ok)}
+  .badge.ext{border:1px solid var(--brass);color:var(--brass)}
+
+  /* Preguntas frecuentes */
+  .faq{max-width:780px;margin:0 auto}
+  .faq details{border-bottom:1px solid var(--line);padding:1.1rem 0}
+  .faq summary{cursor:pointer;list-style:none;font-size:1.1rem;font-weight:600;display:flex;justify-content:space-between;gap:1rem}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";font-family:var(--mono);color:var(--brass);transition:transform .3s var(--ease)}
+  .faq details[open] summary::after{transform:rotate(45deg)}
+  .faq details p{color:var(--muted);margin:.7rem 0 0;animation:entra .4s var(--ease)}
+
+  /* Blog */
+  .posts{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+  .post{text-decoration:none;background:var(--white);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:transform .3s var(--ease),box-shadow .3s}
+  .post:hover{transform:translateY(-4px);box-shadow:0 20px 40px -28px rgba(32,36,43,.6)}
+  .post img{aspect-ratio:16/9;width:100%;object-fit:cover}
+  .post div{padding:1rem 1.1rem 1.2rem}
+  .post .f{font-family:var(--mono);font-size:.72rem;color:var(--brass)}
+  .post h3{font-size:1.02rem;margin:.4rem 0 0;line-height:1.3}
+
+  /* Cierre */
+  .cierre{background:var(--brass);color:var(--ink);text-align:center;padding:4rem 0}
+  .cierre .titulo{margin-bottom:.6rem}
+  .cierre p{margin:0 auto 1.6rem;max-width:52ch}
+  .cierre .hero-cta{justify-content:center}
+
+  footer{max-width:1120px;margin:0 auto;padding:1.8rem 1.5rem 6rem;font-size:.78rem;color:#7a8378;border-top:1px solid var(--line)}
+  footer .legal-links{margin-top:.6rem}
+  footer .legal-links a{color:#7a8378;text-decoration:underline;margin-right:1rem}
+  footer .legal-links a:hover{color:var(--brass)}
+  footer .footer-logo{width:26px;height:26px;display:block;margin-bottom:.6rem;border-radius:6px}
+
+  /* Botón fijo en móvil */
+  .fijo{position:fixed;left:1rem;right:1rem;bottom:1rem;z-index:60;display:none;gap:.5rem;transform:translateY(140%);transition:transform .4s var(--ease)}
+  .fijo.ver{transform:none}
+  .fijo .btn{flex:1;justify-content:center;padding:.85rem .6rem;font-size:.8rem;box-shadow:0 10px 30px -10px rgba(0,0,0,.5)}
+
+  /* Aparición al hacer scroll */
+  .rv{opacity:0;transform:translateY(26px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+  .rv.visto{opacity:1;transform:none}
+  .rv.d1{transition-delay:.1s}.rv.d2{transition-delay:.2s}.rv.d3{transition-delay:.3s}
+
+  @media (max-width:900px){
+    .hero .wrap{grid-template-columns:1fr;gap:2rem;padding-top:2rem}
+    .hero-foto{max-width:420px;width:100%;margin:0 auto 1rem;aspect-ratio:4/4.2}
+    .chip.c1{left:-4%}.chip.c2{right:-4%}.chip.c3{left:2%}
+    .juego .wrap{grid-template-columns:1fr;gap:1.5rem}
+    .convos,.posts,.militar .grid{grid-template-columns:1fr}
+    .caminos .grid,.planes,.extras{grid-template-columns:1fr}
   }
-  .plan{
-    border:1px solid var(--line);
-    border-radius:2px;
-    padding:1.4rem;
-    position:relative;
-    display:flex;
-    flex-direction:column;
+  @media (max-width:760px){
+    .menu-btn{display:block}
+    .links{display:none;position:absolute;top:100%;left:0;right:0;background:var(--paper);flex-direction:column;align-items:stretch;padding:1rem 1.5rem 1.4rem;gap:.9rem;box-shadow:0 12px 24px -12px rgba(0,0,0,.25)}
+    .links.abierto{display:flex}
+    .links a.cta{text-align:center}
+    .navbar .wrap{position:relative}
+    .navbar .brand,.navbar .links a:not(.cta){color:var(--ink)!important}
+    .navbar .links a.cta{background:var(--ink)!important;color:var(--paper)!important}
+    .navbar{background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+    .hero{margin-top:0;padding-top:0}
+    section{padding:3.6rem 0}
+    .caminos{margin-top:-2rem}
+    .camino{min-height:300px}
+    .pasos{grid-template-columns:1fr}
+    .pasos::before,.pasos::after{display:none}
+    .fijo{display:flex}
+    .chip{min-width:0;padding:.55rem .75rem}
+    .chip .n{font-size:1.15rem}
   }
-  .plan-destacado{
-    border-color:var(--brass);
-    background:var(--paper-2);
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+    .rv{opacity:1;transform:none}
   }
-  .plan-badge{
-    position:absolute;
-    top:-0.7rem; left:1.2rem;
-    background:var(--brass);
-    color:var(--paper);
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    font-size:0.68rem;
-    padding:0.2rem 0.6rem;
-    border-radius:2px;
-  }
-  .plan-precio{margin-bottom:1rem;}
-  .plan-precio .num{
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    font-size:1.8rem;
-    display:block;
-  }
-  .plan-precio .lbl{font-size:0.8rem;color:#7a8378;}
-  .plan-lista{
-    list-style:none;
-    padding:0;
-    margin:0;
-    font-size:0.9rem;
-    flex:1;
-  }
-  .plan-lista li{
-    padding:0.4rem 0;
-    border-bottom:1px solid var(--line);
-  }
-  .plan-lista li:last-child{border-bottom:none;}
-  .plan-comprar{
-    display:block;
-    text-align:center;
-    margin-top:1.2rem;
-    font-family:'IBM Plex Mono','SF Mono',Menlo,monospace;
-    font-size:0.88rem;
-    text-decoration:none;
-    padding:0.75rem 1rem;
-    border-radius:2px;
-  }
-  .plan-destacado .plan-comprar{background:var(--brass);color:var(--paper);}
-  .plan-destacado .plan-comprar:hover{background:#8f6636;}
-  .plan .plan-comprar{background:var(--ink);color:var(--paper);}
-  .plan .plan-comprar:hover{background:#2c4045;}
-  @media (max-width:640px){
-    .planes{grid-template-columns:1fr;}
-    .entry{grid-template-columns:80px 1fr;}
-    .pct{grid-column:2;text-align:left;margin-top:0.4rem;}
-  }
-  @media (max-width:640px){
-    .navbar{flex-wrap:wrap;row-gap:0.7rem;padding-bottom:1rem;}
-    .navbar .links{display:flex;flex-wrap:wrap;align-items:center;column-gap:1rem;row-gap:0.6rem;}
-    .navbar .links a{margin-left:0;margin-right:0;}
-    .navbar .links a.cta{flex-basis:100%;text-align:center;margin-top:0.3rem;}
-  }
-  footer{
-    max-width:920px;margin:0 auto;padding:1.5rem;
-    font-size:0.78rem;color:#7a8378;
-    border-top:1px solid var(--line);
-  }
-  footer .legal-links{margin-top:0.6rem;}
-  footer .legal-links a{color:#7a8378;text-decoration:underline;margin-right:1rem;}
-  footer .legal-links a:hover{color:var(--brass);}
-  footer .footer-logo{width:26px;height:26px;display:block;margin-bottom:0.6rem;border-radius:6px;}
 </style>
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 
-<div class="navbar">
-  <a href="index.html" class="brand"><img src="icono-cupo-militar.svg" alt="" width="26" height="26" class="brand-icon">CUPO MILITAR</a>
-  <div class="links">
-    <a href="test-guardia-civil.html">Test Guardia Civil</a>
-    <a href="test-policia-nacional.html">Test Policía</a>
-    <a href="#que-es">Militares</a>
-    <a href="convocatorias.html">Convocatorias</a>
-    <a href="blog/index.html">Blog</a>
-    <a href="https://portal.cupomilitar.es/login?ref=web-home" class="cta">Acceder</a>
-  </div>
-</div>
-
-<div class="hero">
-  <svg viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-    <!-- líneas topográficas, muy sutiles -->
-    <g fill="none" stroke="#ffffff" stroke-width="1" opacity="0.12">
-      <path d="M-50,60 C 250,10 450,110 750,50 S 1150,90 1250,40"/>
-      <path d="M-50,110 C 250,60 450,160 750,100 S 1150,140 1250,90"/>
-      <path d="M-50,160 C 250,110 450,210 750,150 S 1150,190 1250,140"/>
-      <path d="M-50,260 C 250,300 450,220 750,290 S 1150,240 1250,290"/>
-      <path d="M-50,300 C 250,340 450,260 750,330 S 1150,280 1250,330"/>
-    </g>
-    <!-- galones (chevrons) en latón, motivo estructural no decorativo -->
-    <g stroke="#c9a06a" stroke-width="3" fill="none" opacity="0.9">
-      <path d="M 940 260 L 980 230 L 1020 260"/>
-      <path d="M 940 285 L 980 255 L 1020 285"/>
-      <path d="M 940 310 L 980 280 L 1020 310"/>
-    </g>
-    <g stroke="#c9a06a" stroke-width="1.5" fill="none" opacity="0.6">
-      <path d="M 60 70 L 100 40 L 140 70"/>
-      <path d="M 60 90 L 100 60 L 140 90"/>
-    </g>
-    <!-- estrella de cinco puntas, única acentuación bold, esquina superior derecha -->
-    <g transform="translate(1120,55) scale(1.1)" fill="#c9a06a" opacity="0.9">
-      <path d="M0,-22 L5.9,-6.8 L22,-6.8 L9,3 L13.6,19 L0,9 L-13.6,19 L-9,3 L-22,-6.8 L-5.9,-6.8 Z"/>
-    </g>
-  </svg>
-  <div class="hero-text">
-    <div class="eyebrow">OPOSICIONES · GUARDIA CIVIL · POLICÍA NACIONAL · FUERZAS ARMADAS</div>
-    <h1>Prepara tu plaza en Guardia Civil o Policía Nacional</h1>
-    <p class="sub">Temario y <strong>más de 9.000 preguntas de test</strong>, cada una con la explicación de por qué es correcta. Para opositores civiles y para militares de Tropa y Marinería: permanencia, ascensos y el cupo reservado por la Ley 8/2006.</p>
-    <p class="sub" style="font-weight:600;">Haz un test gratis sin registrarte. Si te gusta, tienes 7 días de prueba sin tarjeta.</p>
-    <div class="hero-cta">
-      <a href="test-guardia-civil.html" class="btn-primary">Test Guardia Civil gratis</a>
-      <a href="test-policia-nacional.html" class="btn-primary">Test Policía Nacional gratis</a>
-      <a href="https://portal.cupomilitar.es/probar" class="btn-secondary">Soy militar: test de Permanencia</a>
-      <a href="https://portal.cupomilitar.es/baremo" class="btn-secondary">Calculadora de baremo Guardia Civil</a>
-      <a href="convocatorias.html" class="btn-secondary">Convocatorias activas</a>
+<nav class="navbar" id="navbar">
+  <div class="wrap">
+    <a href="index.html" class="brand"><img src="icono-cupo-militar.svg" alt="" width="26" height="26">CUPO MILITAR</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menú</button>
+    <div class="links" id="menu">
+      <a href="test-guardia-civil.html">Guardia Civil</a>
+      <a href="test-policia-nacional.html">Policía Nacional</a>
+      <a href="#militares">Militares</a>
+      <a href="#planes">Precios</a>
+      <a href="convocatorias.html">Convocatorias</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="https://portal.cupomilitar.es/login?ref=web-home" class="cta">Acceder</a>
     </div>
   </div>
-</div>
+</nav>
 
-<main>
-
-  <section id="que-es">
-    <h2>¿Qué es Cupo Militar?</h2>
-    <p>Aquí "cupo" lo entendemos en sentido amplio: las plazas limitadas que decides en cada etapa de tu carrera, no solo el cupo legal de salida. Cupo Militar reúne el temario, los tests y las convocatorias que te afectan en tres momentos distintos:</p>
-
-    <div class="pilares">
-      <div class="pilar" id="pilar-permanencia">
-        <span class="num">01</span>
-        <h3>Permanencia</h3>
-        <p>Si estás en tu periodo de compromiso, la permanencia es el paso que decide si sigues en las Fuerzas Armadas. Temario completo y tests ilimitados para preparártela con garantías.</p>
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Oposiciones · Guardia Civil · Policía Nacional · Fuerzas Armadas</p>
+      <h1>Prepara tu plaza en <span class="acento">Guardia Civil</span> o <span class="acento">Policía Nacional</span></h1>
+      <p class="sub">Más de 9.000 preguntas de test, cada una con la explicación de por qué es correcta, y simulacros con el mismo tiempo y la misma penalización que el examen oficial.</p>
+      <div class="hero-cta">
+        <a href="test-guardia-civil.html" class="btn btn-brass">Test Guardia Civil gratis <span class="flecha">→</span></a>
+        <a href="test-policia-nacional.html" class="btn btn-brass">Test Policía Nacional gratis <span class="flecha">→</span></a>
       </div>
-      <div class="pilar" id="pilar-ascensos">
-        <span class="num">02</span>
-        <h3>Ascensos: Cabo, Cabo 1º, Cabo Mayor</h3>
-        <p>Sube de empleo dentro de tu ejército. Te explicamos el marco legal, los requisitos y el proceso de cada ascenso — y, donde el temario es público, también tests para practicar. Donde no lo es (como el examen de Formación Militar), te lo decimos claramente y te remitimos a tu unidad o CEFOT.</p>
-      </div>
-      <div class="pilar" id="pilar-cupo">
-        <span class="num">03</span>
-        <h3>Cupo a otros cuerpos</h3>
-        <p>La Ley 8/2006 te reserva plazas en Guardia Civil, Policía Nacional, Vigilancia Aduanera y otros organismos. Calculamos a qué cupo puedes optar según tus años de servicio y te avisamos cuándo se abren los plazos.</p>
+      <p class="hero-nota">Sin registrarte. Si te gusta, <b>7 días de prueba sin tarjeta</b>. ¿Eres militar? <a href="#militares">Permanencia y ascensos</a></p>
+    </div>
+    <div class="hero-foto" aria-hidden="true">
+      <div class="marco"><img src="img/hero-examen.webp" alt="" width="768" height="1376"></div>
+      <div class="chip c1"><span class="n" data-cuenta="3240">3.240</span><span class="t">plazas Guardia Civil 2026</span></div>
+      <div class="chip c2"><span class="n" data-cuenta="2704">2.704</span><span class="t">plazas Policía Nacional 2026</span></div>
+      <div class="chip c3"><span class="n" data-cuenta="9000" data-mas="1">+9.000</span><span class="t">preguntas explicadas</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="caminos" aria-label="Elige tu camino">
+  <div class="wrap grid">
+    <a class="camino rv" href="#planes" data-plan="oposicion">
+      <img src="img/card-opositor.webp" alt="" loading="lazy" width="768" height="1376">
+      <span class="tag">Soy opositor</span>
+      <h3>Guardia Civil y Policía Nacional</h3>
+      <p>Para cualquier persona que prepara la oposición, seas o no militar.</p>
+      <ul><li>Test explicados</li><li>Simulacro oficial</li><li>Temario</li><li>4,99 €/mes</li></ul>
+      <span class="ir">Ver el Plan Oposición <span class="flecha">→</span></span>
+    </a>
+    <a class="camino rv d1" href="#militares">
+      <img src="img/card-militar.webp" alt="" loading="lazy" width="768" height="1376">
+      <span class="tag">Soy militar de Tropa y Marinería</span>
+      <h3>Permanencia, ascensos y cupo</h3>
+      <p>Todo lo de los opositores, más lo que solo te afecta a ti como militar.</p>
+      <ul><li>Permanencia</li><li>Cabo · Cabo 1º · Cabo Mayor</li><li>Baremo</li><li>Cupo reservado</li></ul>
+      <span class="ir">Ver lo de militares <span class="flecha">→</span></span>
+    </a>
+  </div>
+</section>
+
+<section class="juego" id="prueba">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">Pruébalo aquí mismo</p>
+      <h2 class="titulo">¿Cuántas acertarías?</h2>
+      <p class="intro">Dos preguntas reales del banco de Cupo Militar. Elige una respuesta y te contamos por qué es la correcta, igual que en cada test de la plataforma.</p>
+      <div class="tabs" role="tablist">
+        <button role="tab" aria-selected="true" data-q="gc">Guardia Civil</button>
+        <button role="tab" aria-selected="false" data-q="cnp">Policía Nacional</button>
       </div>
     </div>
-  </section>
-
-  <section id="como-funciona">
-    <h2>Cómo funciona</h2>
-    <div class="pasos">
-      <div class="paso">
-        <span class="num">01</span>
-        <h3>Consulta las convocatorias</h3>
-        <p>Todas las convocatorias con cupo militar reservado, siempre actualizadas, en una sola página.</p>
-      </div>
-      <div class="paso">
-        <span class="num">02</span>
-        <h3>Calcula a qué cupo optas</h3>
-        <p>Según tus años de servicio, tu situación y tu especialidad, te decimos qué cupos cumples ya.</p>
-      </div>
-      <div class="paso">
-        <span class="num">03</span>
-        <h3>Suscríbete para no perdértelo</h3>
-        <p>Baremo real, comparador de cupos y alertas de convocatoria antes de que se cierre cada plazo.</p>
+    <div class="tarjeta rv d1" id="tarjeta" aria-live="polite">
+      <div class="cab"><span id="qCab"></span><span id="qNum">Pregunta 1 de 1</span></div>
+      <div class="barra" id="barra"><i></i></div>
+      <h3 id="qTexto"></h3>
+      <div id="qOpciones"></div>
+      <div class="explica" id="qExplica"><strong id="qVeredicto"></strong><span id="qPorque"></span></div>
+      <div class="tras" id="qTras">
+        <a class="btn btn-ink" id="qMas" href="test-guardia-civil.html">Hacer el test completo <span class="flecha">→</span></a>
+        <button class="btn btn-line" id="qOtra">Probar la otra</button>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="destacada">
-    <h2>Convocatoria destacada</h2>
-
-    <div class="entry">
-      <div><span class="badge">PER</span></div>
-      <div>
-        <div class="cuerpo">Permanencia — acceso a la condición de militar de carrera</div>
-        <div class="detalle">1.000 plazas en total para las Fuerzas Armadas, 540 en el Ejército de Tierra (350 operativas + 190 técnicas) · Convocatoria 2026 (BOD núm. 116, Resolución 452/08724/26). Concurso-oposición: méritos, pruebas físicas y examen de conocimientos.</div>
-      </div>
-      <div class="pct"><span class="num">1.000</span><span class="lbl">plazas FAS</span></div>
+<section id="como">
+  <div class="wrap">
+    <div class="centro rv">
+      <p class="eyebrow">Cómo funciona</p>
+      <h2 class="titulo">De tu primer test a tu plaza</h2>
+      <p class="intro">Sin compromiso al empezar. Pagas solo si sigues.</p>
     </div>
+    <div class="pasos rv" id="pasos">
+      <div class="paso"><div class="bola">01</div><h3>Haz un test gratis</h3><p>Sin registrarte. Ves tu nota y la explicación de cada fallo.</p></div>
+      <div class="paso"><div class="bola">02</div><h3>7 días de prueba</h3><p>Creas tu cuenta y tienes acceso a tu oposición una semana, sin tarjeta.</p></div>
+      <div class="paso"><div class="bola">03</div><h3>Entrena hasta el examen</h3><p>Test por tema, repaso de fallos y simulacros como el oficial, desde el móvil.</p></div>
+    </div>
+  </div>
+</section>
 
-    <p class="nota">Esta es solo una muestra. En la página de convocatorias tienes el detalle completo de la Permanencia, el ascenso interno (Cabo, Cabo Primero, Cabo Mayor) y las convocatorias con cupo militar reservado hacia otros cuerpos (Guardia Civil, Policía Nacional, Vigilancia Aduanera, FAS y policías autonómicas/locales), siempre actualizadas, además de la calculadora de elegibilidad. <a href="convocatorias.html">Ver todas las convocatorias →</a></p>
-  </section>
+<section id="convocatorias" style="padding-top:0">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">Convocatorias 2026</p>
+      <h2 class="titulo">Las plazas que se juegan este año</h2>
+    </div>
+    <div class="convos">
+      <a class="convo rv" href="test-guardia-civil.html">
+        <span class="cuerpo">Guardia Civil · Cabos y Guardias</span>
+        <span class="n"><span data-cuenta="3240">3.240</span> <small>plazas</small></span>
+        <p>1.296 reservadas a militares. BOE de 8 de mayo de 2026.</p>
+        <span class="ir">Test Guardia Civil →</span>
+      </a>
+      <a class="convo rv d1" href="test-policia-nacional.html">
+        <span class="cuerpo">Policía Nacional · Escala Básica</span>
+        <span class="n"><span data-cuenta="2704">2.704</span> <small>plazas</small></span>
+        <p>2.163 de turno libre y 541 reservadas a militares. BOE de 10 de julio de 2026.</p>
+        <span class="ir">Test Policía Nacional →</span>
+      </a>
+      <a class="convo rv d2" href="https://portal.cupomilitar.es/probar">
+        <span class="cuerpo">Fuerzas Armadas · Permanencia</span>
+        <span class="n"><span data-cuenta="1000">1.000</span> <small>plazas</small></span>
+        <p>Acceso a militar de carrera. 540 en el Ejército de Tierra. BOD núm. 116 de 2026.</p>
+        <span class="ir">Test de Permanencia →</span>
+      </a>
+    </div>
+    <p class="nota-pie rv">Plazos, requisitos y el resto de convocatorias con cupo militar (Vigilancia Aduanera, policías autonómicas y locales) en <a href="convocatorias.html">la página de convocatorias</a>.</p>
+  </div>
+</section>
 
-  <section id="planes">
-    <h2>Cupo Militar Completo</h2>
-    <p class="sub" style="margin-bottom:1.4rem;">Temario y test ilimitados de Permanencia, ascensos internos, Guardia Civil, Policía Nacional y Vigilancia Aduanera · simulacros de examen 100&nbsp;% fieles al oficial — nada de tests genéricos: mismo número de preguntas, mismo cronómetro y misma fórmula de penalización que aplicará el tribunal · calculadora de baremo real · comparador de cupos · alertas de convocatoria. Un único plan, sin niveles — a diferencia de otras plataformas, aquí no compras un pack distinto por cada cuerpo u oposición: un único precio te da acceso a todo.</p>
-
+<section class="planes-sec" id="planes">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow" style="color:var(--brass-light)">Precios</p>
+      <h2 class="titulo">Dos planes, según lo que prepares</h2>
+      <p class="intro">Los dos empiezan con 7 días de prueba gratis, sin tarjeta.</p>
+      <div class="periodo" role="group" aria-label="Forma de pago">
+        <button aria-pressed="false" data-per="mes">Mensual</button>
+        <button aria-pressed="true" data-per="ano">Anual</button>
+      </div>
+    </div>
     <div class="planes">
-      <div class="plan plan-destacado">
-        <div class="plan-badge">Precio fundador · primeras 100 plazas</div>
-        <div class="plan-precio"><span class="num">49&nbsp;€</span><span class="lbl">al año en vez de <s>79&nbsp;€</s> — mientras mantengas tu suscripción</span></div>
-        <ul class="plan-lista">
-          <li>Todo el contenido: Permanencia, ascensos y los tres cuerpos</li>
-          <li>Más de 9.000 preguntas de test, cada una con su respuesta explicada</li>
-          <li>Simulacro de examen real, sin límite de intentos: cronómetro, número de preguntas y penalización idénticos al examen oficial — no un test aproximado (Permanencia, Guardia Civil y Policía Nacional ya activos; Vigilancia Aduanera y ascenso interno, muy pronto)</li>
-          <li>Baremo real + comparador de cupos</li>
+      <div class="plan rv">
+        <span class="para">Para opositores</span>
+        <h3>Plan Oposición</h3>
+        <p class="desc">Guardia Civil y Policía Nacional.</p>
+        <div class="precio"><span class="cifra" data-mes="4,99 €" data-ano="39 €">39 €</span><span class="per" data-mes="/mes" data-ano="/año">/año</span></div>
+        <p class="precio-nota" data-mes="Sin permanencia. Cancelas cuando quieras." data-ano="Sale a 3,25 €/mes.">Sale a 3,25 €/mes.</p>
+        <ul>
+          <li>Test de Guardia Civil y de Policía Nacional, con cada respuesta explicada</li>
+          <li>Simulacro con el cronómetro, el número de preguntas y la penalización del examen oficial</li>
+          <li>Temario por temas y audiotemario</li>
+          <li>Repaso de tus fallos y test inteligente</li>
+        </ul>
+        <div class="acciones">
+          <a class="btn btn-brass" href="https://portal.cupomilitar.es/login?ref=web-test-gc">Empezar con Guardia Civil <span class="flecha">→</span></a>
+          <a class="btn btn-ghost" href="https://portal.cupomilitar.es/login?ref=web-test-cnp">Empezar con Policía Nacional <span class="flecha">→</span></a>
+        </div>
+      </div>
+      <div class="plan destacado rv d1">
+        <span class="para">Para militares de Tropa y Marinería</span>
+        <h3>Plan Completo</h3>
+        <p class="desc">Todo el Plan Oposición, más Permanencia y ascensos.</p>
+        <div class="precio"><span class="cifra" data-mes="14,99 €" data-ano="49 €">49 €</span><span class="per" data-mes="/mes" data-ano="/año">/año</span></div>
+        <p class="precio-nota" data-mes="Sin permanencia. Cancelas cuando quieras." data-ano="Precio fundador para las primeras 100 plazas, en vez de 79 €/año, mientras mantengas la suscripción.">Precio fundador para las primeras 100 plazas, en vez de 79 €/año, mientras mantengas la suscripción.</p>
+        <ul>
+          <li class="mas">Todo lo del Plan Oposición</li>
+          <li>Permanencia: temario, test y simulacro</li>
+          <li>Ascensos a Cabo, Cabo Primero y Cabo Mayor</li>
+          <li>Vigilancia Aduanera</li>
+          <li>Calculadora de baremo real y comparador de cupos</li>
           <li>Alertas de convocatoria y cuenta atrás a tus 5 años</li>
-          <li>7 días de prueba gratis, sin tarjeta</li>
-          <li>Sin permanencia más allá del año contratado</li>
         </ul>
-        <a class="plan-comprar" href="https://portal.cupomilitar.es/login?ref=web-home">Suscribirme — plan anual →</a>
-      </div>
-      <div class="plan">
-        <div class="plan-precio"><span class="num">14,99&nbsp;€</span><span class="lbl">al mes — sin permanencia</span></div>
-        <ul class="plan-lista">
-          <li>Mismo contenido que el plan anual</li>
-          <li>Ideal para probar antes de pasarte al anual</li>
-          <li>Cancelas cuando quieras</li>
-        </ul>
-        <a class="plan-comprar" href="https://portal.cupomilitar.es/login?ref=web-home">Suscribirme — plan mensual →</a>
+        <div class="acciones">
+          <a class="btn btn-ink" href="https://portal.cupomilitar.es/login?ref=web-home">Empezar mi prueba gratis <span class="flecha">→</span></a>
+        </div>
       </div>
     </div>
+    <p class="planes-letra rv">Al pulsar entrarás en el portal para crear tu cuenta o identificarte con tu correo; el pago, cuando termine la prueba, es seguro con Stripe. Si eres militar y solo te interesa Guardia Civil o Policía Nacional, el Plan Oposición también es para ti. Trae a un compañero de unidad: si se suscribe por tu recomendación, os regalamos un mes a los dos.</p>
+  </div>
+</section>
 
-    <p class="nota">Al hacer clic en "Suscribirme" entrarás primero en el portal para identificarte con tu correo (o crear tu cuenta si es la primera vez) y después se abrirá el pago seguro con Stripe. <strong>Trae a un compañero de unidad:</strong> si recomiendas Cupo Militar a alguien de tu acuartelamiento y se suscribe, os regalamos un mes a los dos. Sin límite de recomendaciones.</p>
-  </section>
+<section class="militar" id="militares">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">Si eres militar</p>
+      <h2 class="titulo">Tu carrera tiene tres exámenes</h2>
+      <p class="intro">Cupo Militar nació para Tropa y Marinería. Aquí "cupo" significa las plazas limitadas que te juegas en cada etapa, no solo el cupo legal de salida.</p>
+    </div>
+    <div class="grid">
+      <div class="pilar rv"><span class="num">01</span><h3>Permanencia</h3><p>El paso que decide si sigues en las Fuerzas Armadas. Temario completo, test ilimitados y simulacro.</p></div>
+      <div class="pilar rv d1"><span class="num">02</span><h3>Ascensos: Cabo, Cabo 1º, Cabo Mayor</h3><p>Marco legal, requisitos y proceso de cada ascenso, con test donde el temario es público. Donde no lo es, te lo decimos y te remitimos a tu unidad o CEFOT.</p></div>
+      <div class="pilar rv d2"><span class="num">03</span><h3>Cupo a otros cuerpos</h3><p>La Ley 8/2006 te reserva plazas en Guardia Civil, Policía Nacional y Vigilancia Aduanera. Te decimos a qué cupo optas por tus años de servicio y te avisamos de los plazos.</p></div>
+    </div>
+    <div class="acciones rv">
+      <a class="btn btn-ink" href="https://portal.cupomilitar.es/probar">Test de Permanencia gratis <span class="flecha">→</span></a>
+      <a class="btn btn-line" href="https://portal.cupomilitar.es/baremo">Calculadora de baremo Guardia Civil</a>
+    </div>
+  </div>
+</section>
 
-  <section id="extras">
-    <h2>Además, en tu plan</h2>
-    <p class="sub" style="margin-bottom:1.4rem;">Dos herramientas pensadas para estudiar mejor, no solo para acumular temario.</p>
-
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">En los dos planes</p>
+      <h2 class="titulo">Para estudiar mejor, no solo más</h2>
+    </div>
     <div class="extras">
-      <div class="pilar">
-        <span class="badge-incluido">INCLUIDO</span>
-        <h3>🎧 Audiotemario</h3>
-        <p>Escucha cada tema narrado en audio, mientras conduces, entrenas o estás de guardia. Incluido en tu plan, sin coste adicional, y disponible también sin conexión una vez lo has abierto.</p>
-      </div>
-      <div class="pilar">
-        <span class="badge-extra">EXTRA OPCIONAL</span>
-        <h3>🤖 Instructor IA</h3>
-        <p>¿Fallas una pregunta y no sabes por qué? Pídele al Instructor IA que te la explique. Tienes 5 explicaciones gratis cada día — si te quedas corto, actívalo ilimitado por solo 1,99&nbsp;€/mes desde el panel.</p>
-      </div>
+      <div class="extra rv"><span class="ico">🎧</span><div><span class="badge inc">INCLUIDO</span><h3>Audiotemario</h3><p>Cada tema narrado en audio para escucharlo mientras conduces, entrenas o estás de guardia. Funciona sin conexión una vez abierto.</p></div></div>
+      <div class="extra rv d1"><span class="ico">🤖</span><div><span class="badge ext">5 GRATIS AL DÍA</span><h3>Instructor IA</h3><p>¿Fallas una pregunta y no sabes por qué? Pídele que te la explique. Si te quedas corto, ilimitado por 1,99 €/mes desde el panel.</p></div></div>
     </div>
-  </section>
+  </div>
+</section>
 
-</main>
+<section id="faq" style="background:var(--white);border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="centro rv"><p class="eyebrow">Preguntas frecuentes</p><h2 class="titulo">Antes de empezar</h2></div>
+    <div class="faq rv">
+      <details><summary>¿Necesito tarjeta para probarlo?</summary><p>No. Puedes hacer un test sin registrarte y, si creas tu cuenta, tienes 7 días de prueba gratis sin tarjeta.</p></details>
+      <details><summary>¿Sirve si no soy militar?</summary><p>Sí. El Plan Oposición es para cualquier persona que prepare Guardia Civil o Policía Nacional. El nombre viene de nuestros inicios con militares de Tropa y Marinería.</p></details>
+      <details><summary>¿Qué diferencia hay entre los dos planes?</summary><p>El Plan Oposición incluye Guardia Civil y Policía Nacional. El Plan Completo añade Permanencia, ascensos, Vigilancia Aduanera, calculadora de baremo, comparador de cupos y alertas de convocatoria.</p></details>
+      <details><summary>¿Cómo es el simulacro?</summary><p>Tiene el mismo número de preguntas, el mismo cronómetro y la misma fórmula de penalización que el examen oficial de cada cuerpo, y puedes repetirlo las veces que quieras.</p></details>
+      <details><summary>¿Puedo usarlo desde el móvil?</summary><p>Sí. La plataforma funciona en el navegador del móvil, la tablet o el ordenador, y el audiotemario se puede escuchar sin conexión una vez abierto.</p></details>
+      <details><summary>¿Puedo cancelar cuando quiera?</summary><p>Sí. El plan mensual se cancela cuando quieras y el anual no se renueva si lo cancelas antes de que termine.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="blog-ult">
+  <div class="wrap">
+    <div class="rv" style="display:flex;justify-content:space-between;align-items:end;gap:1rem;flex-wrap:wrap;margin-bottom:1.6rem">
+      <div><p class="eyebrow">Del blog</p><h2 class="titulo" style="margin:0">Lo último</h2></div>
+      <a class="btn btn-line" href="blog/index.html">Ver todos los artículos</a>
+    </div>
+    <div class="posts" id="posts"></div>
+  </div>
+</section>
+
+<section class="cierre">
+  <div class="wrap">
+    <h2 class="titulo rv">Empieza hoy con un test gratis</h2>
+    <p class="rv">Sin registrarte y con la explicación de cada pregunta. Diez minutos y sabrás en qué punto estás.</p>
+    <div class="hero-cta rv">
+      <a href="test-guardia-civil.html" class="btn btn-ink">Test Guardia Civil <span class="flecha">→</span></a>
+      <a href="test-policia-nacional.html" class="btn btn-ink">Test Policía Nacional <span class="flecha">→</span></a>
+      <a href="https://portal.cupomilitar.es/probar" class="btn btn-line">Test de Permanencia</a>
+    </div>
+  </div>
+</section>
+
+<div class="fijo" id="fijo">
+  <a href="test-guardia-civil.html" class="btn btn-brass">Test Guardia Civil</a>
+  <a href="test-policia-nacional.html" class="btn btn-ink">Test Policía</a>
+</div>
 
 <footer>
 <svg class="footer-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cupo Militar">
@@ -520,5 +595,113 @@
   </div>
 </footer>
 
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var nf = function(v){return String(v).replace(/\B(?=(\d{3})+(?!\d))/g,'.');};
+
+  // Barra superior y botón fijo
+  var nav = document.getElementById('navbar'), fijo = document.getElementById('fijo');
+  var onScroll = function(){
+    var y = window.scrollY;
+    nav.classList.toggle('scrolled', y > 20);
+    fijo.classList.toggle('ver', y > 600 && (window.innerHeight + y) < document.body.scrollHeight - 300);
+  };
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  var mb = document.getElementById('menuBtn'), menu = document.getElementById('menu');
+  mb.addEventListener('click', function(){ var a = menu.classList.toggle('abierto'); mb.setAttribute('aria-expanded', a); });
+  menu.addEventListener('click', function(e){ if(e.target.tagName==='A'){ menu.classList.remove('abierto'); mb.setAttribute('aria-expanded', false);} });
+
+  // Contadores
+  var cuenta = function(el){
+    var fin = +el.dataset.cuenta, mas = el.dataset.mas ? '+' : '';
+    if (reduce) { el.textContent = mas + nf(fin); return; }
+    var t0 = null, dur = 1600;
+    var paso = function(t){ if(!t0) t0 = t; var p = Math.min(1,(t-t0)/dur); p = 1-Math.pow(1-p,3);
+      el.textContent = mas + nf(Math.round(fin*p)); if(p<1) requestAnimationFrame(paso); };
+    requestAnimationFrame(paso);
+  };
+
+  // Aparición al hacer scroll
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      e.target.classList.add('visto');
+      e.target.querySelectorAll('[data-cuenta]').forEach(cuenta);
+      io.unobserve(e.target);
+    });
+  }, {threshold:.15, rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.rv, #pasos').forEach(function(el){ io.observe(el); });
+  document.querySelectorAll('.hero [data-cuenta]').forEach(cuenta);
+
+  // Precios mensual / anual
+  document.querySelectorAll('.periodo button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var per = b.dataset.per;
+      document.querySelectorAll('.periodo button').forEach(function(x){ x.setAttribute('aria-pressed', x===b); });
+      document.querySelectorAll('[data-mes]').forEach(function(el){
+        el.style.opacity = 0;
+        setTimeout(function(){ el.textContent = el.dataset[per]; el.style.opacity = 1; }, reduce ? 0 : 150);
+      });
+    });
+  });
+
+  // Pregunta jugable (preguntas reales del banco)
+  var Q = {
+    gc: { cab:'Test Guardia Civil · Derecho Penal', link:'test-guardia-civil.html',
+      texto:'Entre las circunstancias agravantes del art. 22 del Código Penal se encuentra:',
+      ops:['La confesión de la infracción a las autoridades','El estado pasional','La alevosía','La grave adicción a sustancias tóxicas'],
+      ok:2, porque:'La alevosía (art. 22.1ª CP) es agravante; las otras tres son atenuantes del art. 21 CP.' },
+    cnp: { cab:'Test Policía Nacional · Constitución', link:'test-policia-nacional.html',
+      texto:'Durante su mandato, diputados y senadores solo podrán ser detenidos:',
+      ops:['Nunca, salvo renuncia expresa a su condición','Por decisión del Consejo de Ministros','En caso de flagrante delito'],
+      ok:2, porque:'Art. 71.2 de la Constitución: durante su mandato solo pueden ser detenidos en caso de flagrante delito.' }
+  };
+  var actual = 'gc', $ = function(id){ return document.getElementById(id); };
+  var pinta = function(k){
+    actual = k; var q = Q[k];
+    document.querySelectorAll('.tabs button').forEach(function(b){ b.setAttribute('aria-selected', b.dataset.q===k); });
+    $('qCab').textContent = q.cab; $('qTexto').textContent = q.texto; $('qMas').href = q.link;
+    $('qExplica').classList.remove('si'); $('qTras').classList.remove('si');
+    var cont = $('qOpciones'); cont.innerHTML = '';
+    q.ops.forEach(function(t,i){
+      var b = document.createElement('button'); b.className = 'opcion'; b.type = 'button';
+      b.innerHTML = '<b>' + 'ABCD'[i] + '</b><span></span>'; b.lastChild.textContent = t;
+      b.addEventListener('click', function(){ responde(i); });
+      cont.appendChild(b);
+    });
+    var barra = $('barra'); barra.classList.remove('corre'); void barra.offsetWidth; barra.classList.add('corre');
+  };
+  var responde = function(i){
+    var q = Q[actual], bs = $('qOpciones').children;
+    for (var j=0;j<bs.length;j++){ bs[j].disabled = true;
+      if (j===q.ok) bs[j].classList.add('bien'); else if (j===i) bs[j].classList.add('mal'); else bs[j].classList.add('apagada'); }
+    $('qVeredicto').textContent = i===q.ok ? '¡Correcta!' : 'No era esa. La correcta es la ' + 'ABCD'[q.ok] + '.';
+    $('qPorque').textContent = q.porque;
+    $('qExplica').classList.add('si'); $('qTras').classList.add('si');
+    $('barra').classList.remove('corre');
+  };
+  document.querySelectorAll('.tabs button').forEach(function(b){ b.addEventListener('click', function(){ pinta(b.dataset.q); }); });
+  $('qOtra').addEventListener('click', function(){ pinta(actual==='gc' ? 'cnp' : 'gc'); });
+  pinta('gc');
+
+  // Últimos artículos del blog
+  fetch('blog/index.html').then(function(r){ return r.text(); }).then(function(html){
+    var doc = new DOMParser().parseFromString(html, 'text/html');
+    var cards = Array.prototype.slice.call(doc.querySelectorAll('a.post-card'), 0, 3);
+    if (!cards.length) { document.getElementById('blog-ult').style.display='none'; return; }
+    var cont = document.getElementById('posts');
+    cards.forEach(function(c, i){
+      var a = document.createElement('a'); a.className = 'post rv visto'; a.href = 'blog/' + c.getAttribute('href');
+      var img = c.querySelector('img'), f = c.querySelector('.fecha'), h = c.querySelector('h2');
+      if (img) { var im = document.createElement('img'); im.src = 'blog/' + img.getAttribute('src'); im.alt = ''; im.loading = 'lazy'; a.appendChild(im); }
+      var d = document.createElement('div');
+      var fe = document.createElement('span'); fe.className = 'f'; fe.textContent = f ? f.textContent : '';
+      var ti = document.createElement('h3'); ti.textContent = h ? h.textContent : '';
+      d.appendChild(fe); d.appendChild(ti); a.appendChild(d); cont.appendChild(a);
+    });
+  }).catch(function(){ document.getElementById('blog-ult').style.display='none'; });
+})();
+</script>
 </body>
 </html>
